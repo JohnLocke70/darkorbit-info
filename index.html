@@ -50,9 +50,12 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
 .sort-note{font-size:12px;color:var(--sub);line-height:1.5;margin:0;padding:9px 2px}
 .entry-category{color:var(--sub)}
 
-/* Panneau d'exclusions : en haut à droite, fermé par défaut et défilant. */
-.header-tools{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
-.excluded-anchor{position:relative;flex-shrink:0}
+/* Panneau d'exclusions : sur la rangée des compteurs, aligné à droite. */
+.header h1{text-align:center}
+.stats-row{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:16px 0 22px}
+.stats-row .stats{margin:0}
+@media(max-width:880px){.stats-row{flex-wrap:wrap}.stats-row .excluded-anchor{margin-left:auto}}
+.excluded-anchor{position:relative;flex-shrink:0;margin-left:auto}
 .excluded-toggle{border:1px solid #6280a0;border-radius:9px;background:#122e48;color:#d6eaf5;padding:8px 12px;font-size:12px;font-weight:650;display:flex;align-items:center;gap:12px}
 .excluded-toggle:hover,.excluded-toggle[aria-expanded="true"]{background:#214969;color:#fff}
 .excluded-toggle:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
@@ -68,7 +71,7 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
 .excluded-table tr:last-child td{border-bottom:0}
 .excluded-table th:first-child,.excluded-table td:first-child{width:50px;white-space:nowrap;color:var(--cyan);font-weight:750}
 .excluded-caption{margin:10px 0 0!important;color:var(--sub)!important;font-size:11px!important;line-height:1.4!important}
-@media(max-width:590px){.header-tools{align-items:flex-start}.excluded-anchor{width:100%}.excluded-toggle{width:100%;justify-content:space-between}.excluded-panel{right:0;width:100%}}
+@media(max-width:590px){.stats-row{align-items:stretch}.excluded-anchor{width:100%;margin-left:0}.excluded-toggle{width:100%;justify-content:space-between}.excluded-panel{right:0;width:100%}}
 /* Informations générales visibles en permanence au-dessus du copyright. */
 .footer-info-panel{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:16px 18px;margin:0 0 10px;color:var(--text)}
 .footer-info-panel h3{margin:0 0 8px;color:#d7eafa;font-size:14px}
@@ -79,9 +82,14 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
 </style></head>
 <body><div class="container">
 <header class="header">
-<div class="header-tools">
-  <div class="kicker">Bibliothèque DarkOrbit · French Corner</div>
-  <div class="excluded-anchor">
+<div class="kicker">Bibliothèque DarkOrbit · French Corner</div>
+<h1>Index des guides, études et astuces</h1>
+<p>Références classées dans <b>10 catégories thématiques</b>. Chaque numéro correspond à la position de la publication dans l’index d’origine et chaque titre mène directement à son message sur le forum officiel DarkOrbit.</p>
+<div class="forum-links"><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/forums/french-corner.776/">French Corner</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/">[FR] Stratégie, Trucs &amp; Astuces</a></div>
+</header>
+<div class="stats-row">
+<div class="stats"><div class="stat"><strong>66</strong><small>Publications référencées</small></div><div class="stat"><strong>10</strong><small>Catégories thématiques</small></div><div class="stat"><strong>18 · 25 · 22 · 1</strong><small>Guides · Études · Astuces · Notes</small></div></div>
+<div class="excluded-anchor">
     <button class="excluded-toggle" type="button" id="excluded-toggle" aria-controls="excluded-panel" aria-expanded="false" aria-haspopup="true">
       <span>Numéros non référencés</span><span class="excluded-chevron" aria-hidden="true">▾</span>
     </button>
@@ -100,11 +108,6 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
     </div>
   </div>
 </div>
-<h1>Index des guides, études et astuces</h1>
-<p>Références classées dans <b>10 catégories thématiques</b>. Chaque numéro correspond à la position de la publication dans l’index d’origine et chaque titre mène directement à son message sur le forum officiel DarkOrbit.</p>
-<div class="forum-links"><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/forums/french-corner.776/">French Corner</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/">[FR] Stratégie, Trucs &amp; Astuces</a></div>
-</header>
-<div class="stats"><div class="stat"><strong>66</strong><small>Publications référencées</small></div><div class="stat"><strong>10</strong><small>Catégories thématiques</small></div><div class="stat"><strong>18 · 25 · 22 · 1</strong><small>Guides · Études · Astuces · Notes</small></div></div>
 <div class="layout"><aside class="sidebar"><p class="sidebar-label" id="sidebar-heading">Naviguer par catégorie</p><input id="filter" class="filter" type="search" placeholder="Rechercher un titre ou un n°..." aria-label="Rechercher dans les publications"/>
 <fieldset class="type-filter" id="type-filter"><legend>Filtrer par type</legend>
 <div class="type-options">
@@ -503,7 +506,7 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
     <h3>À propos de l’index</h3>
     <p>Ce répertoire documentaire indépendant et non officiel, maintenu par JohnLocke, référence actuellement <strong>66 publications</strong> du French Corner. Les contenus restent consultables sur le forum officiel DarkOrbit grâce aux liens permanents.</p>
     <p><strong>Référencement :</strong> seuls les guides, études, astuces et notes à caractère documentaire sont recensés. Les messages de discussion et de communication ne sont pas inclus.</p>
-    <p><strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible par le bouton en haut de page.</p>
+    <p><strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible par le bouton à droite des compteurs.</p>
     <p>La catégorie « Divers » est prévue pour les publications qui ne relèvent d’aucun autre thème ; elle est actuellement vide.</p>
   </div>
   <div class="footer-bottom"><span class="copyright">© 2026 JohnLocke</span><span aria-hidden="true">·</span><a href="https://discord.gg/radpDE9UGR" target="_blank" rel="noopener noreferrer" title="Rejoindre DO-PLAY sur Discord">Discord</a><span aria-hidden="true">·</span><a href="mailto:John.Locke.70@outlook.fr" title="Contacter JohnLocke par e-mail">E-mail</a><span class="last-update">Dernière mise à jour : 19/11/2026</span></div>
