@@ -50,21 +50,57 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
 .sort-note{font-size:12px;color:var(--sub);line-height:1.5;margin:0;padding:9px 2px}
 .entry-category{color:var(--sub)}
 
-/* Informations facultatives : le volet se déploie au-dessus de sa commande. */
+/* Panneau d'exclusions : en haut à droite, fermé par défaut et défilant. */
+.header-tools{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.excluded-anchor{position:relative;flex-shrink:0}
+.excluded-toggle{border:1px solid #6280a0;border-radius:9px;background:#122e48;color:#d6eaf5;padding:8px 12px;font-size:12px;font-weight:650;display:flex;align-items:center;gap:12px}
+.excluded-toggle:hover,.excluded-toggle[aria-expanded="true"]{background:#214969;color:#fff}
+.excluded-toggle:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.excluded-chevron{color:var(--cyan);font-size:16px;line-height:1}
+.excluded-panel{position:absolute;z-index:30;top:calc(100% + 8px);right:0;width:min(440px,calc(100vw - 44px));background:var(--panel);border:1px solid #54718a;border-radius:11px;box-shadow:var(--shadow);padding:14px;color:var(--text)}
+.excluded-panel[hidden]{display:none}
+.excluded-panel-heading{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:10px;font-size:13px}
+.excluded-panel-heading small{color:var(--sub);font-size:11px;white-space:nowrap}
+.excluded-scroll{max-height:175px;overflow-y:auto;overscroll-behavior:contain;border:1px solid var(--border);border-radius:6px}
+.excluded-table{width:100%;border-collapse:collapse;font-size:12px;line-height:1.5}
+.excluded-table th{position:sticky;top:0;background:#30465d;color:#f3f9fd;text-align:left;padding:8px;border-bottom:1px solid #647c90}
+.excluded-table td{padding:9px 8px;vertical-align:top;border-bottom:1px solid var(--border);color:#d2e2ee}
+.excluded-table tr:last-child td{border-bottom:0}
+.excluded-table th:first-child,.excluded-table td:first-child{width:50px;white-space:nowrap;color:var(--cyan);font-weight:750}
+.excluded-caption{margin:10px 0 0!important;color:var(--sub)!important;font-size:11px!important;line-height:1.4!important}
+@media(max-width:590px){.header-tools{align-items:flex-start}.excluded-anchor{width:100%}.excluded-toggle{width:100%;justify-content:space-between}.excluded-panel{right:0;width:100%}}
+/* Informations générales visibles en permanence au-dessus du copyright. */
 .footer-info-panel{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:16px 18px;margin:0 0 10px;color:var(--text)}
-.footer-info-panel[hidden]{display:none}
 .footer-info-panel h3{margin:0 0 8px;color:#d7eafa;font-size:14px}
 .footer-info-panel p{margin:0 0 8px;font-size:12px;line-height:1.6;color:var(--sub)}
 .footer-info-panel p:last-child{margin-bottom:0}
-.footer-info-toggle{display:flex;align-items:center;justify-content:space-between;gap:12px;width:100%;background:transparent;color:#c4dbea;border:0;border-radius:6px;text-align:left;padding:9px 4px;font-size:12px;font-weight:650}
-.footer-info-toggle:hover{color:var(--cyan);background:#ffffff08}
-.footer-info-toggle:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
-.footer-info-toggle .toggle-chevron{display:inline-block;min-width:18px;text-align:center;font-size:17px;line-height:1;color:var(--cyan)}
 .footer-bottom{margin-top:3px;padding-top:12px;border-top:1px solid var(--border)}
-@media print{.footer-info-toggle{display:none}}
+@media print{.excluded-anchor{display:none}}
 </style></head>
 <body><div class="container">
-<header class="header"><div class="kicker">Bibliothèque DarkOrbit · French Corner</div><h1>Index des guides, études et astuces</h1>
+<header class="header">
+<div class="header-tools">
+  <div class="kicker">Bibliothèque DarkOrbit · French Corner</div>
+  <div class="excluded-anchor">
+    <button class="excluded-toggle" type="button" id="excluded-toggle" aria-controls="excluded-panel" aria-expanded="false" aria-haspopup="true">
+      <span>Numéros non référencés</span><span class="excluded-chevron" aria-hidden="true">▾</span>
+    </button>
+    <div class="excluded-panel" id="excluded-panel" hidden>
+      <div class="excluded-panel-heading"><strong>Messages non référencés</strong><small>2 références connues</small></div>
+      <div class="excluded-scroll" tabindex="0" aria-label="Liste défilante des messages non référencés">
+        <table class="excluded-table">
+          <thead><tr><th scope="col">N°</th><th scope="col">Motif</th></tr></thead>
+          <tbody>
+            <tr><td>#52</td><td>Absent de l’index initial ; motif non établi.</td></tr>
+            <tr><td><a href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981378" target="_blank" rel="noopener noreferrer" title="Consulter le message n° 68">#68</a></td><td>Discussion : réponse à Kyog, sans contenu documentaire à référencer.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="excluded-caption">Les numéros correspondent aux positions des messages sur le forum.</p>
+    </div>
+  </div>
+</div>
+<h1>Index des guides, études et astuces</h1>
 <p>Références classées dans <b>10 catégories thématiques</b>. Chaque numéro correspond à la position de la publication dans l’index d’origine et chaque titre mène directement à son message sur le forum officiel DarkOrbit.</p>
 <div class="forum-links"><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/forums/french-corner.776/">French Corner</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/">[FR] Stratégie, Trucs &amp; Astuces</a></div>
 </header>
@@ -463,16 +499,13 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
   <div class="entries"><p class="empty">Cette catégorie accueille les guides, études, astuces, notes et autres publications ne relevant d’aucune autre catégorie. Aucune publication pour le moment.</p></div>
  </section></main></div>
 <footer class="footer">
-  <div class="footer-info-panel" id="footer-info-panel" hidden>
+  <div class="footer-info-panel" id="footer-info-panel">
     <h3>À propos de l’index</h3>
     <p>Ce répertoire documentaire indépendant et non officiel, maintenu par JohnLocke, référence actuellement <strong>66 publications</strong> du French Corner. Les contenus restent consultables sur le forum officiel DarkOrbit grâce aux liens permanents.</p>
     <p><strong>Référencement :</strong> seuls les guides, études, astuces et notes à caractère documentaire sont recensés. Les messages de discussion et de communication ne sont pas inclus.</p>
-    <p><strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer (notamment le n° 52, absent de l’index initial, et le n° 68, une discussion volontairement exclue).</p>
+    <p><strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible par le bouton en haut de page.</p>
     <p>La catégorie « Divers » est prévue pour les publications qui ne relèvent d’aucun autre thème ; elle est actuellement vide.</p>
   </div>
-  <button class="footer-info-toggle" type="button" id="footer-info-toggle" aria-controls="footer-info-panel" aria-expanded="false">
-    <span>Informations sur l’index</span><span class="toggle-chevron" aria-hidden="true">↑</span>
-  </button>
   <div class="footer-bottom"><span class="copyright">© 2026 JohnLocke</span><span aria-hidden="true">·</span><a href="https://discord.gg/radpDE9UGR" target="_blank" rel="noopener noreferrer" title="Rejoindre DO-PLAY sur Discord">Discord</a><span aria-hidden="true">·</span><a href="mailto:John.Locke.70@outlook.fr" title="Contacter JohnLocke par e-mail">E-mail</a><span class="last-update">Dernière mise à jour : 19/11/2026</span></div>
 </footer>
 </div>
@@ -493,14 +526,20 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
  const resetTypes=document.getElementById('reset-types');
  const visibleCount=document.getElementById('visible-count');
  const totalEntries=originalEntries.length;
- // Volet d'informations masqué par défaut et affiché au-dessus du bouton.
- const infoToggle=document.getElementById('footer-info-toggle');
- const infoPanel=document.getElementById('footer-info-panel');
- infoToggle.addEventListener('click',()=>{
-  const expand=infoToggle.getAttribute('aria-expanded')!=='true';
-  infoToggle.setAttribute('aria-expanded',String(expand));
-  infoPanel.hidden=!expand;
-  infoToggle.querySelector('.toggle-chevron').textContent=expand?'↓':'↑';
+ // Liste défilante des numéros manquants : aucun impact sur le tri et les filtres.
+ const excludedToggle=document.getElementById('excluded-toggle');
+ const excludedPanel=document.getElementById('excluded-panel');
+ function setExcludedOpen(open){
+  excludedToggle.setAttribute('aria-expanded',String(open));
+  excludedPanel.hidden=!open;
+  excludedToggle.querySelector('.excluded-chevron').textContent=open?'▴':'▾';
+ }
+ excludedToggle.addEventListener('click',()=>setExcludedOpen(excludedPanel.hidden));
+ document.addEventListener('click',event=>{
+  if(!excludedPanel.hidden&&!event.target.closest('.excluded-anchor'))setExcludedOpen(false);
+ });
+ document.addEventListener('keydown',event=>{
+  if(event.key==='Escape'&&!excludedPanel.hidden){setExcludedOpen(false);excludedToggle.focus();}
  });
 
  function normalize(s){return s.toLocaleLowerCase('fr').normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
