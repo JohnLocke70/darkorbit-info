@@ -1,26 +1,414 @@
 <!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>DarkOrbit (infos) — JohnLocke70</title>
-  <style>
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#000}
-    main{min-height:100vh;display:flex;justify-content:center;align-items:flex-start;padding-top:120px;text-align:center}
-    h1{margin:0 0 14px;font-size:40px}
-    p{margin:0 0 10px;font-size:16px}
-    a{color:#0b57d0}
-    .muted{margin-top:14px;font-size:13px;opacity:.7}
-  </style>
-</head>
-<body>
-  <main>
-    <div>
-      <h1>DarkOrbit (infos)</h1>
-      <p>Site communautaire non officiel : infos, guides, outils.</p>
-      <p><a href="/">← Retour à la racine</a></p>
-      <p class="muted">En construction.</p>
-    </div>
-  </main>
-</body>
-</html>
+<html lang="fr"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Bibliothèque DarkOrbit — Index des guides, études et astuces</title>
+<style>
+:root{--bg:#0c1420;--panel:#182332;--raised:#202e40;--text:#edf5fa;--sub:#a7b9c9;--border:#34445a;--blue:#2563a6;--cyan:#42dfff;--btn:#29435f;--shadow:0 12px 36px #0005}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:22px}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
+a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}button,input{font:inherit}button{cursor:pointer}
+.container{max-width:1240px;margin:auto;padding:32px 22px 60px}
+.header{background:linear-gradient(125deg,#173f65,#111c2b 70%);padding:27px 30px;border:1px solid #335372;border-radius:18px}
+.kicker{font-size:12px;letter-spacing:.13em;font-weight:750;color:#b9d6ef;text-transform:uppercase}
+h1{font-size:clamp(22px,3.7vw,35px);line-height:1.15;margin:10px 0 12px}.header p{margin:0 0 15px;max-width:850px;color:#d1e0ef}
+.forum-links{display:flex;gap:13px;flex-wrap:wrap}.forum-links a{border:1px solid #6280a0;border-radius:9px;background:#122e48;padding:8px 12px;font-weight:600;font-size:14px}
+.stats{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 22px}.stat{background:var(--panel);border:1px solid var(--border);padding:12px 18px;border-radius:12px;min-width:150px}.stat strong{display:block;font-size:24px}.stat small{color:var(--sub)}
+.layout{display:grid;grid-template-columns:minmax(220px,290px) minmax(0,1fr);align-items:start;gap:22px}.sidebar{position:sticky;top:14px;background:var(--panel);border:1px solid var(--border);padding:16px;border-radius:14px}.sidebar-label{font-size:12px;text-transform:uppercase;color:var(--sub);font-weight:800;letter-spacing:.08em;margin:0 0 12px}.filter{width:100%;background:#0d1826;border:1px solid #4a617c;color:var(--text);border-radius:9px;padding:10px 12px;margin-bottom:14px;outline-offset:2px}.filter::placeholder{color:#8097ab}
+.nav-list{display:grid;gap:5px}.nav-item{display:grid;grid-template-columns:29px 1fr auto;align-items:start;gap:5px;padding:9px 8px;border-radius:8px;font-size:13px;color:#dbe8f1}.nav-item:hover,.nav-item:focus-visible{background:var(--raised);text-decoration:none}.nav-num{color:var(--cyan);font-weight:700}.nav-count{background:#30445e;color:#d0e8f4;padding:1px 6px;border-radius:6px;font-size:12px}
+.main{min-width:0}.category{background:var(--panel);border:1px solid var(--border);border-radius:14px;margin:0 0 19px;overflow:hidden;scroll-margin-top:16px}
+.section-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;background:#1d3d5f;border-bottom:1px solid #43607c}
+h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:var(--cyan)}.section-count{white-space:nowrap;color:#d3e4f3;font-size:12px}
+.entry{display:grid;grid-template-columns:45px minmax(0,1fr) auto;gap:12px;padding:13px 17px;align-items:start;border-bottom:1px solid #304056}
+.entry:last-child{border-bottom:0}.index{color:var(--cyan);font-weight:800;font-size:14px;padding-top:2px;font-variant-numeric:tabular-nums}.entry-main{min-width:0}.entry-title{font-size:14px;font-weight:550;overflow-wrap:anywhere}.entry-meta{font-size:11px;display:block;margin-top:3px;color:var(--sub)}.link-tail{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.actions{display:flex;gap:6px;align-items:center}.copy{background:var(--btn);border:1px solid #47647f;color:#e3f1fc;border-radius:7px;font-size:11px;white-space:nowrap;padding:6px 8px}.copy:hover{background:var(--blue)}.copy:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.empty{padding:20px;color:var(--sub);margin:0}.hidden{display:none!important}.footer{border-top:1px solid var(--border);margin-top:30px;padding-top:17px;color:var(--sub);font-size:12px}.copyright{display:block;margin-top:12px;font-size:11px;opacity:.85}.muted-note{color:var(--sub);font-size:12px;margin:2px 0 14px}#search-empty{display:none;color:#deebf4;background:var(--panel);border-radius:10px;padding:18px;border:1px solid var(--border)}
+@media(max-width:950px){.layout{grid-template-columns:1fr}.sidebar{position:static}.nav-list{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}}@media(max-width:690px){.container{padding:14px 10px 32px}.header{padding:22px 18px}.section-top{align-items:start;flex-direction:column;gap:4px}.entry{grid-template-columns:40px minmax(0,1fr);gap:7px;padding:13px 12px}.actions{grid-column:2;justify-self:start;flex-wrap:wrap}.stat{min-width:125px}}
+@media print{:root{--bg:white;--text:black;--sub:#444;--panel:white;--border:#bbb;--cyan:#005d80}.sidebar,.stats,.actions{display:none}.layout{display:block}.container{max-width:none;padding:0}.header{background:white;color:black;padding:0;border:0}.category{break-inside:avoid}.section-top{background:#eee}a{color:#005580;text-decoration:underline}}
+</style></head>
+<body><div class="container">
+<header class="header"><div class="kicker">Bibliothèque DarkOrbit · French Corner</div><h1>Index des guides, études et astuces</h1>
+<p>Références classées dans <b>10 catégories thématiques</b>. Chaque numéro correspond à la position de la publication dans l’index d’origine et chaque titre mène directement à son message sur le forum officiel DarkOrbit.</p>
+<div class="forum-links"><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/forums/french-corner.776/">French Corner</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/">[FR] Stratégie, Trucs &amp; Astuces</a></div>
+</header>
+<div class="stats"><div class="stat"><strong>65</strong><small>Publications référencées</small></div><div class="stat"><strong>10</strong><small>Catégories thématiques</small></div><div class="stat"><strong>18 · 25 · 21 · 1</strong><small>Guides · Études · Astuces · Notes</small></div></div>
+<div class="layout"><aside class="sidebar"><p class="sidebar-label">Naviguer par catégorie</p><input id="filter" class="filter" type="search" placeholder="Rechercher un titre ou un n°..." aria-label="Rechercher dans les publications"/><nav class="nav-list"><a class="nav-item" href="#cat-clans" data-nav="clans"><span class="nav-num">01</span><span>Clans et stations de combat</span><span class="nav-count">9</span></a>
+<a class="nav-item" href="#cat-progression" data-nav="progression"><span class="nav-num">02</span><span>Conseils généraux et optimisation du jeu</span><span class="nav-count">3</span></a>
+<a class="nav-item" href="#cat-armement" data-nav="armement"><span class="nav-num">03</span><span>Armes et technologies d’équipement</span><span class="nav-count">11</span></a>
+<a class="nav-item" href="#cat-defense" data-nav="defense"><span class="nav-num">04</span><span>Drones et équipements complémentaires</span><span class="nav-count">4</span></a>
+<a class="nav-item" href="#cat-vaisseaux" data-nav="vaisseaux"><span class="nav-num">05</span><span>Vaisseaux et configurations</span><span class="nav-count">4</span></a>
+<a class="nav-item" href="#cat-rex" data-nav="rex"><span class="nav-num">06</span><span>REX</span><span class="nav-count">4</span></a>
+<a class="nav-item" href="#cat-gg" data-nav="gg"><span class="nav-num">07</span><span>Galaxy Gates</span><span class="nav-count">12</span></a>
+<a class="nav-item" href="#cat-maps" data-nav="maps"><span class="nav-num">08</span><span>Maps et zones de jeu</span><span class="nav-count">10</span></a>
+<a class="nav-item" href="#cat-speciales" data-nav="speciales"><span class="nav-num">09</span><span>Événements et contenus temporaires</span><span class="nav-count">8</span></a>
+<a class="nav-item" href="#cat-divers" data-nav="divers"><span class="nav-num">10</span><span>Divers</span><span class="nav-count">0</span></a></nav></aside>
+<main class="main"><p class="muted-note">Cliquer sur un titre pour ouvrir le forum. « Copier lien » copie son URL ; « Copier Discord » copie une ligne prête à coller comme message Discord avec une puce et un titre cliquable sans aperçu.</p><div id="search-empty">Aucun résultat pour cette recherche.</div><section class="category" id="cat-clans" data-category="Clans et stations de combat">
+  <div class="section-top"><h2><span class="section-num">1.</span> Clans et stations de combat</h2><span class="section-count">9 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[ÉTUDE] DarkOrbit – Jouer en solo ou rejoindre un clan ? 34">
+ <span class="index" title="N° dans l’index d’origine">#34</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981275" target="_blank" rel="noopener noreferrer">[ÉTUDE] DarkOrbit – Jouer en solo ou rejoindre un clan ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981275</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981275" aria-label="Copier le lien vers [ÉTUDE] DarkOrbit – Jouer en solo ou rejoindre un clan ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [DarkOrbit – Jouer en solo ou rejoindre un clan ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981275&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Stations de combat – Détourner les tirs avec le REX 58">
+ <span class="index" title="N° dans l’index d’origine">#58</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981353" target="_blank" rel="noopener noreferrer">[ASTUCE] Stations de combat – Détourner les tirs avec le REX</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981353</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981353" aria-label="Copier le lien vers [ASTUCE] Stations de combat – Détourner les tirs avec le REX">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Stations de combat – Détourner les tirs avec le REX](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981353&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Stations de combat de clan – Construction, fonctionnement et défense 61">
+ <span class="index" title="N° dans l’index d’origine">#61</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981359" target="_blank" rel="noopener noreferrer">[GUIDE] Stations de combat de clan – Construction, fonctionnement et défense</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981359</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981359" aria-label="Copier le lien vers [GUIDE] Stations de combat de clan – Construction, fonctionnement et défense">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Stations de combat de clan – Construction, fonctionnement et défense](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981359&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Stations de combat – Optimiser la défense avec les lasers de courte portée 62">
+ <span class="index" title="N° dans l’index d’origine">#62</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981361" target="_blank" rel="noopener noreferrer">[ASTUCE] Stations de combat – Optimiser la défense avec les lasers de courte portée</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981361</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981361" aria-label="Copier le lien vers [ASTUCE] Stations de combat – Optimiser la défense avec les lasers de courte portée">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Stations de combat – Optimiser la défense avec les lasers de courte portée](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981361&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Stations de combat – Faut-il attaquer les modules ou le cœur ? 63">
+ <span class="index" title="N° dans l’index d’origine">#63</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981362" target="_blank" rel="noopener noreferrer">[ÉTUDE] Stations de combat – Faut-il attaquer les modules ou le cœur ?</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981362</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981362" aria-label="Copier le lien vers [ÉTUDE] Stations de combat – Faut-il attaquer les modules ou le cœur ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Stations de combat – Faut-il attaquer les modules ou le cœur ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981362&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Stations de combat – Réparation des modules et attribution des récompenses 64">
+ <span class="index" title="N° dans l’index d’origine">#64</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981363" target="_blank" rel="noopener noreferrer">[ASTUCE] Stations de combat – Réparation des modules et attribution des récompenses</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981363</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981363" aria-label="Copier le lien vers [ASTUCE] Stations de combat – Réparation des modules et attribution des récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Stations de combat – Réparation des modules et attribution des récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981363&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Stations de combat – Cumuler les bonus d&#x27;expérience, d&#x27;honneur et de dégâts 65">
+ <span class="index" title="N° dans l’index d’origine">#65</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981364" target="_blank" rel="noopener noreferrer">[ÉTUDE] Stations de combat – Cumuler les bonus d&#x27;expérience, d&#x27;honneur et de dégâts</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981364</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981364" aria-label="Copier le lien vers [ÉTUDE] Stations de combat – Cumuler les bonus d&#x27;expérience, d&#x27;honneur et de dégâts">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Stations de combat – Cumuler les bonus d&#x27;expérience, d&#x27;honneur et de dégâts](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981364&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Stations de combat – Optimiser la recharge du déflecteur 66">
+ <span class="index" title="N° dans l’index d’origine">#66</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981365" target="_blank" rel="noopener noreferrer">[ÉTUDE] Stations de combat – Optimiser la recharge du déflecteur</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981365</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981365" aria-label="Copier le lien vers [ÉTUDE] Stations de combat – Optimiser la recharge du déflecteur">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Stations de combat – Optimiser la recharge du déflecteur](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981365&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Stations de combat – Attention aux modules des membres qui quittent le clan 67">
+ <span class="index" title="N° dans l’index d’origine">#67</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981366" target="_blank" rel="noopener noreferrer">[ASTUCE] Stations de combat – Attention aux modules des membres qui quittent le clan</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981366</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981366" aria-label="Copier le lien vers [ASTUCE] Stations de combat – Attention aux modules des membres qui quittent le clan">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Stations de combat – Attention aux modules des membres qui quittent le clan](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-4#post-981366&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-progression" data-category="Conseils généraux et optimisation du jeu">
+  <div class="section-top"><h2><span class="section-num">2.</span> Conseils généraux et optimisation du jeu</h2><span class="section-count">3 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[GUIDE] Comprendre le calcul des dégâts – Méthode simple 2">
+ <span class="index" title="N° dans l’index d’origine">#2</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981163" target="_blank" rel="noopener noreferrer">[GUIDE] Comprendre le calcul des dégâts – Méthode simple</a>
+ <span class="entry-meta">09/11/2026 · <span class="link-tail">post-981163</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981163" aria-label="Copier le lien vers [GUIDE] Comprendre le calcul des dégâts – Méthode simple">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Comprendre le calcul des dégâts – Méthode simple](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981163&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] DarkOrbit – Comment optimiser et organiser ses hangars ? 29">
+ <span class="index" title="N° dans l’index d’origine">#29</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981270" target="_blank" rel="noopener noreferrer">[GUIDE] DarkOrbit – Comment optimiser et organiser ses hangars ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981270</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981270" aria-label="Copier le lien vers [GUIDE] DarkOrbit – Comment optimiser et organiser ses hangars ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [DarkOrbit – Comment optimiser et organiser ses hangars ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981270&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] DarkOrbit – Comment réduire les lags et améliorer la fluidité ? 30">
+ <span class="index" title="N° dans l’index d’origine">#30</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981271" target="_blank" rel="noopener noreferrer">[GUIDE] DarkOrbit – Comment réduire les lags et améliorer la fluidité ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981271</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981271" aria-label="Copier le lien vers [GUIDE] DarkOrbit – Comment réduire les lags et améliorer la fluidité ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [DarkOrbit – Comment réduire les lags et améliorer la fluidité ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981271&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-armement" data-category="Armes et technologies d’équipement">
+  <div class="section-top"><h2><span class="section-num">3.</span> Armes et technologies d’équipement</h2><span class="section-count">11 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[ÉTUDE] Prometheus Vs LF5 classique 7">
+ <span class="index" title="N° dans l’index d’origine">#7</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981180" target="_blank" rel="noopener noreferrer">[ÉTUDE] Prometheus Vs LF5 classique</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981180</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981180" aria-label="Copier le lien vers [ÉTUDE] Prometheus Vs LF5 classique">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Prometheus Vs LF5 classique](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981180&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Prometheus Vs LF5 Mortifier 8">
+ <span class="index" title="N° dans l’index d’origine">#8</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981181" target="_blank" rel="noopener noreferrer">[ÉTUDE] Prometheus Vs LF5 Mortifier</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981181</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981181" aria-label="Copier le lien vers [ÉTUDE] Prometheus Vs LF5 Mortifier">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Prometheus Vs LF5 Mortifier](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981181&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Asmodeus Vs LF5 Mortifier – NPC hors cartes BL 9">
+ <span class="index" title="N° dans l’index d’origine">#9</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981184" target="_blank" rel="noopener noreferrer">[ÉTUDE] Asmodeus Vs LF5 Mortifier – NPC hors cartes BL</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981184</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981184" aria-label="Copier le lien vers [ÉTUDE] Asmodeus Vs LF5 Mortifier – NPC hors cartes BL">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Asmodeus Vs LF5 Mortifier – NPC hors cartes BL](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981184&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Odysseus Vs LF5 Mortifier – PvP 10">
+ <span class="index" title="N° dans l’index d’origine">#10</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981185" target="_blank" rel="noopener noreferrer">[ÉTUDE] Odysseus Vs LF5 Mortifier – PvP</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981185</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981185" aria-label="Copier le lien vers [ÉTUDE] Odysseus Vs LF5 Mortifier – PvP">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Odysseus Vs LF5 Mortifier – PvP](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981185&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Lasers – Transformer ses LF-4 en LF-5, puis en LF-5 Anchorlock 28">
+ <span class="index" title="N° dans l’index d’origine">#28</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981269" target="_blank" rel="noopener noreferrer">[ASTUCE] Lasers – Transformer ses LF-4 en LF-5, puis en LF-5 Anchorlock</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981269</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981269" aria-label="Copier le lien vers [ASTUCE] Lasers – Transformer ses LF-4 en LF-5, puis en LF-5 Anchorlock">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Lasers – Transformer ses LF-4 en LF-5, puis en LF-5 Anchorlock](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981269&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Canons à particules – Helios, Nidhogg ou Indra : lequel choisir ? 32">
+ <span class="index" title="N° dans l’index d’origine">#32</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981273" target="_blank" rel="noopener noreferrer">[ÉTUDE] Canons à particules – Helios, Nidhogg ou Indra : lequel choisir ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981273</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981273" aria-label="Copier le lien vers [ÉTUDE] Canons à particules – Helios, Nidhogg ou Indra : lequel choisir ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Canons à particules – Helios, Nidhogg ou Indra : lequel choisir ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981273&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Ignipropulseurs – Lite, Apex ou Prime : lequel choisir ? 33">
+ <span class="index" title="N° dans l’index d’origine">#33</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981274" target="_blank" rel="noopener noreferrer">[ÉTUDE] Ignipropulseurs – Lite, Apex ou Prime : lequel choisir ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981274</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981274" aria-label="Copier le lien vers [ÉTUDE] Ignipropulseurs – Lite, Apex ou Prime : lequel choisir ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Ignipropulseurs – Lite, Apex ou Prime : lequel choisir ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981274&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Lasers LF-5 – Classique, Anchorlock et Mortifier 44">
+ <span class="index" title="N° dans l’index d’origine">#44</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981294" target="_blank" rel="noopener noreferrer">[ÉTUDE] Lasers LF-5 – Classique, Anchorlock et Mortifier</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981294</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981294" aria-label="Copier le lien vers [ÉTUDE] Lasers LF-5 – Classique, Anchorlock et Mortifier">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Lasers LF-5 – Classique, Anchorlock et Mortifier](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981294&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Eternal Blacklight – Prometheus vs Asmodeus 45">
+ <span class="index" title="N° dans l’index d’origine">#45</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981298" target="_blank" rel="noopener noreferrer">[ÉTUDE] Eternal Blacklight – Prometheus vs Asmodeus</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981298</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981298" aria-label="Copier le lien vers [ÉTUDE] Eternal Blacklight – Prometheus vs Asmodeus">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Eternal Blacklight – Prometheus vs Asmodeus](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981298&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Lasers Odysseus et Asmodeus – PvP et PvE 46">
+ <span class="index" title="N° dans l’index d’origine">#46</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981299" target="_blank" rel="noopener noreferrer">[ÉTUDE] Lasers Odysseus et Asmodeus – PvP et PvE</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981299</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981299" aria-label="Copier le lien vers [ÉTUDE] Lasers Odysseus et Asmodeus – PvP et PvE">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Lasers Odysseus et Asmodeus – PvP et PvE](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981299&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Xeno Resonators – Fonctionnement, fusion et attributs spéciaux 55">
+ <span class="index" title="N° dans l’index d’origine">#55</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981338" target="_blank" rel="noopener noreferrer">[GUIDE] Xeno Resonators – Fonctionnement, fusion et attributs spéciaux</a>
+ <span class="entry-meta">17/11/2026 · <span class="link-tail">post-981338</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981338" aria-label="Copier le lien vers [GUIDE] Xeno Resonators – Fonctionnement, fusion et attributs spéciaux">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Xeno Resonators – Fonctionnement, fusion et attributs spéciaux](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981338&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-defense" data-category="Drones et équipements complémentaires">
+  <div class="section-top"><h2><span class="section-num">4.</span> Drones et équipements complémentaires</h2><span class="section-count">4 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[ASTUCE] Spartan ou lance-roquettes : que fabriquer en premier ? 3">
+ <span class="index" title="N° dans l’index d’origine">#3</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981164" target="_blank" rel="noopener noreferrer">[ASTUCE] Spartan ou lance-roquettes : que fabriquer en premier ?</a>
+ <span class="entry-meta">09/11/2026 · <span class="link-tail">post-981164</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981164" aria-label="Copier le lien vers [ASTUCE] Spartan ou lance-roquettes : que fabriquer en premier ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Spartan ou lance-roquettes : que fabriquer en premier ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981164&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Apis et Zeus – Acheter les pièces ou ouvrir des butins dorés ? 31">
+ <span class="index" title="N° dans l’index d’origine">#31</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981272" target="_blank" rel="noopener noreferrer">[ÉTUDE] Apis et Zeus – Acheter les pièces ou ouvrir des butins dorés ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981272</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981272" aria-label="Copier le lien vers [ÉTUDE] Apis et Zeus – Acheter les pièces ou ouvrir des butins dorés ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Apis et Zeus – Acheter les pièces ou ouvrir des butins dorés ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981272&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Réfracteurs – Comparatif, choix et combinaisons 47">
+ <span class="index" title="N° dans l’index d’origine">#47</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981304" target="_blank" rel="noopener noreferrer">[ÉTUDE] Réfracteurs – Comparatif, choix et combinaisons</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981304</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981304" aria-label="Copier le lien vers [ÉTUDE] Réfracteurs – Comparatif, choix et combinaisons">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Réfracteurs – Comparatif, choix et combinaisons](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981304&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Chambardeurs de gravité – Comparatif, choix et combinaisons 48">
+ <span class="index" title="N° dans l’index d’origine">#48</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981305" target="_blank" rel="noopener noreferrer">[ÉTUDE] Chambardeurs de gravité – Comparatif, choix et combinaisons</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981305</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981305" aria-label="Copier le lien vers [ÉTUDE] Chambardeurs de gravité – Comparatif, choix et combinaisons">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Chambardeurs de gravité – Comparatif, choix et combinaisons](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981305&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-vaisseaux" data-category="Vaisseaux et configurations">
+  <div class="section-top"><h2><span class="section-num">5.</span> Vaisseaux et configurations</h2><span class="section-count">4 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[ÉTUDE] Hammerclaw Plus Vs Solace Plus Vs Solaris Plus – PvE 11">
+ <span class="index" title="N° dans l’index d’origine">#11</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981186" target="_blank" rel="noopener noreferrer">[ÉTUDE] Hammerclaw Plus Vs Solace Plus Vs Solaris Plus – PvE</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981186</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981186" aria-label="Copier le lien vers [ÉTUDE] Hammerclaw Plus Vs Solace Plus Vs Solaris Plus – PvE">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Hammerclaw Plus Vs Solace Plus Vs Solaris Plus – PvE](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981186&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Comparatif de 4 vaisseaux orientés PvP 12">
+ <span class="index" title="N° dans l’index d’origine">#12</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981189" target="_blank" rel="noopener noreferrer">[ÉTUDE] Comparatif de 4 vaisseaux orientés PvP</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981189</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981189" aria-label="Copier le lien vers [ÉTUDE] Comparatif de 4 vaisseaux orientés PvP">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Comparatif de 4 vaisseaux orientés PvP](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981189&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[NOTE] Le Goliath Plus – Un vaisseau généraliste 13">
+ <span class="index" title="N° dans l’index d’origine">#13</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981190" target="_blank" rel="noopener noreferrer">[NOTE] Le Goliath Plus – Un vaisseau généraliste</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981190</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981190" aria-label="Copier le lien vers [NOTE] Le Goliath Plus – Un vaisseau généraliste">Copier lien</button><button class="copy discord" type="button" data-copy="• **[NOTE]** [Le Goliath Plus – Un vaisseau généraliste](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981190&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Zephyr vs Pusat – Portée ou vitesse dans les Galaxy Gates ? 57">
+ <span class="index" title="N° dans l’index d’origine">#57</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981350" target="_blank" rel="noopener noreferrer">[ÉTUDE] Zephyr vs Pusat – Portée ou vitesse dans les Galaxy Gates ?</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981350</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981350" aria-label="Copier le lien vers [ÉTUDE] Zephyr vs Pusat – Portée ou vitesse dans les Galaxy Gates ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Zephyr vs Pusat – Portée ou vitesse dans les Galaxy Gates ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981350&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-rex" data-category="REX">
+  <div class="section-top"><h2><span class="section-num">6.</span> REX</h2><span class="section-count">4 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[ASTUCE] Détruire un Uber Kristallon avec son REX 5">
+ <span class="index" title="N° dans l’index d’origine">#5</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981177" target="_blank" rel="noopener noreferrer">[ASTUCE] Détruire un Uber Kristallon avec son REX</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981177</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981177" aria-label="Copier le lien vers [ASTUCE] Détruire un Uber Kristallon avec son REX">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Détruire un Uber Kristallon avec son REX](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981177&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] REX – Renommage : économie et discrétion 25">
+ <span class="index" title="N° dans l’index d’origine">#25</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981266" target="_blank" rel="noopener noreferrer">[ASTUCE] REX – Renommage : économie et discrétion</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981266</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981266" aria-label="Copier le lien vers [ASTUCE] REX – Renommage : économie et discrétion">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [REX – Renommage : économie et discrétion](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981266&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] REX – Le Kamikaze est-il toujours rentable ? 26">
+ <span class="index" title="N° dans l’index d’origine">#26</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981267" target="_blank" rel="noopener noreferrer">[ÉTUDE] REX – Le Kamikaze est-il toujours rentable ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981267</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981267" aria-label="Copier le lien vers [ÉTUDE] REX – Le Kamikaze est-il toujours rentable ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [REX – Le Kamikaze est-il toujours rentable ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981267&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] REX – Les équipements spéciaux sont-ils vraiment meilleurs ? 27">
+ <span class="index" title="N° dans l’index d’origine">#27</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981268" target="_blank" rel="noopener noreferrer">[ÉTUDE] REX – Les équipements spéciaux sont-ils vraiment meilleurs ?</a>
+ <span class="entry-meta">14/11/2026 · <span class="link-tail">post-981268</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981268" aria-label="Copier le lien vers [ÉTUDE] REX – Les équipements spéciaux sont-ils vraiment meilleurs ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [REX – Les équipements spéciaux sont-ils vraiment meilleurs ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981268&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-gg" data-category="Galaxy Gates">
+  <div class="section-top"><h2><span class="section-num">7.</span> Galaxy Gates</h2><span class="section-count">12 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[ÉTUDE] Galaxy Gates – Hadès Vs Lambda 14">
+ <span class="index" title="N° dans l’index d’origine">#14</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981230" target="_blank" rel="noopener noreferrer">[ÉTUDE] Galaxy Gates – Hadès Vs Lambda</a>
+ <span class="entry-meta">12/11/2026 · <span class="link-tail">post-981230</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981230" aria-label="Copier le lien vers [ÉTUDE] Galaxy Gates – Hadès Vs Lambda">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Galaxy Gates – Hadès Vs Lambda](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981230&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Galaxy Gates – ABG : faire le plein de munitions 15">
+ <span class="index" title="N° dans l’index d’origine">#15</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981231" target="_blank" rel="noopener noreferrer">[ASTUCE] Galaxy Gates – ABG : faire le plein de munitions</a>
+ <span class="entry-meta">12/11/2026 · <span class="link-tail">post-981231</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981231" aria-label="Copier le lien vers [ASTUCE] Galaxy Gates – ABG : faire le plein de munitions">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Galaxy Gates – ABG : faire le plein de munitions](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981231&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Galaxy Gates – Quels portails pour les designs de drones ? 16">
+ <span class="index" title="N° dans l’index d’origine">#16</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981232" target="_blank" rel="noopener noreferrer">[ASTUCE] Galaxy Gates – Quels portails pour les designs de drones ?</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981232</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981232" aria-label="Copier le lien vers [ASTUCE] Galaxy Gates – Quels portails pour les designs de drones ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Galaxy Gates – Quels portails pour les designs de drones ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981232&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Chromin – Acheter des vies ou reconstruire une Zeta ? 17">
+ <span class="index" title="N° dans l’index d’origine">#17</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981233" target="_blank" rel="noopener noreferrer">[ÉTUDE] Chromin – Acheter des vies ou reconstruire une Zeta ?</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981233</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981233" aria-label="Copier le lien vers [ÉTUDE] Chromin – Acheter des vies ou reconstruire une Zeta ?">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Chromin – Acheter des vies ou reconstruire une Zeta ?](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981233&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Galaxy Gates – Foreuse Vs Papillon 18">
+ <span class="index" title="N° dans l’index d’origine">#18</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981234" target="_blank" rel="noopener noreferrer">[ÉTUDE] Galaxy Gates – Foreuse Vs Papillon</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981234</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981234" aria-label="Copier le lien vers [ÉTUDE] Galaxy Gates – Foreuse Vs Papillon">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Galaxy Gates – Foreuse Vs Papillon](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981234&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ÉTUDE] Galaxy Gates – Rapporteur Vs Manuel 19">
+ <span class="index" title="N° dans l’index d’origine">#19</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981235" target="_blank" rel="noopener noreferrer">[ÉTUDE] Galaxy Gates – Rapporteur Vs Manuel</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981235</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981235" aria-label="Copier le lien vers [ÉTUDE] Galaxy Gates – Rapporteur Vs Manuel">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ÉTUDE]** [Galaxy Gates – Rapporteur Vs Manuel](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981235&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Galaxy Gates – Le Phoenix pour économiser des énergies 20">
+ <span class="index" title="N° dans l’index d’origine">#20</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981236" target="_blank" rel="noopener noreferrer">[ASTUCE] Galaxy Gates – Le Phoenix pour économiser des énergies</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981236</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981236" aria-label="Copier le lien vers [ASTUCE] Galaxy Gates – Le Phoenix pour économiser des énergies">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Galaxy Gates – Le Phoenix pour économiser des énergies](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981236&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Galaxy Gates – Profiter des événements du week-end 21">
+ <span class="index" title="N° dans l’index d’origine">#21</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981237" target="_blank" rel="noopener noreferrer">[ASTUCE] Galaxy Gates – Profiter des événements du week-end</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981237</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981237" aria-label="Copier le lien vers [ASTUCE] Galaxy Gates – Profiter des événements du week-end">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Galaxy Gates – Profiter des événements du week-end](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981237&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Galaxy Gates – Optimiser les tirages et multiplicateurs 22">
+ <span class="index" title="N° dans l’index d’origine">#22</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981238" target="_blank" rel="noopener noreferrer">[ASTUCE] Galaxy Gates – Optimiser les tirages et multiplicateurs</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981238</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981238" aria-label="Copier le lien vers [ASTUCE] Galaxy Gates – Optimiser les tirages et multiplicateurs">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Galaxy Gates – Optimiser les tirages et multiplicateurs](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981238&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Galaxy Gates – Rentabiliser les boosters d&#x27;XP et d&#x27;honneur 23">
+ <span class="index" title="N° dans l’index d’origine">#23</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981239" target="_blank" rel="noopener noreferrer">[ASTUCE] Galaxy Gates – Rentabiliser les boosters d&#x27;XP et d&#x27;honneur</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981239</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981239" aria-label="Copier le lien vers [ASTUCE] Galaxy Gates – Rentabiliser les boosters d&#x27;XP et d&#x27;honneur">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Galaxy Gates – Rentabiliser les boosters d&#x27;XP et d&#x27;honneur](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981239&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Galaxy Gates – Valider les quêtes d&#x27;Uber en Hadès 24">
+ <span class="index" title="N° dans l’index d’origine">#24</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981245" target="_blank" rel="noopener noreferrer">[ASTUCE] Galaxy Gates – Valider les quêtes d&#x27;Uber en Hadès</a>
+ <span class="entry-meta">13/11/2026 · <span class="link-tail">post-981245</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981245" aria-label="Copier le lien vers [ASTUCE] Galaxy Gates – Valider les quêtes d&#x27;Uber en Hadès">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Galaxy Gates – Valider les quêtes d&#x27;Uber en Hadès](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981245&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Galaxy Gates classiques – Pièces nécessaires et comparatif des récompenses 35">
+ <span class="index" title="N° dans l’index d’origine">#35</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981281" target="_blank" rel="noopener noreferrer">[GUIDE] Galaxy Gates classiques – Pièces nécessaires et comparatif des récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981281</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981281" aria-label="Copier le lien vers [GUIDE] Galaxy Gates classiques – Pièces nécessaires et comparatif des récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Galaxy Gates classiques – Pièces nécessaires et comparatif des récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981281&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-maps" data-category="Maps et zones de jeu">
+  <div class="section-top"><h2><span class="section-num">8.</span> Maps et zones de jeu</h2><span class="section-count">10 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[ASTUCE] Comment survivre sur la mystérieuse carte ??? 4">
+ <span class="index" title="N° dans l’index d’origine">#4</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981176" target="_blank" rel="noopener noreferrer">[ASTUCE] Comment survivre sur la mystérieuse carte ???</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981176</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981176" aria-label="Copier le lien vers [ASTUCE] Comment survivre sur la mystérieuse carte ???">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Comment survivre sur la mystérieuse carte ???](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981176&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Valider plus facilement ses quêtes d&#x27;Invoke XVI 6">
+ <span class="index" title="N° dans l’index d’origine">#6</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981179" target="_blank" rel="noopener noreferrer">[ASTUCE] Valider plus facilement ses quêtes d&#x27;Invoke XVI</a>
+ <span class="entry-meta">10/11/2026 · <span class="link-tail">post-981179</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981179" aria-label="Copier le lien vers [ASTUCE] Valider plus facilement ses quêtes d&#x27;Invoke XVI">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Valider plus facilement ses quêtes d&#x27;Invoke XVI](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/#post-981179&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Maps pirates – 5-1, 5-2 et 5-3 49">
+ <span class="index" title="N° dans l’index d’origine">#49</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981307" target="_blank" rel="noopener noreferrer">[GUIDE] Maps pirates – 5-1, 5-2 et 5-3</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981307</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981307" aria-label="Copier le lien vers [GUIDE] Maps pirates – 5-1, 5-2 et 5-3">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Maps pirates – 5-1, 5-2 et 5-3](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981307&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Stinger en 5-4 50">
+ <span class="index" title="N° dans l’index d’origine">#50</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981308" target="_blank" rel="noopener noreferrer">[GUIDE] Stinger en 5-4</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981308</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981308" aria-label="Copier le lien vers [GUIDE] Stinger en 5-4">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Stinger en 5-4](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981308&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Maps Black Light – 1-BL, 2-BL et 3-BL 51">
+ <span class="index" title="N° dans l’index d’origine">#51</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981309" target="_blank" rel="noopener noreferrer">[GUIDE] Maps Black Light – 1-BL, 2-BL et 3-BL</a>
+ <span class="entry-meta">16/11/2026 · <span class="link-tail">post-981309</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981309" aria-label="Copier le lien vers [GUIDE] Maps Black Light – 1-BL, 2-BL et 3-BL">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Maps Black Light – 1-BL, 2-BL et 3-BL](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981309&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Map 4-5 – Réapparaître de l&#x27;autre côté de la carte 53">
+ <span class="index" title="N° dans l’index d’origine">#53</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981322" target="_blank" rel="noopener noreferrer">[ASTUCE] Map 4-5 – Réapparaître de l&#x27;autre côté de la carte</a>
+ <span class="entry-meta">17/11/2026 · <span class="link-tail">post-981322</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981322" aria-label="Copier le lien vers [ASTUCE] Map 4-5 – Réapparaître de l&#x27;autre côté de la carte">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Map 4-5 – Réapparaître de l&#x27;autre côté de la carte](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981322&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Maps Black Light – Neutraliser les attaques des NPC près des portails 54">
+ <span class="index" title="N° dans l’index d’origine">#54</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981337" target="_blank" rel="noopener noreferrer">[ASTUCE] Maps Black Light – Neutraliser les attaques des NPC près des portails</a>
+ <span class="entry-meta">17/11/2026 · <span class="link-tail">post-981337</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981337" aria-label="Copier le lien vers [ASTUCE] Maps Black Light – Neutraliser les attaques des NPC près des portails">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Maps Black Light – Neutraliser les attaques des NPC près des portails](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981337&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Map maudite (???) – Trou de ver et CPU Jump 56">
+ <span class="index" title="N° dans l’index d’origine">#56</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981348" target="_blank" rel="noopener noreferrer">[ASTUCE] Map maudite (???) – Trou de ver et CPU Jump</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981348</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981348" aria-label="Copier le lien vers [ASTUCE] Map maudite (???) – Trou de ver et CPU Jump">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Map maudite (???) – Trou de ver et CPU Jump](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981348&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Éclaireurs Black Light – Maps, apparitions et récompenses 59">
+ <span class="index" title="N° dans l’index d’origine">#59</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981357" target="_blank" rel="noopener noreferrer">[GUIDE] Éclaireurs Black Light – Maps, apparitions et récompenses</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981357</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981357" aria-label="Copier le lien vers [GUIDE] Éclaireurs Black Light – Maps, apparitions et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Éclaireurs Black Light – Maps, apparitions et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981357&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[ASTUCE] Quêtes chronométrées – Rassembler les NPC avant de commencer 60">
+ <span class="index" title="N° dans l’index d’origine">#60</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981358" target="_blank" rel="noopener noreferrer">[ASTUCE] Quêtes chronométrées – Rassembler les NPC avant de commencer</a>
+ <span class="entry-meta">18/11/2026 · <span class="link-tail">post-981358</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981358" aria-label="Copier le lien vers [ASTUCE] Quêtes chronométrées – Rassembler les NPC avant de commencer">Copier lien</button><button class="copy discord" type="button" data-copy="• **[ASTUCE]** [Quêtes chronométrées – Rassembler les NPC avant de commencer](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981358&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-speciales" data-category="Événements et contenus temporaires">
+  <div class="section-top"><h2><span class="section-num">9.</span> Événements et contenus temporaires</h2><span class="section-count">8 publications</span></div>
+  <div class="entries"><article class="entry" data-text="[GUIDE] GG Black Light éternel – Accès, fonctionnement et récompenses 36">
+ <span class="index" title="N° dans l’index d’origine">#36</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981282" target="_blank" rel="noopener noreferrer">[GUIDE] GG Black Light éternel – Accès, fonctionnement et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981282</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981282" aria-label="Copier le lien vers [GUIDE] GG Black Light éternel – Accès, fonctionnement et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [GG Black Light éternel – Accès, fonctionnement et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981282&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Apothéose de Kristallon – Accès, fonctionnement et récompenses 37">
+ <span class="index" title="N° dans l’index d’origine">#37</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981283" target="_blank" rel="noopener noreferrer">[GUIDE] Apothéose de Kristallon – Accès, fonctionnement et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981283</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981283" aria-label="Copier le lien vers [GUIDE] Apothéose de Kristallon – Accès, fonctionnement et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Apothéose de Kristallon – Accès, fonctionnement et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981283&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Ascension astrale – Accès, fonctionnement et récompenses 38">
+ <span class="index" title="N° dans l’index d’origine">#38</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981284" target="_blank" rel="noopener noreferrer">[GUIDE] Ascension astrale – Accès, fonctionnement et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981284</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981284" aria-label="Copier le lien vers [GUIDE] Ascension astrale – Accès, fonctionnement et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Ascension astrale – Accès, fonctionnement et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981284&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Deep Space Echoes – Accès, vaisseaux et récompenses 39">
+ <span class="index" title="N° dans l’index d’origine">#39</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981285" target="_blank" rel="noopener noreferrer">[GUIDE] Deep Space Echoes – Accès, vaisseaux et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981285</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981285" aria-label="Copier le lien vers [GUIDE] Deep Space Echoes – Accès, vaisseaux et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Deep Space Echoes – Accès, vaisseaux et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981285&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Vortex de cupidité – Accès, fonctionnement et récompenses 40">
+ <span class="index" title="N° dans l’index d’origine">#40</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981286" target="_blank" rel="noopener noreferrer">[GUIDE] Vortex de cupidité – Accès, fonctionnement et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981286</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981286" aria-label="Copier le lien vers [GUIDE] Vortex de cupidité – Accès, fonctionnement et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Vortex de cupidité – Accès, fonctionnement et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-2#post-981286&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Ascension des voyageurs – Accès, fonctionnement et récompenses 41">
+ <span class="index" title="N° dans l’index d’origine">#41</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981287" target="_blank" rel="noopener noreferrer">[GUIDE] Ascension des voyageurs – Accès, fonctionnement et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981287</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981287" aria-label="Copier le lien vers [GUIDE] Ascension des voyageurs – Accès, fonctionnement et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Ascension des voyageurs – Accès, fonctionnement et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981287&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Épreuves de la Trinité – Accès, fonctionnement et récompenses 42">
+ <span class="index" title="N° dans l’index d’origine">#42</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981288" target="_blank" rel="noopener noreferrer">[GUIDE] Épreuves de la Trinité – Accès, fonctionnement et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981288</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981288" aria-label="Copier le lien vers [GUIDE] Épreuves de la Trinité – Accès, fonctionnement et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Épreuves de la Trinité – Accès, fonctionnement et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981288&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article><article class="entry" data-text="[GUIDE] Fiesta Gate – Accès, difficultés et récompenses 43">
+ <span class="index" title="N° dans l’index d’origine">#43</span>
+ <div class="entry-main"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981289" target="_blank" rel="noopener noreferrer">[GUIDE] Fiesta Gate – Accès, difficultés et récompenses</a>
+ <span class="entry-meta">15/11/2026 · <span class="link-tail">post-981289</span></span></div>
+ <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981289" aria-label="Copier le lien vers [GUIDE] Fiesta Gate – Accès, difficultés et récompenses">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Fiesta Gate – Accès, difficultés et récompenses](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-3#post-981289&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
+ </article></div>
+ </section><section class="category" id="cat-divers" data-category="Divers">
+  <div class="section-top"><h2><span class="section-num">10.</span> Divers</h2><span class="section-count">0 publications</span></div>
+  <div class="entries"><p class="empty">Cette catégorie accueille les guides, études, astuces, notes et autres publications ne relevant d’aucune autre catégorie. Aucune publication pour le moment.</p></div>
+ </section></main></div>
+<footer class="footer">Index issu des 65 publications recensées au 18/11/2026. Références originales conservées ; le n°52 n’apparaît pas dans l’index source. La catégorie « Divers » ne comporte pas encore de publication. Répertoire documentaire indépendant et non officiel, maintenu par JohnLocke. Les publications restent consultables sur le forum officiel DarkOrbit.<span class="copyright">© 2026 JohnLocke</span></footer>
+</div>
+<script>
+(function(){
+ const input=document.getElementById('filter');
+ const sections=[...document.querySelectorAll('section.category')];
+ const empty=document.getElementById('search-empty');
+ function normalize(s){return s.toLocaleLowerCase('fr').normalize('NFD').replace(/[\u0300-\u036f]/g,'');}
+ function filter(){const q=normalize(input.value.trim());let visible=0;for(const sec of sections){let count=0;const title=normalize(sec.dataset.category);for(const el of sec.querySelectorAll('.entry')){const show=!q || title.includes(q) || normalize(el.dataset.text).includes(q);el.classList.toggle('hidden',!show);if(show)count++;}const showSec=!q || count>0;sec.classList.toggle('hidden',!showSec);if(count)visible+=count;}empty.style.display=q && visible===0?'block':'none';}
+ input.addEventListener('input',filter);
+ async function copyToClipboard(value){
+  if(navigator.clipboard && window.isSecureContext){await navigator.clipboard.writeText(value);return;}
+  const e=document.createElement('textarea');e.value=value;e.setAttribute('readonly','');e.style.position='fixed';e.style.left='-9999px';document.body.appendChild(e);e.select();const ok=document.execCommand('copy');e.remove();if(!ok)throw new Error('Copie impossible');
+ }
+ document.addEventListener('click',async event=>{const b=event.target.closest('button[data-copy]');if(!b)return;const previous=b.textContent;try{await copyToClipboard(b.dataset.copy);b.textContent='Copié !';}catch(e){b.textContent='Sélectionne le lien';window.prompt('Copie ce texte :',b.dataset.copy);}setTimeout(()=>{b.textContent=previous;},1800);});
+})();
+</script></body></html>
