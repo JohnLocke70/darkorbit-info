@@ -1,0 +1,50 @@
+[GUIDE] Comprendre le calcul des dégâts – Méthode simple
+Comment estimer les dégâts de son vaisseau en tenant compte des différents bonus ?
+Pas besoin d'être un expert en mathématiques ! Le plus important est de comprendre ce qu'il faut additionner et ce qu'il faut multiplier.
+
+1. Partir des dégâts de base
+
+On commence par additionner les dégâts des armes concernées, en tenant compte des bonus propres à certains équipements.
+Pour notre exemple, imaginons que nous obtenions 100 000 dégâts de base.
+
+2. Additionner les bonus qui se cumulent
+
+Certains bonus en pourcentage appartiennent à une même catégorie et s'additionnent.
+Imaginons deux bonus de +20 % et +15 % qui se cumulent ainsi :
+20 % + 15 % = 35 %
+On applique donc un multiplicateur de 1,35 :
+100 000 × 1,35 = 135 000 dégâts.
+
+3. Appliquer les autres multiplicateurs
+
+Avec des munitions x4 :
+135 000 × 4 = 540 000 dégâts.
+Si un bonus indépendant de +10 % s'applique également :
+540 000 × 1,10 = 594 000 dégâts.
+
+4. Ce qu'il faut retenir
+
+On additionne les dégâts de base des équipements concernés.
+On regroupe les pourcentages qui doivent s'additionner.
+On multiplie ensuite par les autres facteurs applicables.
+Attention : tous les bonus ne se cumulent pas de la même manière et certains ne concernent qu'un équipement, un type d'arme ou une cible particulière.
+
+5. Petite astuce : calculer la moyenne des tirs renforcés
+
+Certains lasers, comme les Prometheus, bénéficient d'un supplément de dégâts toutes les 5 secondes.
+Pour estimer leurs dégâts moyens, il ne faut donc pas se baser uniquement sur le tir renforcé.
+Imaginons, pour simplifier, cinq tirs effectués en cinq secondes :
+
+Quatre tirs normaux à 100 000 dégâts.
+Un tir renforcé à 150 000 dégâts.
+
+On additionne les cinq tirs :
+400 000 + 150 000 = 550 000 dégâts.
+Puis on divise par 5 :
+550 000 ÷ 5 = 110 000 dégâts moyens par tir.
+Attention : le renforcement dépend d'un délai de 5 secondes, et non obligatoirement du cinquième tir. Notre exemple suppose des tirs réguliers, sans interruption.
+
+Conclusion
+
+Pour comparer correctement deux équipements, il faut prendre en compte les bonus applicables, mais aussi les éventuels tirs renforcés et leur fréquence.
+Ces exemples sont volontairement simplifiés pour expliquer la méthode. Les résultats réels peuvent varier selon les équipements, les effets actifs et les caractéristiques de la cible.
