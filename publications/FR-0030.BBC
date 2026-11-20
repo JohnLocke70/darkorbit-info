@@ -1,0 +1,151 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][GUIDE] DarkOrbit – Comment réduire les lags et améliorer la fluidité ?[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Les ralentissements, les images saccadées et les décalages dans les actions peuvent rendre DarkOrbit particulièrement difficile à jouer, notamment pendant les combats.
+Mais tous ces problèmes n'ont pas la même origine.
+Certains proviennent de l'ordinateur, d'autres de la connexion Internet ou directement des serveurs du jeu.
+Voici plusieurs réglages et vérifications qui peuvent améliorer la fluidité et aider à identifier l'origine des ralentissements.
+
+[I]Compatibilité : les manipulations système de ce guide concernent Windows, système officiellement pris en charge par les clients DarkOrbit. Linux et macOS peuvent nécessiter des solutions non officielles, comme Wine ou la virtualisation, dont le fonctionnement n'est pas garanti.[/I]
+
+[COLOR=#42DFFF][B]1. Identifier le type de ralentissement[/B][/COLOR]
+
+Avant de modifier les paramètres, il faut distinguer trois situations :
+
+[LIST]
+[*]Baisse des FPS : les déplacements et animations deviennent saccadés. Le problème peut provenir du PC ou du client.
+[*]Lag réseau : les actions répondent en retard, les vaisseaux se téléportent ou la connexion devient instable.
+[*]Ralentissement du serveur : plusieurs joueurs rencontrent simultanément des problèmes, malgré des ordinateurs et connexions différents.
+[/LIST]
+
+[B]Important :[/B] augmenter les FPS ne réduit pas nécessairement le temps de réponse du réseau. De même, améliorer sa connexion ne corrigera pas un PC incapable d'afficher le jeu correctement.
+
+[COLOR=#42DFFF][B]2. Optimiser les paramètres de DarkOrbit[/B][/COLOR]
+
+Les paramètres graphiques constituent souvent le premier élément à vérifier, particulièrement sur les ordinateurs modestes.
+Selon le client et les options disponibles, plusieurs réglages peuvent être utiles :
+
+[LIST]
+[*]Masquer l'affichage des drones pour réduire les éléments visibles.
+[*]Désactiver l'affichage des matières premières lorsqu'aucune récolte ou quête ne le nécessite.
+[*]Désactiver le fond de la mini-carte lorsqu'il n'apporte aucune information utile.
+[*]Réduire la qualité des explosions, des effets visuels et des arrière-plans.
+[*]Masquer certains nombres de dégâts ou informations secondaires si leur affichage n'est pas nécessaire.
+[*]Réduire la qualité graphique générale lorsque les FPS deviennent instables.
+[/LIST]
+
+[B]Attention :[/B] certains effets visuels peuvent être utiles pour identifier les attaques ou les capacités adverses.
+Il est donc préférable de modifier les paramètres progressivement, en conservant ceux qui restent nécessaires à votre manière de jouer.
+
+[COLOR=#42DFFF][B]3. Limiter les FPS lorsque cela est utile[/B][/COLOR]
+
+Lorsque l'option est disponible, limiter les images par seconde peut parfois stabiliser l'affichage et réduire la charge du processeur ou de la carte graphique.
+Par exemple, il est possible d'essayer une limite de 60 FPS plutôt que de laisser le jeu fonctionner en illimité.
+
+Cela peut être intéressant si :
+
+[LIST]
+[*]Le PC chauffe excessivement.
+[*]Le ventilateur fonctionne constamment à pleine puissance.
+[*]Les FPS varient fortement pendant les combats.
+[*]Le jeu devient moins fluide après une longue session.
+[/LIST]
+
+[B]Attention :[/B] 60 FPS n'est pas une valeur idéale pour tous les ordinateurs. Un PC puissant associé à un écran à fréquence élevée peut bénéficier d'une limite supérieure.
+L'objectif n'est pas d'obtenir le maximum de FPS, mais une fluidité régulière et adaptée à son matériel.
+
+[COLOR=#42DFFF][B]4. Optimiser Windows et son matériel[/B][/COLOR]
+
+Un ordinateur encombré ou fortement sollicité peut provoquer des ralentissements, même avec une bonne connexion Internet.
+
+Quelques recommandations :
+
+[LIST]
+[*]Fermer les programmes inutiles pendant les sessions de jeu.
+[*]Éviter les téléchargements et mises à jour importantes en arrière-plan.
+[*]Vérifier les mises à jour des pilotes graphiques.
+[*]Maintenir Windows et le client DarkOrbit à jour.
+[*]Vérifier l'espace libre sur le disque.
+[*]Surveiller les températures du processeur et de la carte graphique.
+[*]Vérifier que le PC ne manque pas de mémoire vive.
+[/LIST]
+
+Le Gestionnaire des tâches de Windows, accessible avec Ctrl + Maj + Échap, permet de contrôler l'utilisation du processeur, de la mémoire et du disque.
+
+[COLOR=#FFFFFF][B]Cas des anciens disques HDD :[/B][/COLOR]
+Sur un disque dur mécanique, une fragmentation importante peut ralentir certains accès aux fichiers.
+Windows dispose d'un outil appelé « Défragmenter et optimiser les lecteurs », généralement exécuté automatiquement.
+Il peut être utile de vérifier son fonctionnement et d'effectuer une optimisation lorsque cela est nécessaire.
+
+[B]Attention :[/B] les SSD ne doivent pas être défragmentés manuellement comme les anciens HDD. Windows utilise une optimisation adaptée à leur technologie.
+Installer le jeu sur un SSD peut également améliorer certains chargements, sans garantir une augmentation des FPS ni une réduction du ping.
+
+[COLOR=#42DFFF][B]5. Optimiser sa connexion Internet[/B][/COLOR]
+
+Une connexion instable peut provoquer des retards dans les déplacements et les actions, même lorsque le jeu s'affiche parfaitement.
+
+Quelques conseils :
+
+[LIST]
+[*]Privilégier un câble Ethernet plutôt que le Wi-Fi lorsque cela est possible.
+[*]Éviter les téléchargements importants pendant les combats.
+[*]Vérifier si d'autres appareils saturent la connexion.
+[*]Redémarrer la box ou le routeur en cas de problème persistant.
+[*]Vérifier la stabilité de la connexion, et pas uniquement son débit.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Et les serveurs DNS ?[/B][/COLOR]
+
+Il est possible d'essayer des serveurs DNS publics, notamment ceux de Cloudflare :
+
+[LIST]
+[*]DNS préféré : 1.1.1.1
+[*]DNS secondaire : 1.0.0.1
+[/LIST]
+
+Un changement de DNS peut parfois résoudre des difficultés de résolution d'adresses ou améliorer certaines connexions initiales.
+
+[B]Attention :[/B] changer de DNS n'augmente pas les FPS et ne réduit généralement pas le ping une fois connecté au serveur de jeu.
+Si le DNS actuel fonctionne correctement, le remplacer n'apportera pas forcément d'amélioration.
+
+[COLOR=#42DFFF][B]6. Éviter l'encombrement inutile du hangar[/B][/COLOR]
+
+L'accumulation d'équipements et de designs peut également contribuer à certaines lenteurs dans la gestion du hangar.
+Il peut donc être utile de faire régulièrement le tri parmi les objets qui ne servent plus.
+Cependant, il faut éviter de vendre aveuglément tous les équipements en double.
+Certains peuvent être nécessaires à plusieurs vaisseaux spécialisés, notamment pour la GG Echo ou les changements rapides de vaisseau.
+
+Pour approfondir cette question, consultez notre guide déjà publié :
+[B][GUIDE] DarkOrbit – Comment optimiser et organiser ses hangars ?[/B]
+[COLOR=#42DFFF][B]7. Lorsque le problème vient des serveurs[/B][/COLOR]
+
+Malgré tous les réglages possibles, certains ralentissements peuvent provenir directement de DarkOrbit.
+
+Cela peut notamment se produire lors :
+
+[LIST]
+[*]De combats impliquant de nombreux joueurs.
+[*]D'événements particulièrement fréquentés.
+[*]De problèmes techniques temporaires.
+[*]De certaines mises à jour ou anomalies du client et du serveur.
+[/LIST]
+
+Si plusieurs joueurs rencontrent simultanément les mêmes problèmes, il est possible que les réglages locaux ne suffisent pas.
+Dans ce cas, il est préférable de consulter les annonces officielles ou de signaler le problème au support.
+Un signalement précis mentionnant le serveur, l'identifiant du joueur, le client utilisé et les circonstances du problème facilite les recherches de l'équipe technique.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+Il n'existe pas de réglage universel permettant de supprimer tous les lags de DarkOrbit.
+
+L'amélioration de la fluidité passe principalement par :
+
+[LIST]
+[*]Des paramètres graphiques adaptés au PC.
+[*]Un système Windows correctement entretenu.
+[*]Une connexion Internet stable.
+[*]Un hangar raisonnablement organisé.
+[*]L'identification des problèmes indépendants du joueur.
+[/LIST]
+
+[B]Le plus efficace reste de tester les réglages un par un, afin de déterminer ceux qui apportent une amélioration réelle sur votre configuration.[/B]
+
+[I]Ces recommandations concernent principalement les clients DarkOrbit sous Windows. Certains paramètres peuvent varier entre Flash et Unity, et les résultats dépendent du matériel, de la connexion et de la charge des serveurs.[/I]
