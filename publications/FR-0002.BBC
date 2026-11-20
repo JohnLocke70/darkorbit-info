@@ -1,50 +1,54 @@
-[GUIDE] Comprendre le calcul des dégâts – Méthode simple
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][SIZE=5][COLOR=#FFFFFF][B][GUIDE] Comprendre le calcul des dégâts – Méthode simple[/B][/COLOR][/SIZE][/CENTER][/TD][/TR][/THEAD][/TABLE]
 Comment estimer les dégâts de son vaisseau en tenant compte des différents bonus ?
-Pas besoin d'être un expert en mathématiques ! Le plus important est de comprendre ce qu'il faut additionner et ce qu'il faut multiplier.
+Pas besoin d'être un expert en mathématiques ! Le plus important est de comprendre [B]ce qu'il faut additionner et ce qu'il faut multiplier[/B].
 
-1. Partir des dégâts de base
+[COLOR=#42DFFF][B]1. Partir des dégâts de base[/B][/COLOR]
 
 On commence par additionner les dégâts des armes concernées, en tenant compte des bonus propres à certains équipements.
-Pour notre exemple, imaginons que nous obtenions 100 000 dégâts de base.
+Pour notre exemple, imaginons que nous obtenions [B]100 000 dégâts de base[/B].
 
-2. Additionner les bonus qui se cumulent
+[COLOR=#42DFFF][B]2. Additionner les bonus qui se cumulent[/B][/COLOR]
 
 Certains bonus en pourcentage appartiennent à une même catégorie et s'additionnent.
 Imaginons deux bonus de +20 % et +15 % qui se cumulent ainsi :
-20 % + 15 % = 35 %
+20 % + 15 % = [B]35 %[/B]
 On applique donc un multiplicateur de 1,35 :
-100 000 × 1,35 = 135 000 dégâts.
+100 000 × 1,35 = [B]135 000 dégâts[/B].
 
-3. Appliquer les autres multiplicateurs
+[COLOR=#42DFFF][B]3. Appliquer les autres multiplicateurs[/B][/COLOR]
 
 Avec des munitions x4 :
-135 000 × 4 = 540 000 dégâts.
+135 000 × 4 = [B]540 000 dégâts[/B].
 Si un bonus indépendant de +10 % s'applique également :
-540 000 × 1,10 = 594 000 dégâts.
+540 000 × 1,10 = [B]594 000 dégâts[/B].
 
-4. Ce qu'il faut retenir
+[COLOR=#42DFFF][B]4. Ce qu'il faut retenir[/B][/COLOR]
 
-On additionne les dégâts de base des équipements concernés.
-On regroupe les pourcentages qui doivent s'additionner.
-On multiplie ensuite par les autres facteurs applicables.
-Attention : tous les bonus ne se cumulent pas de la même manière et certains ne concernent qu'un équipement, un type d'arme ou une cible particulière.
+[LIST]
+[*]On additionne les dégâts de base des équipements concernés.
+[*]On regroupe les pourcentages qui doivent s'additionner.
+[*]On multiplie ensuite par les autres facteurs applicables.
+[*]Attention : tous les bonus ne se cumulent pas de la même manière et certains ne concernent qu'un équipement, un type d'arme ou une cible particulière.
+[/LIST]
 
-5. Petite astuce : calculer la moyenne des tirs renforcés
+[COLOR=#42DFFF][B]5. Petite astuce : calculer la moyenne des tirs renforcés[/B][/COLOR]
 
 Certains lasers, comme les Prometheus, bénéficient d'un supplément de dégâts toutes les 5 secondes.
 Pour estimer leurs dégâts moyens, il ne faut donc pas se baser uniquement sur le tir renforcé.
 Imaginons, pour simplifier, cinq tirs effectués en cinq secondes :
 
-Quatre tirs normaux à 100 000 dégâts.
-Un tir renforcé à 150 000 dégâts.
+[LIST]
+[*]Quatre tirs normaux à 100 000 dégâts.
+[*]Un tir renforcé à 150 000 dégâts.
+[/LIST]
 
 On additionne les cinq tirs :
-400 000 + 150 000 = 550 000 dégâts.
+400 000 + 150 000 = [B]550 000 dégâts[/B].
 Puis on divise par 5 :
-550 000 ÷ 5 = 110 000 dégâts moyens par tir.
+550 000 ÷ 5 = [B]110 000 dégâts moyens par tir[/B].
 Attention : le renforcement dépend d'un délai de 5 secondes, et non obligatoirement du cinquième tir. Notre exemple suppose des tirs réguliers, sans interruption.
 
-Conclusion
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
 
 Pour comparer correctement deux équipements, il faut prendre en compte les bonus applicables, mais aussi les éventuels tirs renforcés et leur fréquence.
-Ces exemples sont volontairement simplifiés pour expliquer la méthode. Les résultats réels peuvent varier selon les équipements, les effets actifs et les caractéristiques de la cible.
+[I]Ces exemples sont volontairement simplifiés pour expliquer la méthode. Les résultats réels peuvent varier selon les équipements, les effets actifs et les caractéristiques de la cible.[/I]
