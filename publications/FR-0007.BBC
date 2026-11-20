@@ -1,0 +1,50 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][SIZE=5][COLOR=#FFFFFF][B][ÉTUDE] Prometheus Vs LF5 classique[/B][/COLOR][/SIZE][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Avec l'arrivée des LF-5, faut-il remplacer ses Prometheus ? Et les LF-5 restent-ils intéressants sans améliorations ?
+Pour le savoir, comparons leurs dégâts théoriques, à équipement identique.
+
+[COLOR=#42DFFF][B]1. Caractéristiques[/B][/COLOR]
+
+[LIST]
+[*][B]Prometheus :[/B] 210 dégâts + 200 toutes les 5 secondes.
+[*][B]LF-5 niveau 1 :[/B] 245 dégâts.
+[*][B]LF-5 niveau 20 :[/B] environ 268 dégâts.
+[/LIST]
+
+Les deux lasers peuvent être améliorés jusqu'au niveau 20, avec un bonus de dégâts de 9,5 % au maximum.
+
+[COLOR=#42DFFF][B]2. Comparaison hors cartes BL[/B][/COLOR]
+
+Sur un combat prolongé, les dégâts théoriques moyens par laser et par tir sont :
+
+[LIST]
+[*]Prometheus niveau 1 : 250
+[*]LF-5 niveau 1 : 245
+[*]Prometheus niveau 20 : 269,95
+[*]LF-5 niveau 20 : 268,28
+[/LIST]
+
+[B]Résultat :[/B] le Prometheus reste légèrement supérieur au LF-5 classique, aussi bien au niveau 1 qu'au niveau 20. À niveau d'amélioration égal, il conserve donc l'avantage.
+
+[COLOR=#42DFFF][B]3. Comparaison contre les NPC Black Light[/B][/COLOR]
+
+Le Prometheus bénéficie d'un multiplicateur ×3,5 sur ses dégâts de base contre les NPC Black Light.
+
+[LIST]
+[*]Prometheus niveau 1 : 775
+[*]LF-5 niveau 1 : 245
+[*]Prometheus niveau 20 : 844,83
+[*]LF-5 niveau 20 : 268,28
+[/LIST]
+
+[B]Résultat :[/B] le Prometheus reste largement supérieur, même face à un LF-5 entièrement amélioré.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+À niveau d'amélioration égal, le Prometheus conserve un léger avantage lors des combats ordinaires. Cet avantage devient considérable contre les NPC Black Light grâce à son bonus spécifique.
+Le LF-5 classique n'apporte donc aucun gain de dégâts par rapport à un Prometheus de même niveau d'amélioration, dans les conditions de cette étude.
+
+Attention : le bonus Black Light dépend du type d'ennemi et non simplement de la carte. Il ne s'applique donc pas aux joueurs présents sur les cartes BL.
+
+[I]Comparaison théorique en x1, sans boosters ni autres bonus, avec un tir par seconde et une surcharge toutes les 5 secondes. LF-5 classiques uniquement, hors Anchorlock et Mortifier.[/I]
+
+[B]Note : [/B]les Prometheus et les LF-5 classiques sont tous deux améliorables jusqu'au niveau 20. (revue et corrigé récemment ^^)
