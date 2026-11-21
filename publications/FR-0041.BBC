@@ -1,0 +1,217 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][GUIDE] Ascension des voyageurs – Accès, fonctionnement et récompenses[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+L'Ascension des voyageurs (Voyagers' Ascent) est une Galaxy Gate événementielle de DarkOrbit, apparue en juillet 2026.
+Elle propose un défi PvE composé de vagues de NPC, avec plusieurs niveaux de difficulté et un système de récompenses basé notamment sur la réussite et le temps de réalisation.
+Cet événement permet principalement d'obtenir des ressources nécessaires à la fabrication de nouveaux équipements, notamment les ignipropulseurs et les lentilles gravitationnelles.
+
+[COLOR=#42DFFF][B]1. Où et quand accéder à la GG ?[/B][/COLOR]
+
+Lorsque l'événement est actif, les portails sont disponibles sur les cartes X-1 et X-8 des firmes.
+Pour la firme MMO, par exemple :
+
+[LIST]
+[*]1-1 : carte de départ.
+[*]1-8 : carte des hautes zones.
+[/LIST]
+
+Le même principe s'applique aux firmes EIC et VRU.
+Les portails restent accessibles toute la journée pendant la période de l'événement.
+
+[COLOR=#FFFFFF][B]Participation :[/B][/COLOR]
+
+[LIST]
+[*]La GG se réalise individuellement.
+[*]Les combats sont exclusivement PvE.
+[*]Les membres d'un groupe ne peuvent pas entrer ensemble dans la même instance.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Disponibilité :[/B][/COLOR]
+
+L'Ascension des voyageurs est un événement temporaire revenu à plusieurs reprises en 2026.
+Il n'est donc pas accessible en permanence.
+Les dates de chaque nouvelle édition sont annoncées par Bigpoint.
+
+[COLOR=#42DFFF][B]2. Les cinq niveaux de difficulté[/B][/COLOR]
+
+La GG propose cinq difficultés :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Niveau[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Difficulté[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Condition de déblocage[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Facile[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Disponible au départ[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Normal[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 étoiles au niveau 1[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Difficile[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 étoiles au niveau 2[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Expert[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 étoiles au niveau 3[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Cauchemar[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 étoiles au niveau 4[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Chaque difficulté comporte 20 vagues de NPC.
+
+[B]Important :[/B] pour débloquer la difficulté suivante, il faut terminer la précédente avec une note de 3 étoiles.
+
+La notation dépend du temps nécessaire pour terminer la porte.
+Plus le joueur termine rapidement, meilleures sont ses chances d'obtenir les 3 étoiles.
+La difficulté influence également les quantités de ressources obtenues.
+
+[COLOR=#42DFFF][B]3. Entrées gratuites et tentatives supplémentaires[/B][/COLOR]
+
+Chaque difficulté dispose normalement d'une tentative gratuite quotidienne, à condition d'avoir été débloquée.
+Les tentatives gratuites sont réinitialisées à 00h00, heure locale du serveur.
+Il est également possible d'obtenir des entrées supplémentaires.
+
+[COLOR=#FFFFFF][B]Bonus des 3 étoiles :[/B][/COLOR]
+
+Terminer une difficulté avec 3 étoiles permet d'obtenir une entrée gratuite supplémentaire, utilisable une seule fois.
+
+[COLOR=#FFFFFF][B]Autres entrées :[/B][/COLOR]
+
+Des accès ou jetons supplémentaires peuvent être proposés pendant l'événement.
+
+Le Pass VIP apporte également une tentative gratuite quotidienne supplémentaire par difficulté.
+
+[B]Attention :[/B] les jetons d'accès sont décomptés lorsque la porte est terminée, conformément au fonctionnement indiqué dans la FAQ.
+Il faut donc distinguer les tentatives gratuites, les entrées supplémentaires et les avantages du Pass VIP.
+
+[COLOR=#42DFFF][B]4. Comment se déroule la GG ?[/B][/COLOR]
+
+Le fonctionnement général est proche de celui des Galaxy Gates classiques.
+Le joueur doit éliminer plusieurs vagues successives de NPC afin de terminer le niveau choisi.
+La difficulté augmente selon le niveau sélectionné.
+Certains NPC possèdent toutefois des capacités particulières.
+
+[COLOR=#FFFFFF][B]Whisper :[/B][/COLOR]
+
+Lorsque ses points de vie descendent sous 10 %, ce NPC peut inverser les commandes du joueur pendant 5 secondes.
+Il faut donc rester attentif à ses déplacements.
+
+[COLOR=#FFFFFF][B]Voidmare :[/B][/COLOR]
+
+Lorsqu'il est engagé au combat mais ne reçoit aucun dégât pendant 5 secondes, il peut lancer une attaque particulière si le joueur se trouve à moins de 500 unités.
+Cette attaque inflige chaque seconde des dégâts correspondant à 5 % des points de vie maximaux du vaisseau.
+
+[B]Conseil :[/B] ne sous-estimez pas ces capacités, même lorsque les premiers NPC semblent faciles à éliminer.
+L'objectif reste de terminer les 20 vagues tout en conservant suffisamment de résistance et de puissance de feu.
+
+[COLOR=#42DFFF][B]5. Quelles récompenses peut-on obtenir ?[/B][/COLOR]
+
+Les principales récompenses de la GG comprennent :
+
+[LIST]
+[*]Des fragments SD.
+[*]Des fragments CGL.
+[*]Des éclats d'Horizon.
+[*]Des points pour le Pass Ascension des voyageurs.
+[/LIST]
+
+Les quantités dépendent de la difficulté terminée et du nombre d'étoiles obtenu.
+Voici les récompenses prévues pour une réalisation avec 3 étoiles :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Difficulté[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Fragments SD[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Fragments CGL[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Éclats d'Horizon[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]7 à 11[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]7 à 11[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]14 à 22[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]14 à 22[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]21 à 33[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]21 à 33[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]15[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]28 à 44[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]28 à 44[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]20[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]36 à 54[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]36 à 54[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]25[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]Précision :[/B][/COLOR]
+
+Les quantités de fragments sont variables dans les limites indiquées.
+Le tableau correspond uniquement aux réalisations avec 3 étoiles. Avec 1 ou 2 étoiles, les quantités de fragments sont inférieures.
+Les difficultés supérieures permettent donc d'obtenir davantage de ressources, à condition de pouvoir les terminer.
+
+[COLOR=#42DFFF][B]6. À quoi servent les ressources ?[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]Fragments SD :[/B][/COLOR]
+Ils servent notamment à fabriquer des ignipropulseurs Lite dans l'Assemblage.
+La recette de fabrication nécessite 200 fragments SD pour un ignipropulseur Lite.
+
+[COLOR=#FFFFFF][B]Fragments CGL :[/B][/COLOR]
+Ils permettent notamment de fabriquer des lentilles gravitoniques chronotiques, avec 200 fragments CGL pour une lentille.
+Ces équipements appartiennent au système de défense gravitationnelle associé aux ignipropulseurs.
+
+[COLOR=#FFFFFF][B]Éclats d'Horizon :[/B][/COLOR]
+Ils servent notamment au système d'amélioration et de réinitialisation des attributs supplémentaires de ces nouveaux équipements.
+
+Pour connaître les différences entre les trois modèles d'ignipropulseurs, consultez notre étude déjà publiée :
+[B][ÉTUDE] Ignipropulseurs – Lite, Apex ou Prime : lequel choisir ?[/B]
+[COLOR=#42DFFF]
+[B]7. Le Pass Ascension des voyageurs[/B][/COLOR]
+
+L'événement propose également un Pass comportant 30 niveaux.
+Chaque réussite de la GG rapporte des points de Pass.
+
+Le nombre de points dépend :
+
+[LIST]
+[*]De la difficulté terminée.
+[*]Du nombre d'étoiles obtenu.
+[/LIST]
+
+Le Pass possède deux parcours :
+
+[COLOR=#FFFFFF][B]Parcours gratuit :[/B][/COLOR]
+Accessible sans achat, il permet notamment de récupérer des munitions, des fragments, des ressources et certains équipements.
+[COLOR=#FFFFFF]
+[B]Parcours VIP :[/B][/COLOR]
+Il nécessite un achat et permet d'obtenir des récompenses supplémentaires.
+
+Parmi ses avantages :
+
+[LIST]
+[*]Une entrée gratuite supplémentaire par difficulté et par jour.
+[*]10 % de points de Pass supplémentaires.
+[*]20 % de dégâts supplémentaires dans l'Ascension des voyageurs.
+[/LIST]
+
+Les récompenses du Pass comprennent notamment des munitions, des éclats d'Horizon, des ressources d'amélioration et des équipements spécifiques.
+
+[B]Attention :[/B] les avantages VIP ne sont disponibles que pendant la durée de l'événement concerné.
+
+[COLOR=#42DFFF][B]8. Quelques conseils[/B][/COLOR]
+
+[LIST]
+[*]Commencez par la difficulté facile pour découvrir les mécanismes.
+[*]Essayez d'obtenir 3 étoiles afin de débloquer les niveaux suivants.
+[*]Adaptez la difficulté à la puissance de votre vaisseau.
+[*]Profitez des tentatives gratuites avant d'envisager des entrées supplémentaires.
+[*]Surveillez les points de Pass pour récupérer les récompenses accessibles.
+[*]Tenez compte des capacités particulières des NPC Whisper et Voidmare.
+[/LIST]
+
+[B]Important :[/B] cette GG est principalement intéressante pour ses ressources particulières et ses récompenses de Pass.
+Elle n'est pas conçue comme une source classique d'uridium, d'expérience ou d'honneur provenant des NPC.
+Il faut donc surtout évaluer son intérêt selon les ressources et les équipements que l'on souhaite obtenir.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+L'Ascension des voyageurs est une GG événementielle individuelle proposant cinq difficultés de 20 vagues chacune.
+Sa particularité principale est le système de notation par étoiles, qui permet de débloquer progressivement les niveaux supérieurs.
+Les récompenses comprennent notamment des fragments SD, des fragments CGL, des éclats d'Horizon et des points de Pass.
+
+[B]Pour profiter au mieux de cet événement, il est conseillé de commencer par les tentatives gratuites, de débloquer progressivement les difficultés et de rechercher les ressources correspondant aux équipements que l'on souhaite fabriquer.[/B]
+
+[I]Présentation fondée sur le fonctionnement de l'Ascension des voyageurs en 2026. Les dates, les conditions d'entrée, les récompenses et les avantages du Pass peuvent évoluer lors des prochaines éditions.[/I]

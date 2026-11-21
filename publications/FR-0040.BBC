@@ -1,0 +1,240 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][GUIDE] Deep Space Echoes – Accès, vaisseaux et récompenses[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Deep Space Echoes, également appelée « Échos de l'espace », est une Galaxy Gate permanente proposant un défi particulier sur 50 niveaux.
+Contrairement aux GG classiques, elle permet d'utiliser jusqu'à cinq vaisseaux différents au cours d'une même tentative.
+Son principal intérêt est d'obtenir des récompenses de progression, des clés d'Écho et des noyaux de fluide quantique (QFC), tout en participant à un classement mensuel.
+
+[COLOR=#42DFFF][B]1. Où et comment accéder à la GG ?[/B][/COLOR]
+
+Le portail Deep Space Echoes se trouve au centre de la carte X-1 de chaque firme :
+
+[LIST]
+[*]1-1 : MMO.
+[*]2-1 : EIC.
+[*]3-1 : VRU.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Conditions d'accès :[/B][/COLOR]
+
+[LIST]
+[*]Être au minimum niveau 15.
+[*]Posséder un permis de voyage.
+[*]Utiliser ce permis pour accéder à la GG.
+[/LIST]
+
+Les permis de voyage sont notamment disponibles dans la boutique.
+La porte a été introduite sur Unity en mai 2025, puis rendue accessible sur le client Flash en mars 2026.
+
+[B]Important :[/B] il s'agit d'une GG individuelle, exclusivement PvE. Les autres joueurs ne peuvent pas vous attaquer à l'intérieur.
+
+[COLOR=#42DFFF][B]2. Préparer et sélectionner ses cinq vaisseaux[/B][/COLOR]
+
+Avant de commencer, préparez dans votre hangar jusqu'à cinq vaisseaux différents, avec leurs équipements et leurs configurations.
+Chaque vaisseau sélectionné constitue une possibilité de poursuivre le défi.
+
+[B]Conseil :[/B] préparez et équipez vos cinq vaisseaux avant de vous engager. Il serait dommage de perdre un vaisseau et de découvrir que les suivants ne disposent pas d'un équipement suffisant.
+
+Après avoir franchi le portail, vous arrivez dans une salle de commandement.
+Elle comporte trois accès principaux :
+
+[LIST]
+[*]À gauche : commencer le défi.
+[*]Au centre : sélectionner les vaisseaux.
+[*]À droite : quitter la salle ou réinitialiser la progression.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Comment sélectionner les vaisseaux ?[/B][/COLOR]
+
+[LIST]
+[*]Approchez-vous de la structure centrale de la salle de commandement.
+[*]Ouvrez l'interface de sélection des vaisseaux.
+[*]Parmi tous vos vaisseaux disponibles, sélectionnez ceux que vous souhaitez utiliser dans la GG, jusqu'à cinq.
+[*]Une fois cette première sélection effectuée, sélectionnez à nouveau le vaisseau que vous souhaitez utiliser parmi les vaisseaux retenus.
+[*]Cette seconde sélection permet de confirmer votre choix.
+[/LIST]
+
+[B]Important :[/B] le vaisseau choisi apparaît avec un cadre en surbrillance autour de lui, ce qui permet de vérifier visuellement que la sélection est bien prise en compte.
+Il faut donc distinguer deux opérations : choisir les vaisseaux qui participeront à la GG, puis confirmer celui que vous allez utiliser pour le prochain niveau.
+Il est possible de commencer avec moins de cinq vaisseaux, mais cela réduit le nombre de possibilités disponibles en cas de destruction.
+
+[B]Attention :[/B] si un vaisseau est détruit, il ne peut plus être utilisé pendant la tentative en cours.
+Vous devrez alors poursuivre avec l'un des autres vaisseaux sélectionnés.
+Lorsque tous les vaisseaux disponibles sont détruits, la tentative prend fin.
+
+Pour approfondir la préparation des équipements et des configurations, consultez notre publication :
+
+[B][GUIDE] DarkOrbit – Comment optimiser et organiser ses hangars ?[/B]
+
+[COLOR=#42DFFF][B]3. Comment se déroule la GG ?[/B][/COLOR]
+
+Deep Space Echoes comporte 50 niveaux, dont la difficulté augmente progressivement.
+Plusieurs types de défis sont proposés :
+
+[LIST]
+[*]Combat classique : éliminer tous les NPC dans le temps imparti.
+[*]Boss : vaincre un adversaire particulièrement résistant.
+[*]Escorte : protéger un vaisseau pendant son déplacement.
+[*]Défense : empêcher les NPC de détruire un vaisseau à protéger.
+[/LIST]
+
+Un boss apparaît tous les cinq niveaux :
+5, 10, 15, 20, 25, 30, 35, 40, 45 et 50.
+Avant chaque niveau, vous pouvez choisir le vaisseau disponible qui vous semble le mieux adapté.
+
+[B]Important :[/B] il ne suffit pas toujours de détruire les NPC. Lors des missions d'escorte ou de défense, la survie du vaisseau protégé fait partie des objectifs.
+Certaines fonctions habituelles, notamment les objets High-tech, sont volontairement désactivées dans cette GG.
+
+[COLOR=#42DFFF][B]4. Comment quitter la GG ou recommencer ?[/B][/COLOR]
+
+Dans la salle de commandement, le portail situé à droite permet notamment de revenir sur votre carte X-1 ou de réinitialiser le défi.
+
+[COLOR=#FFFFFF][B]Attention à ne pas confondre les deux actions :[/B][/COLOR]
+
+[LIST]
+[*]Quitter : retourner sur la carte normale.
+[*]Réinitialiser : abandonner la progression actuelle pour recommencer une tentative.
+[/LIST]
+
+Vérifiez donc bien l'option proposée avant de valider votre choix.
+Lorsque vous souhaitez simplement interrompre votre session, utilisez l'option de retour plutôt que celle de réinitialisation.
+Pour recommencer après une réinitialisation ou la perte de tous vos vaisseaux, un nouveau permis de voyage est nécessaire.
+Il est également possible de reprendre directement à certains niveaux déjà terminés, moyennant une dépense d'uridium.
+
+[COLOR=#42DFFF][B]5. Où trouver les coffres d'Écho ?[/B][/COLOR]
+
+Les coffres d'Écho apparaissent à l'intérieur de la GG après la destruction des boss, tous les cinq niveaux.
+Il faut donc rechercher le coffre laissé dans la zone de combat après avoir vaincu le boss.
+Ces coffres nécessitent des clés d'Écho spécifiques.
+
+Il existe quatre catégories :
+
+[LIST]
+[*]Coffre commun : clé d'Écho commune.
+[*]Coffre rare : clé d'Écho rare.
+[*]Coffre épique : clé d'Écho épique.
+[*]Coffre légendaire : clé d'Écho légendaire.
+[/LIST]
+
+La qualité du coffre influence les chances d'obtenir un noyau de fluide quantique de qualité supérieure.
+
+[B]Attention :[/B] les clés de butin classiques ne remplacent pas les clés d'Écho.
+Vérifiez donc que vous possédez la bonne catégorie de clé avant de vouloir ouvrir un coffre.
+
+[COLOR=#42DFFF][B]6. Comment obtenir les clés d'Écho ?[/B][/COLOR]
+
+Il existe plusieurs possibilités pour récupérer ces clés.
+
+[COLOR=#FFFFFF][B]En progressant dans la GG :[/B][/COLOR]
+
+Certaines récompenses obtenues pour la première réussite d'un niveau comprennent des clés d'Écho.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Niveau terminé[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Récompense de première réussite[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 clés d'Écho communes[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]25[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 clés d'Écho rares[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]40[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 clé d'Écho épique[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]45[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 clé d'Écho légendaire[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Ces récompenses ne sont attribuées qu'une seule fois, même après une réinitialisation mensuelle.
+
+[COLOR=#FFFFFF][B]Avec les quêtes quotidiennes :[/B][/COLOR]
+
+Deux missions permettent également d'obtenir des clés :
+
+[LIST]
+[*]« Deep Space Echoes » : 2 clés d'Écho communes.
+[*]« Dive into the Echo » : 1 clé d'Écho rare.
+[/LIST]
+
+Ces missions demandent d'éliminer certains Boss NPC sur les cartes habituelles du jeu.
+Il n'est donc pas nécessaire de réaliser les 50 niveaux de la GG pour obtenir des clés.
+
+[COLOR=#FFFFFF][B]Autres possibilités :[/B][/COLOR]
+
+Des clés peuvent également être proposées dans certaines récompenses de Pass de Saison ou dans les offres de la boutique.
+
+[B]Conseil :[/B] pensez à consulter les quêtes quotidiennes pour constituer une réserve de clés avant d'affronter les boss.
+
+[COLOR=#42DFFF][B]7. Quelles récompenses peut-on obtenir ?[/B][/COLOR]
+
+Deep Space Echoes propose trois catégories de récompenses.
+
+[COLOR=#FFFFFF][B]Récompenses de première réussite :[/B][/COLOR]
+
+Chaque niveau terminé pour la première fois peut rapporter des ressources particulières :
+
+[LIST]
+[*]Seprom.
+[*]Bifenon et tétrathrine.
+[*]Munitions et roquettes.
+[*]Clés de butin classiques.
+[*]Clés d'Écho.
+[*]ABR et accélérateurs d'Indoctrine.
+[*]Huile-Indoctrine et autres ressources.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Récompenses régulières :[/B][/COLOR]
+
+Les niveaux terminés rapportent également de l'uridium et des munitions UCB-100.
+Ces gains augmentent avec la progression dans la GG.
+
+[COLOR=#FFFFFF][B]Récompenses des coffres :[/B][/COLOR]
+
+Les coffres d'Écho permettent notamment d'obtenir des noyaux de fluide quantique (QFC).
+Ces équipements spéciaux améliorent certaines caractéristiques des vaisseaux.
+
+Il existe deux grandes familles :
+
+[LIST]
+[*]QFC d'attaque : bonus offensifs.
+[*]QFC de défense : bonus défensifs.
+[/LIST]
+
+Un QFC est associé à un modèle de vaisseau particulier.
+Il peut être amélioré dans l'Hyperforge, située dans l'Assemblage, notamment avec des alliages Luminaflux.
+
+[B]Important :[/B] il n'est pas nécessaire de détailler ici toutes les caractéristiques des QFC. Leur intérêt principal est d'améliorer les performances du vaisseau auquel ils sont destinés.
+
+[COLOR=#42DFFF][B]8. Classement et réinitialisation mensuelle[/B][/COLOR]
+
+Deep Space Echoes dispose d'un classement mensuel.
+Les joueurs sont classés selon le niveau le plus élevé atteint.
+En cas d'égalité, le temps nécessaire pour progresser permet de départager les participants.
+Le classement peut rapporter des récompenses supplémentaires selon la position obtenue.
+Les détails des gains sont consultables dans l'onglet « Récompenses » de l'interface Deep Space Echoes.
+
+[COLOR=#FFFFFF][B]Réinitialisation :[/B][/COLOR]
+
+Elle intervient le dernier jour de chaque mois à 23h59, en heure locale du serveur (LST).
+
+Cette réinitialisation concerne :
+
+[LIST]
+[*]La progression dans la GG.
+[*]Le classement mensuel.
+[*]Les récompenses associées au classement.
+[/LIST]
+
+En revanche, les récompenses de première réussite déjà obtenues ne sont pas réattribuées.
+
+[B]Conseil :[/B] avant la fin du mois, vérifiez votre progression et votre classement pour décider s'il est intéressant de poursuivre le défi.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+Deep Space Echoes est une GG permanente de 50 niveaux, avec des objectifs variés et la possibilité de sélectionner jusqu'à cinq vaisseaux.
+
+Ses principales particularités sont :
+
+[LIST]
+[*]La préparation de plusieurs vaisseaux.
+[*]La double sélection nécessaire pour confirmer le vaisseau utilisé.
+[*]Les coffres d'Écho obtenus après les boss.
+[*]Les clés spécifiques et les noyaux de fluide quantique.
+[*]Un classement et une réinitialisation mensuels.
+[/LIST]
+
+[B]Le plus important est de préparer correctement ses vaisseaux, de vérifier leur sélection, de comprendre les différentes missions et de ne pas confondre la sortie normale avec la réinitialisation du défi.[/B]
+
+[I]Présentation fondée sur les FAQ officielles et les modifications apportées à Deep Space Echoes jusqu'en 2026. Les récompenses de classement et certaines modalités peuvent évoluer lors des mises à jour du jeu.[/I]
