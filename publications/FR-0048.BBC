@@ -1,0 +1,265 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][ÉTUDE] Chambardeurs de gravité – Comparatif, choix et combinaisons[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Les chambardeurs de gravité sont des équipements défensifs introduits avec le système des ignipropulseurs dans DarkOrbit.
+Deux modèles sont disponibles : la lentille gravitronique chronotique et la lentille gravitationnelle Omega.
+Leur objectif est de protéger le vaisseau contre les attaques des ignipropulseurs Lite, Apex et Prime.
+Mais quelle est la différence entre ces deux équipements ? Faut-il privilégier les modèles Omega ou utiliser des combinaisons de lentilles ?
+Cette étude compare leurs caractéristiques techniques et présente plusieurs possibilités d'équipement.
+
+[COLOR=#42DFFF][B]1. Fonctionnement des chambardeurs de gravité[/B][/COLOR]
+
+Les chambardeurs constituent le système défensif associé aux ignipropulseurs.
+Contrairement aux réfracteurs, qui possèdent des défenses thermiques, corrosives et électriques, les chambardeurs ne sont pas répartis entre plusieurs familles de dégâts.
+Ils sont conçus pour contrer le système d'attaque des ignipropulseurs.
+
+Les deux modèles disponibles sont :
+
+[LIST]
+[*]Lentille gravitronique chronotique (GL-CHRON).
+[*]Lentille gravitationnelle Omega (GL-OMEGA).
+[/LIST]
+
+Les vaisseaux disposent d'emplacements spécifiques pour ces équipements.
+Le nombre maximal de chambardeurs dépend du modèle de vaisseau et peut atteindre 15 emplacements.
+
+[B]Important :[/B] les chambardeurs ne doivent pas être confondus avec les réfracteurs ni avec les générateurs de bouclier classiques. Leur fonction concerne spécifiquement la défense contre les ignipropulseurs.
+
+[COLOR=#42DFFF][B]2. Comparatif des caractéristiques techniques[/B][/COLOR]
+
+Les valeurs de défense de base annoncées dans la FAQ officielle sont les suivantes :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Caractéristique[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]GL-CHRON[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]GL-OMEGA[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Défense de base[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]75[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]150[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Niveau maximal d'amélioration[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]20[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]20[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Attributs supplémentaires maximaux[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Protection contre les ignipropulseurs[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Oui[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Oui[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+À niveau et attributs équivalents, la lentille Omega possède donc une valeur de défense de base deux fois supérieure à celle de la lentille chronotique.
+
+La différence est importante :
+
+[LIST]
+[*]GL-CHRON : 75 points de défense de base.
+[*]GL-OMEGA : 150 points de défense de base.
+[*]Écart : 75 points en faveur de l'Omega.
+[/LIST]
+
+[B]Attention :[/B] ces valeurs correspondent aux statistiques affichées des équipements. Elles ne représentent pas directement des pourcentages de réduction des dégâts.
+La formule exacte de calcul de la protection n'étant pas détaillée dans la FAQ, il ne faut pas transformer ces valeurs en pourcentages sans vérification.
+
+[COLOR=#42DFFF][B]3. Contre quels ignipropulseurs sont-ils utiles ?[/B][/COLOR]
+
+Les chambardeurs sont destinés à contrer les attaques du système Singularity Drive.
+
+Les trois ignipropulseurs concernés sont :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Ignipropulseur[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Dégâts de base[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Défense associée[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Lite[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]54[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Chambardeur de gravité[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Apex[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]90[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Chambardeur de gravité[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Prime[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]150[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Chambardeur de gravité[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Les ignipropulseurs utilisent des munitions spécifiques GSP et produisent des attaques de zone pouvant toucher plusieurs cibles.
+Les différences de puissance entre Lite, Apex et Prime ne nécessitent pas de famille différente de chambardeurs.
+Les GL-CHRON et GL-OMEGA remplissent donc la même fonction défensive contre ce système d'armement.
+
+[B]Important :[/B] les dégâts réels des ignipropulseurs dépendent également des munitions, améliorations, attributs et bonus d'ensemble. Les valeurs du tableau ne permettent pas, à elles seules, de déterminer les dégâts effectivement évités par les chambardeurs.
+
+[COLOR=#42DFFF][B]4. Quelles combinaisons installer ?[/B][/COLOR]
+
+Contrairement aux réfracteurs, le choix ne consiste pas à répartir plusieurs types de protection.
+Les deux lentilles remplissent la même fonction, avec des valeurs de défense différentes.
+Il est donc possible de constituer des configurations progressives en remplaçant les GL-CHRON par des GL-OMEGA à mesure que ces dernières deviennent disponibles.
+
+Voici plusieurs exemples pour un vaisseau disposant de 15 emplacements :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Configuration[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]GL-CHRON[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]GL-OMEGA[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Somme des défenses de base[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Chronotique[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]15[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 125[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Mixte initiale[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 500[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Mixte équilibrée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]8[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]7[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 650[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Mixte renforcée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 875[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Omega complète[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]15[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2 250[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]Précision importante :[/B][/COLOR]
+
+Les totaux correspondent uniquement à l'addition arithmétique des valeurs de défense de base des équipements.
+Ils permettent de comparer les configurations sur le papier, mais ne constituent pas une formule officielle de réduction des dégâts.
+L'efficacité réelle dépend du fonctionnement du système défensif et des autres caractéristiques du combat.
+
+[COLOR=#FFFFFF][B]Configuration chronotique : 15 GL-CHRON[/B][/COLOR]
+
+Cette configuration représente une solution accessible pour commencer à équiper les emplacements disponibles.
+Elle permet d'utiliser les lentilles chronotiques obtenues ou fabriquées sans attendre de posséder des modèles Omega.
+Son principal inconvénient reste la défense de base inférieure de chaque lentille.
+
+[COLOR=#FFFFFF][B]Configuration mixte : GL-CHRON et GL-OMEGA[/B][/COLOR]
+
+Une configuration mixte permet de renforcer progressivement la défense du vaisseau.
+Par exemple, remplacer cinq lentilles chronotiques par cinq Omega augmente la somme des valeurs nominales de défense de 375 points.
+Cette méthode évite d'attendre de disposer d'un équipement Omega complet avant de commencer à améliorer sa configuration.
+Cependant, aucune synergie particulière entre les deux modèles n'est indiquée dans la FAQ officielle.
+Le mélange n'apporte donc pas de bonus d'ensemble confirmé.
+
+[COLOR=#FFFFFF][B]Configuration Omega complète : 15 GL-OMEGA[/B][/COLOR]
+
+Cette configuration possède la somme des défenses de base la plus élevée parmi les exemples présentés.
+À niveau et attributs supplémentaires identiques, les Omega sont donc les plus intéressantes pour maximiser la défense nominale.
+Cela ne garantit toutefois pas une réduction proportionnelle des dégâts réellement subis.
+Le choix doit également tenir compte des améliorations et des attributs supplémentaires de chaque équipement.
+
+[COLOR=#42DFFF][B]5. Les améliorations et attributs supplémentaires[/B][/COLOR]
+
+Les chambardeurs peuvent être améliorés jusqu'au niveau 20.
+Le système d'amélioration permet de débloquer progressivement des attributs supplémentaires :
+
+[LIST]
+[*]Niveau 5 : premier attribut.
+[*]Niveau 10 : deuxième attribut.
+[*]Niveau 15 : troisième attribut.
+[*]Niveau 20 : quatrième attribut.
+[/LIST]
+
+Ces attributs sont aléatoires et peuvent influencer les performances de l'équipement.
+
+Les améliorations nécessitent plusieurs ressources, notamment :
+
+[LIST]
+[*]ABR.
+[*]Isochronate.
+[*]Uridium.
+[*]Diamétrion.
+[*]Huile d'indoctrine.
+[/LIST]
+
+La FAQ indique également une progression de 0,5 % par niveau pour le bonus d'amélioration, mais ne précise pas suffisamment son application à la défense des chambardeurs pour en déduire une valeur défensive exacte.
+
+[COLOR=#42DFFF][B]6. La restabilisation des attributs[/B][/COLOR]
+
+Les chambardeurs bénéficient d'un système de restabilisation permettant de modifier les attributs supplémentaires débloqués.
+
+Deux ressources particulières interviennent :
+
+[LIST]
+[*]Éclats d'Horizon : permettent de relancer les attributs.
+[*]Nœuds de confinement : permettent de verrouiller certains attributs afin de les conserver lors d'une nouvelle tentative.
+[/LIST]
+
+Ce système présente un intérêt pour personnaliser les performances d'un équipement.
+Ainsi, deux lentilles Omega de même niveau peuvent disposer d'attributs supplémentaires différents.
+Avant de remplacer une lentille améliorée, il est donc préférable de comparer l'ensemble de ses caractéristiques plutôt que sa seule défense de base.
+
+[COLOR=#42DFFF][B]7. Comment obtenir les chambardeurs ?[/B][/COLOR]
+
+Les lentilles chronotiques peuvent notamment être fabriquées dans l'Assemblage.
+
+La recette de référence nécessite :
+
+[LIST]
+[*]200 fragments CGL pour une GL-CHRON.
+[/LIST]
+
+Ces fragments peuvent être obtenus dans l'événement Ascension des voyageurs, dont les récompenses dépendent de la difficulté et du nombre d'étoiles.
+Les lentilles peuvent également apparaître parmi certaines récompenses événementielles.
+Le modèle Omega est notamment proposé dans des récompenses spécifiques, comme le parcours VIP du Pass Ascension des voyageurs ou certains coffres événementiels.
+Les disponibilités peuvent évoluer selon les événements et les offres proposés par Bigpoint.
+
+Pour connaître le fonctionnement de l'événement permettant de récupérer les fragments CGL, consulter notre guide :
+
+[B][GUIDE] Ascension des voyageurs – Accès, fonctionnement et récompenses[/B]
+
+[COLOR=#42DFFF][B]8. Quelle configuration privilégier en PvP et en PvE ?[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]En PvP[/B][/COLOR]
+
+Les chambardeurs peuvent présenter un intérêt face aux adversaires utilisant des ignipropulseurs.
+
+Leur utilité dépend notamment :
+
+[LIST]
+[*]Du nombre d'ignipropulseurs utilisés par l'adversaire.
+[*]De la puissance de ses équipements.
+[*]Des munitions GSP employées.
+[*]Des bonus offensifs disponibles.
+[*]De la défense et des attributs supplémentaires des chambardeurs équipés.
+[/LIST]
+
+Lorsqu'on cherche à maximiser la défense de base contre ce système d'attaque, les lentilles Omega constituent le choix prioritaire à caractéristiques équivalentes.
+Une configuration mixte reste une solution de progression lorsque le joueur ne possède pas suffisamment d'Omega.
+
+[COLOR=#FFFFFF][B]En PvE[/B][/COLOR]
+
+Les chambardeurs ne constituent pas une protection générale contre tous les NPC.
+Leur intérêt doit être évalué selon les types d'attaques réellement utilisés par les ennemis rencontrés.
+La FAQ ne permet pas d'affirmer qu'ils apportent une protection supplémentaire contre les attaques laser ordinaires ou contre tous les dégâts de zone.
+Il convient donc de ne pas surestimer leur utilité pour le PvE classique.
+
+[COLOR=#42DFFF][B]9. Quel chambardeur choisir ?[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]GL-CHRON : pour commencer[/B][/COLOR]
+
+La lentille chronotique constitue une solution de départ intéressante.
+Elle permet d'occuper progressivement les emplacements disponibles et possède l'avantage de pouvoir être fabriquée avec les fragments CGL.
+Sa défense de base reste néanmoins inférieure à celle de l'Omega.
+
+[COLOR=#FFFFFF][B]GL-OMEGA : pour renforcer sa défense[/B][/COLOR]
+
+La lentille Omega possède la valeur de défense de base la plus élevée des deux modèles.
+Elle représente donc le choix privilégié pour rechercher une défense nominale maximale contre les ignipropulseurs.
+Son acquisition peut toutefois dépendre de récompenses événementielles particulières.
+
+[COLOR=#FFFFFF][B]La configuration mixte : pour progresser[/B][/COLOR]
+
+Utiliser simultanément des GL-CHRON et des GL-OMEGA constitue une solution intermédiaire.
+Elle permet d'améliorer progressivement l'équipement sans attendre de disposer de toutes les lentilles Omega nécessaires.
+Il ne s'agit cependant pas d'une combinaison apportant un avantage tactique spécifique confirmé.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+Les chambardeurs de gravité constituent le système défensif associé aux ignipropulseurs Lite, Apex et Prime.
+
+Deux modèles sont disponibles :
+
+[LIST]
+[*]GL-CHRON : 75 points de défense de base, intéressante pour commencer.
+[*]GL-OMEGA : 150 points de défense de base, à privilégier pour maximiser la défense nominale.
+[/LIST]
+
+Les configurations mixtes permettent de progresser progressivement vers un équipement plus performant.
+Contrairement aux réfracteurs, le choix ne repose pas sur un équilibre entre plusieurs familles de dégâts, mais principalement sur la puissance défensive des équipements, leurs améliorations et leurs attributs supplémentaires.
+Le modèle Omega possède un avantage clair sur sa statistique de base, mais les dégâts réellement réduits dépendent de mécanismes qui ne sont pas entièrement détaillés dans la FAQ officielle.
+
+[B]Pour approfondir les caractéristiques offensives des armes auxquelles les chambardeurs sont associés, consulter également :[/B]
+[ÉTUDE] Ignipropulseurs – Lite, Apex ou Prime : lequel choisir ?
+
+[I]Étude fondée sur les caractéristiques officielles disponibles en novembre 2026. Les combinaisons présentées sont des comparaisons théoriques et ne constituent pas des mesures de réduction effective des dégâts.[/I]

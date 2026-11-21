@@ -1,0 +1,208 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][ÉTUDE] Réfracteurs – Comparatif, choix et combinaisons[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Les réfracteurs constituent le système de défense de DarkOrbit contre les attaques des canons à particules.
+Trois familles existent : thermique, corrosive et électrique. Chacune offre une protection adaptée à un type d'attaque particulier.
+Mais avec seulement six emplacements disponibles sur un vaisseau, faut-il privilégier une seule famille, répartir équitablement les réfracteurs ou rechercher des combinaisons spécialisées ?
+Cette étude compare leurs caractéristiques et examine les configurations possibles pour mieux adapter sa défense aux situations de combat.
+
+[COLOR=#42DFFF][B]1. Les trois familles de réfracteurs[/B][/COLOR]
+
+Les réfracteurs sont directement associés aux trois types de canons à particules :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Réfracteur[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Type de défense[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Canon concerné[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]MR-T[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Thermique[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Helios[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]MR-C[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Corrosive[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Nidhogg[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]MR-E[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Électrique[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Indra[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Chaque réfracteur protège contre les attaques correspondant à sa famille.
+Contrairement aux générateurs de bouclier classiques, les réfracteurs sont destinés à réduire les dégâts des canons à particules. Ils ne constituent donc pas une protection générale contre les lasers et les roquettes.
+Un vaisseau dispose de six emplacements réservés aux réfracteurs, dans lesquels les trois familles peuvent être mélangées librement.
+
+[COLOR=#42DFFF][B]2. Comparatif des caractéristiques techniques[/B][/COLOR]
+
+Chaque famille comprend six modèles, numérotés de 01 à 06.
+Les valeurs suivantes correspondent aux défenses de base, avant améliorations et attributs supplémentaires.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Niveau[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Thermique MR-T[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Corrosif MR-C[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Électrique MR-E[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Attributs supplémentaires[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]01[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]40[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]40[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]60[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]02[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]120[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]120[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]80[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]03[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]240[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]240[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]100[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]04[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]480[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]480[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]120[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]05[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]560[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]560[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]140[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]06[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]640[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]640[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]160[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]Observations :[/B][/COLOR]
+
+[LIST]
+[*]Les réfracteurs thermiques et corrosifs possèdent des valeurs de défense identiques à niveau équivalent.
+[*]Les réfracteurs électriques suivent une progression différente.
+[*]Les modèles 06 offrent la défense de base la plus élevée de leur famille.
+[*]Les modèles de niveau supérieur disposent généralement de davantage d'attributs supplémentaires.
+[/LIST]
+
+[B]Attention :[/B] les valeurs des trois familles ne doivent pas être interprétées comme des pourcentages de réduction des dégâts.
+Par exemple, un MR-T06 possède 640 points de défense de base, mais cela ne signifie pas qu'il réduit les dégâts thermiques de 640 points ou de 64 %.
+
+[COLOR=#42DFFF][B]3. Les attributs supplémentaires[/B][/COLOR]
+
+Les réfracteurs possèdent des attributs générés aléatoirement lors de leur obtention.
+Le système des canons à particules comporte notamment des caractéristiques défensives telles que :
+
+[LIST]
+[*]La défense contre les dégâts d'un type donné.
+[*]Le bonus de défense correspondant.
+[*]La résistance aux coups critiques.
+[*]L'esquive.
+[/LIST]
+
+L'intérêt d'un réfracteur ne dépend donc pas uniquement de sa valeur de défense de base.
+Deux réfracteurs d'un même modèle peuvent présenter des caractéristiques supplémentaires différentes.
+Il faut également tenir compte des attributs offensifs de l'adversaire, notamment de la pénétration des canons, qui s'oppose à la défense.
+
+[COLOR=#42DFFF][B]4. Quelles combinaisons utiliser ?[/B][/COLOR]
+
+Les six emplacements permettent de nombreuses répartitions.
+Les configurations suivantes constituent des orientations tactiques théoriques, et non un classement de performances confirmé par des tests.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Configuration[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Thermiques[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Corrosifs[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Électriques[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Thermique spécialisée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]6[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Corrosive spécialisée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]6[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Électrique spécialisée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]6[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Double protection[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Trois familles équilibrées[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Mixte renforcée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]Configuration spécialisée : 6 réfracteurs identiques[/B][/COLOR]
+
+Cette solution concentre les emplacements disponibles sur une seule famille.
+Elle peut être intéressante lorsqu'on connaît à l'avance le type d'attaque à affronter.
+Son principal inconvénient est l'absence de réfracteurs des deux autres familles.
+
+[COLOR=#FFFFFF][B]Configuration double : 3 thermiques + 3 corrosifs[/B][/COLOR]
+
+Cette répartition cherche un compromis entre la protection contre Helios et celle contre Nidhogg.
+Elle ne prévoit cependant aucun emplacement pour une défense électrique.
+
+[COLOR=#FFFFFF][B]Configuration polyvalente : 2 thermiques + 2 corrosifs + 2 électriques[/B][/COLOR]
+
+Cette répartition permet de disposer des trois familles.
+Elle présente l'avantage de ne négliger aucun type d'attaque.
+Toutefois, une répartition égale des emplacements ne garantit pas une protection égale contre les trois familles, puisque leurs valeurs de base diffèrent.
+
+[COLOR=#FFFFFF][B]Configuration mixte : 3 thermiques + 2 corrosifs + 1 électrique[/B][/COLOR]
+
+Cette configuration privilégie la défense thermique tout en conservant une protection contre les deux autres familles.
+Les proportions peuvent naturellement être inversées selon les adversaires rencontrés.
+
+[COLOR=#42DFFF][B]5. Quelle configuration privilégier en PvP ?[/B][/COLOR]
+
+Le choix dépend principalement des armes utilisées par l'adversaire.
+Contre un joueur utilisant principalement Helios, les réfracteurs thermiques deviennent prioritaires.
+Face à un utilisateur de Nidhogg, les réfracteurs corrosifs méritent davantage d'attention.
+Contre Indra, il faut privilégier la défense électrique.
+En revanche, lorsqu'on ignore l'équipement adverse, une configuration mixte peut présenter un intérêt pour conserver une protection contre plusieurs familles.
+Aucune répartition universelle ne peut être désignée sans tenir compte des valeurs réelles des équipements et du calcul des dégâts.
+
+[COLOR=#42DFFF][B]6. Et en PvE ?[/B][/COLOR]
+
+L'intérêt des réfracteurs dépend des attaques effectivement utilisées par les NPC.
+Leur efficacité contre les canons à particules ne signifie pas qu'ils améliorent automatiquement la résistance à tous les NPC du jeu.
+Il faut donc distinguer les ennemis utilisant les systèmes d'attaque concernés des NPC dont les dégâts reposent sur d'autres mécanismes.
+Pour le PvE, la priorité reste d'identifier les types de dégâts rencontrés avant de consacrer des emplacements à une protection spécialisée.
+
+[COLOR=#42DFFF][B]7. Améliorer ses réfracteurs[/B][/COLOR]
+
+Les réfracteurs peuvent être améliorés jusqu'au niveau 20.
+La FAQ officielle indique une progression de 0,5 % par niveau pour la statistique améliorée, désignée « Cannon Shield ».
+Les améliorations nécessitent notamment des ressources telles que les RLA, l'huile d'indoctrine et le diamétrion.
+Les puces OptiGrad permettent quant à elles de relancer les attributs supplémentaires depuis l'Assemblage, dans la rubrique de restabilisation.
+
+Ces opérations ont des objectifs différents :
+
+[LIST]
+[*]L'amélioration augmente la statistique prévue par le système.
+[*]La restabilisation modifie les attributs supplémentaires.
+[*]Le choix de la famille détermine le type d'attaque auquel le réfracteur est destiné.
+[/LIST]
+
+Un équipement amélioré ne remplace donc pas la nécessité de choisir une combinaison adaptée.
+
+[COLOR=#42DFFF][B]8. Les limites du comparatif[/B][/COLOR]
+
+Certaines informations techniques nécessitent encore des vérifications :
+
+[LIST]
+[*]La formule exacte de réduction des dégâts.
+[*]La manière dont les défenses de plusieurs réfracteurs sont cumulées.
+[*]L'influence chiffrée de la pénétration des canons.
+[*]Les éventuels plafonds de réduction.
+[*]L'efficacité réelle des différentes répartitions en combat.
+[/LIST]
+
+Ces éléments sont importants pour éviter de présenter une combinaison comme supérieure sans disposer de résultats vérifiables.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+Les réfracteurs thermiques, corrosifs et électriques répondent à des besoins défensifs distincts.
+Le modèle de niveau 06 possède la défense de base la plus élevée de sa famille, mais la qualité des attributs supplémentaires et la composition des six emplacements restent déterminantes.
+Les configurations spécialisées cherchent à renforcer la défense contre une famille précise, tandis que les configurations mixtes offrent une couverture plus diversifiée.
+Le meilleur choix dépend donc des attaques rencontrées, des équipements disponibles et des performances réelles constatées.
+
+Pour approfondir les caractéristiques offensives de ces équipements, consulter également notre étude :
+
+[B][ÉTUDE] Canons à particules – Helios, Nidhogg ou Indra : lequel choisir ?[/B]
+
+[I]Étude fondée sur les caractéristiques officielles disponibles en novembre 2026. Les combinaisons proposées sont des orientations théoriques nécessitant des vérifications en jeu.[/I]

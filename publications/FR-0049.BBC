@@ -1,0 +1,250 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][GUIDE] Maps pirates – 5-1, 5-2 et 5-3[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Les maps pirates de DarkOrbit constituent un ensemble de cartes particulières, accessibles depuis la map 4-5.
+Elles permettent notamment de combattre des NPC pirates, d'accomplir des missions spécifiques et de récolter du palladium pour obtenir des énergies Galaxy Gates.
+Cependant, leur fonctionnement diffère des maps classiques : circulation à sens unique, obstacles, brouillard, mines et impossibilité d'utiliser les moyens habituels de saut direct.
+Ce guide présente les caractéristiques des maps 5-1, 5-2 et 5-3, leurs dangers ainsi que plusieurs astuces pour faciliter les déplacements et optimiser la récolte du palladium.
+
+[COLOR=#42DFFF][B]1. Accès aux maps pirates[/B][/COLOR]
+
+Les maps pirates sont accessibles à partir du niveau 12, par les portails situés en 4-5.
+Cette carte possède trois portails d'accès correspondant aux différentes firmes.
+Quelle que soit l'entrée utilisée, le joueur arrive d'abord en 5-1.
+Il faut ensuite suivre obligatoirement le parcours prévu pour rejoindre les autres cartes.
+
+[COLOR=#42DFFF][B]2. Une circulation à sens unique[/B][/COLOR]
+
+Contrairement aux maps classiques, les maps pirates fonctionnent selon un itinéraire imposé.
+
+[COLOR=#FFFFFF][B]Parcours :[/B][/COLOR]
+
+4-5 → 5-1 → 5-2 → 5-3 → 4-4
+
+Une fois un portail franchi, il n'est pas possible de revenir directement sur la carte précédente par ce même chemin.
+
+Par exemple :
+
+[LIST]
+[*]Depuis la 5-1, le portail permet de rejoindre la 5-2.
+[*]Depuis la 5-2, le portail normal mène à la 5-3.
+[*]Depuis la 5-3, le portail de sortie débouche en 4-4.
+[/LIST]
+
+Pour revenir normalement en 5-2 depuis la 5-3, il faut donc sortir, rejoindre la 4-5 et recommencer le circuit.
+
+[B]Important :[/B]
+
+[LIST]
+[*]La puce Jump ne permet pas de rejoindre directement les maps pirates.
+[*]La carte stellaire ne permet pas non plus d'effectuer un saut direct vers ces cartes.
+[*]Les déplacements entre les maps pirates doivent normalement s'effectuer par les portails prévus.
+[/LIST]
+
+Il existe toutefois une astuce utilisant plusieurs vaisseaux stationnés sur différentes cartes, que nous verrons plus loin.
+
+[COLOR=#42DFFF][B]3. Présentation des trois maps[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]Map 5-1 – L'entrée du territoire pirate[/B][/COLOR]
+
+La 5-1 constitue la première étape du parcours.
+Elle comporte plusieurs obstacles et zones dangereuses :
+
+[LIST]
+[*]Un labyrinthe central constitué de débris.
+[*]Des champs de mines à certains endroits.
+[*]Des zones de brouillard.
+[*]Des NPC pirates.
+[*]Quelques zones contenant du palladium.
+[/LIST]
+
+Le brouillard possède une particularité importante : il désactive le camouflage du vaisseau.
+Il faut donc éviter de compter uniquement sur son invisibilité pour traverser ces zones.
+Les champs de mines imposent également de surveiller sa trajectoire.
+
+[B]Conseil :[/B] Pour simplement traverser la 5-1, privilégier un vaisseau suffisamment rapide et éviter les secteurs dangereux lorsque cela est possible.
+
+[COLOR=#FFFFFF][B]Map 5-2 – La base pirate[/B][/COLOR]
+
+La 5-2 occupe une place centrale dans le fonctionnement des maps pirates.
+Elle possède une base située au centre de la carte, accessible aux joueurs des trois firmes.
+
+Cette base permet notamment :
+
+[LIST]
+[*]De vendre les minerais ordinaires.
+[*]D'échanger le palladium contre des énergies Galaxy Gates.
+[*]De disposer d'une zone de non-agression autour de la station.
+[/LIST]
+
+La 5-2 ne possède pas de zone de récolte de palladium comparable à celle de la 5-3.
+Elle représente donc surtout une étape logistique pour les joueurs qui récoltent cette ressource.
+Les environs de la base restent néanmoins dangereux en raison des NPC et de la présence éventuelle de joueurs adverses.
+
+[COLOR=#FFFFFF][B]Map 5-3 – La principale zone de palladium[/B][/COLOR]
+
+La 5-3 est particulièrement connue pour sa grande zone de récolte située dans la partie inférieure de la carte.
+
+Elle comprend :
+
+[LIST]
+[*]Une importante zone de palladium.
+[*]Des secteurs recouverts de brouillard.
+[*]Des labyrinthes et obstacles.
+[*]Des champs de mines.
+[*]Des NPC pirates.
+[*]Le Battleray, accompagné notamment d'Interceptors.
+[/LIST]
+
+Le palladium se trouve principalement dans la zone de brouillard, ce qui rend le camouflage inefficace pendant la récolte.
+Le joueur doit également faire attention aux NPC qui peuvent s'accumuler autour de son vaisseau.
+Le portail de sortie vers la 4-4 se trouve sur la partie gauche de la carte.
+Attention également à la sortie : la 4-4 étant une map de combat, des joueurs adverses peuvent se trouver à proximité.
+
+[COLOR=#42DFFF][B]4. Les principaux NPC pirates[/B][/COLOR]
+
+Plusieurs types de NPC peuvent être rencontrés sur ces cartes.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]NPC[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Particularité[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Interceptor[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]NPC rapide pouvant attaquer en groupe[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Barracuda[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Pirate disposant d'une puissance de feu importante[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Saboteur[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Peut ralentir les déplacements du vaisseau[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Annihilator[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]NPC plus résistant[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Variantes Uber[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Versions renforcées de certains pirates[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Battleray[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]NPC particulier présent en 5-3[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Les Interceptors peuvent devenir gênants lorsqu'ils se regroupent en grand nombre.
+Les Saboteurs sont également dangereux en raison de leur capacité à ralentir les vaisseaux, notamment lors d'une tentative de fuite.
+Il est donc préférable de conserver une configuration capable de résister aux attaques tout en maintenant une mobilité suffisante.
+
+[COLOR=#42DFFF][B]5. Le palladium et son utilisation[/B][/COLOR]
+
+Le palladium est une ressource particulière, principalement récoltée en 5-3.
+Contrairement aux minerais ordinaires, il ne se vend pas contre des crédits.
+Il doit être échangé à la base pirate située en 5-2.
+
+[COLOR=#FFFFFF][B]Taux d'échange :[/B][/COLOR]
+
+15 unités de palladium = 1 énergie Galaxy Gates.
+
+Par exemple :
+
+[LIST]
+[*]150 palladium = 10 énergies.
+[*]750 palladium = 50 énergies.
+[*]1 500 palladium = 100 énergies.
+[/LIST]
+
+Ces énergies peuvent ensuite être utilisées dans le matérialisateur Galaxy Gates.
+
+[COLOR=#FFFFFF][B]Récolte du palladium[/B][/COLOR]
+
+Le palladium peut être ramassé directement par le vaisseau.
+Le REX, équipé du matériel de collecte automatique des ressources, peut également participer à la récolte.
+Cette assistance permet de ramasser davantage de ressources tout en surveillant les NPC et les autres joueurs.
+Il faut cependant tenir compte de la capacité de la soute du vaisseau et des dangers présents dans la zone.
+
+[COLOR=#42DFFF][B]6. Astuce : stationner un vaisseau en 5-2[/B][/COLOR]
+
+C'est probablement l'une des astuces les plus utiles pour les joueurs qui récoltent régulièrement du palladium.
+En raison du sens unique de circulation, retourner en 5-2 depuis la 5-3 peut nécessiter un trajet particulièrement long.
+Il existe cependant une solution simple : utiliser deux vaisseaux.
+
+[COLOR=#FFFFFF][B]Principe :[/B][/COLOR]
+
+[LIST]
+[*]Stationner un premier vaisseau à la base pirate en 5-2.
+[*]Utiliser un deuxième vaisseau pour récolter le palladium en 5-3.
+[*]Lorsque la soute est remplie, se déconnecter correctement du jeu.
+[*]Activer depuis le hangar le vaisseau stationné en 5-2.
+[*]Se reconnecter et échanger le palladium contre des énergies.
+[*]Se déconnecter à nouveau.
+[*]Réactiver le vaisseau resté en 5-3 pour reprendre la récolte.
+[/LIST]
+
+Cette méthode permet d'éviter de refaire continuellement le parcours complet des maps pirates.
+
+[B]Attention :[/B]
+
+Il faut utiliser la déconnexion normale du client de jeu avant de changer de vaisseau.
+L'intérêt de cette méthode repose sur le changement de vaisseau et de position, et non sur une utilisation de la puce Jump.
+Le vaisseau stationné en 5-2 peut être un modèle secondaire, puisqu'il sert essentiellement à effectuer les échanges.
+
+[COLOR=#42DFFF][B]7. Vaisseaux et équipements conseillés[/B][/COLOR]
+
+Pour la récolte du palladium, il est préférable de disposer d'un vaisseau offrant une bonne mobilité, une résistance suffisante et des moyens efficaces pour éliminer les NPC proches.
+
+[COLOR=#FFFFFF][B]Le Solaris : un choix intéressant[/B][/COLOR]
+
+Le Solaris possède une capacité spéciale particulièrement utile lorsque plusieurs NPC entourent le vaisseau.
+Sa capacité Incinerate inflige des dégâts continus dans une zone circulaire autour de lui.
+
+Elle permet notamment :
+
+[LIST]
+[*]De toucher plusieurs NPC simultanément.
+[*]De réduire les groupes d'Interceptors.
+[*]De limiter le nombre d'ennemis restant autour du vaisseau.
+[*]De faciliter les déplacements dans les zones encombrées.
+[/LIST]
+
+Le Solaris standard inflige jusqu'à 10 000 dégâts par seconde pendant 10 secondes aux cibles affectées.
+Le Solaris Plus possède une version renforcée de cette capacité.
+
+[COLOR=#FFFFFF][B]Associer un canon à dégâts de zone[/B][/COLOR]
+
+Un canon à particules thermique Helios peut compléter cette configuration.
+Son effet de zone permet d'atteindre plusieurs cibles proches de la cible principale.
+L'association du Solaris et d'un canon thermique peut donc présenter un intérêt lorsqu'un joueur doit éliminer des groupes de NPC.
+Le REX équipé d'un collecteur automatique de ressources complète cette configuration pour la récolte du palladium.
+
+[COLOR=#FFFFFF][B]Attention aux autres joueurs ![/B][/COLOR]
+
+Les capacités de zone ne sont pas réservées aux NPC.
+La capacité Incinerate du Solaris peut également infliger des dégâts à des joueurs adverses présents dans sa zone d'effet.
+Les tirs de zone doivent également être utilisés avec prudence lorsque d'autres joueurs sont à proximité.
+Comme les maps pirates accueillent les trois firmes et sont des maps de combat, une attaque involontaire peut déclencher un affrontement PvP.
+Il est donc préférable de vérifier les alentours avant d'utiliser ces capacités, surtout lorsqu'on transporte une importante quantité de palladium.
+
+[COLOR=#42DFFF][B]8. Conseils pratiques pour les maps pirates[/B][/COLOR]
+
+Quelques précautions permettent de limiter les risques :
+
+[LIST]
+[*]Prévoir une configuration suffisamment rapide pour traverser les labyrinthes.
+[*]Surveiller les Saboteurs, qui peuvent ralentir le vaisseau.
+[*]Éviter les champs de mines et les zones encombrées.
+[*]Ne pas compter sur le camouflage dans les zones de brouillard.
+[*]Utiliser le REX pour faciliter la récolte du palladium.
+[*]Prévoir suffisamment de place dans la soute.
+[*]Stationner un vaisseau en 5-2 pour faciliter les échanges réguliers.
+[*]Surveiller les joueurs adverses, notamment près des zones de récolte.
+[*]Utiliser les dégâts de zone avec prudence.
+[*]Faire attention à la sortie en 4-4.
+[/LIST]
+
+La zone de non-agression de la base 5-2 peut servir de point de repos, mais elle ne protège pas le joueur lorsqu'il quitte son périmètre.
+
+[COLOR=#42DFFF][B]9. La map pirate 5-4[/B][/COLOR]
+
+Une quatrième carte appartient également au territoire pirate : la 5-4.
+Contrairement aux trois premières maps, son accès est particulier.
+Elle est accessible depuis un portail spécifique situé en 5-2 et nécessite une clé de butin argentée.
+La 5-4 possède ses propres NPC et un adversaire particulier : le Stinger.
+Son fonctionnement, ses conditions d'accès, ses NPC et ses récompenses sont suffisamment spécifiques pour justifier un guide indépendant.
+
+[B]Ces éléments seront donc développés dans :[/B]
+[GUIDE] Stinger en 5-4
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+Les maps pirates constituent un territoire particulier de DarkOrbit, dans lequel les déplacements, les combats et la récolte des ressources demandent une organisation adaptée.
+Leur principale particularité reste la circulation à sens unique, qui impose normalement de traverser successivement les maps 5-1, 5-2 et 5-3.
+La récolte du palladium représente l'un de leurs principaux intérêts, puisqu'elle permet d'obtenir des énergies Galaxy Gates sans les acheter directement.
+L'utilisation de deux vaisseaux, dont un stationné en 5-2, facilite considérablement les échanges et évite les longs trajets.
+Enfin, un vaisseau comme le Solaris, associé à un équipement à dégâts de zone, peut être particulièrement utile contre les groupes de NPC, à condition de rester prudent en présence d'autres joueurs.
+Bien connaître les particularités de chaque carte permet ainsi de circuler plus efficacement, de limiter les risques et d'optimiser ses récoltes.
