@@ -1,0 +1,154 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][GUIDE] GG Black Light éternel – Accès, fonctionnement et récompenses[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+La Galaxy Gate Black Light éternel est une porte permanente de DarkOrbit, différente des GG classiques.
+Son principe est simple : survivre à des vagues de NPC de plus en plus puissants pour obtenir des récompenses selon sa progression.
+Il n'existe pas de nombre fixe de vagues à terminer.
+
+[COLOR=#42DFFF][B]1. Où et comment accéder à la GG ?[/B][/COLOR]
+
+Le portail s'ouvre sur les cartes X-BL à l'aide d'un CPU éternel.
+Ces cartes sont accessibles depuis les cartes X-8 :
+
+[LIST]
+[*]1-BL : MMO.
+[*]2-BL : EIC.
+[*]3-BL : VRU.
+[/LIST]
+
+Le niveau 17 est nécessaire pour accéder à la carte BL de sa propre firme. L'accès aux cartes BL des firmes adverses nécessite le niveau 24.
+
+Pour fabriquer un CPU éternel dans l'Assemblage, il faut :
+
+[LIST]
+[*]500 fragments éternels.
+[*]500 Rinusk.
+[*]150 000 crédits.
+[/LIST]
+
+Les fragments éternels peuvent notamment être obtenus en éliminant les NPC Invoke XVI et Mindfire Behemoth, ainsi que par certaines missions.
+Une fois le CPU fabriqué, rendez-vous sur une carte X-BL et activez-le pour faire apparaître le portail.
+
+[COLOR=#42DFFF][B]2. Fonctionnement de la GG[/B][/COLOR]
+
+Il s'agit d'une GG individuelle, consacrée aux combats PvE contre les NPC.
+La porte fonctionne par cycles successifs de 51 vagues :
+
+[LIST]
+[*]Les 51 premières vagues constituent le premier cycle.
+[*]La vague 51 se termine par le boss Strokelight Barrage.
+[*]À partir de la vague 52, le cycle recommence avec des NPC plus puissants.
+[*]Le principe se répète ensuite tous les 51 niveaux.
+[/LIST]
+
+Le joueur dispose d'une seule vie. En cas de destruction, la tentative prend définitivement fin et le vaisseau réapparaît à sa base.
+
+[B]Attention :[/B] pour recommencer la GG depuis la première vague après une destruction, il faut fabriquer un nouveau CPU éternel dans l'Assemblage.
+
+En revanche, il est possible de quitter volontairement la GG par son portail de sortie entre les vagues, puis de revenir ultérieurement pour poursuivre sa progression sans utiliser un nouveau CPU.
+
+[COLOR=#FFFFFF][B]Le passage des deux UberKristallons[/B][/COLOR]
+
+Une difficulté particulière apparaît à la vague 47, avec deux UberKristallons à affronter simultanément.
+Cette situation se reproduit ensuite aux vagues 98, 149, 200, 251, etc.
+
+[COLOR=#FFFFFF][B]Petite astuce :[/B][/COLOR]
+Pour éviter de combattre les deux UberKristallons en même temps, une technique consiste à ralentir l'un d'eux avec une roquette DCR-250, puis à s'éloigner pour essayer de les séparer.
+La DCR-250 réduit la vitesse de sa cible de 30 % pendant 5 secondes.
+Cette courte différence de vitesse peut permettre d'isoler temporairement un UberKristallon et de l'affronter plus facilement.
+Cette méthode demande un bon positionnement et ne garantit pas une séparation parfaite.
+
+[COLOR=#42DFFF][B]3. Les boosters propres à la GG[/B][/COLOR]
+
+En terminant certaines vagues, vous obtenez des points de booster.
+Ces points permettent de choisir des améliorations temporaires parmi plusieurs propositions, notamment :
+
+[LIST]
+[*]Dégâts des lasers ou des roquettes.
+[*]Précision des lasers.
+[*]Boucliers et points de vie.
+[*]Vitesse du vaisseau.
+[/LIST]
+
+Ces boosters peuvent se cumuler et ne fonctionnent qu'à l'intérieur de cette GG.
+
+Si vous quittez la porte normalement, ils restent disponibles à votre retour.
+En cas de destruction, ils sont réinitialisés.
+
+[COLOR=#42DFFF][B]4. Quelles récompenses peut-on obtenir ?[/B][/COLOR]
+
+En plus des gains provenant des NPC, la GG rapporte des éclats Black Light selon la dernière vague terminée.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Dernière vague terminée[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Éclats Black Light[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 à 10[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]11 à 25[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]50[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]26 à 50[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]150[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]51 à 60[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]500[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]61 à 101[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]750[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]102 à 152[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 500[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]153 à 203[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 000[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]204 à 254[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5 000[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]255 et au-delà[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]9 000[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+À partir de la vague 26, il existe également une chance d'obtenir des accélérateurs d'Indoctrine.
+Les éclats Black Light servent notamment à fabriquer des modules instables dans l'Assemblage.
+Les accélérateurs d'Indoctrine sont utilisés pour certaines améliorations d'équipements de haut niveau.
+
+[B]Attention :[/B] les récompenses d'éclats ne sont pas cumulées pour chaque palier franchi.
+Vous recevez uniquement la récompense correspondant à votre progression finale.
+Par exemple, si votre vaisseau est détruit pendant la vague 51, votre récompense correspond à la vague 50, soit 150 éclats Black Light.
+
+[COLOR=#FFFFFF][B]Limite des gains en uridium :[/B][/COLOR]
+Les NPC de la GG peuvent rapporter de l'uridium jusqu'à la vague 101 incluse, sous réserve de ne pas avoir déjà atteint le plafond de gains.
+À partir de la vague 102, il ne faut plus compter sur des gains d'uridium provenant des NPC.
+
+[COLOR=#FFFFFF][B]Avant cette limite :[/B][/COLOR]
+
+[LIST]
+[*]Uridium provenant des NPC, dans la limite du plafond.
+[*]Expérience, honneur et crédits.
+[*]Ressources particulières, notamment Rinusk et traces Black Light.
+[*]Progression vers les récompenses finales.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Après cette limite :[/B][/COLOR]
+
+[LIST]
+[*]Plus d'uridium provenant des NPC.
+[*]L'expérience, l'honneur et les crédits restent disponibles.
+[*]Les autres ressources continuent d'être obtenues.
+[*]Les récompenses finales en éclats Black Light progressent selon les paliers.
+[*]La possibilité d'obtenir des accélérateurs d'Indoctrine reste présente.
+[/LIST]
+
+[B]Important :[/B] l'uridium est soumis à un plafond de gains qui peut être atteint avant la vague 101.
+La poursuite de la GG reste donc intéressante pour les autres récompenses, même lorsque les NPC ne rapportent plus d'uridium.
+
+[COLOR=#42DFFF][B]5. Disponibilité et particularités[/B][/COLOR]
+
+La GG Black Light éternel est permanente : elle n'est pas limitée à certains jours ou horaires.
+Cependant, Bigpoint organise parfois des classements Black Light temporaires qui récompensent les joueurs atteignant les vagues les plus élevées.
+Ces classements possèdent leurs propres dates et récompenses.
+
+[B]Important :[/B] les récompenses de cette GG ne sont pas affectées par les journées de doubles récompenses des Galaxy Gates.
+
+Pour comprendre le fonctionnement général de ces journées, consultez également :
+[B][ASTUCE] Galaxy Gates – Profiter des événements du week-end[/B]
+[COLOR=#42DFFF]
+[B]Conclusion[/B][/COLOR]
+
+La GG Black Light éternel est une porte de survie permanente, accessible grâce à un CPU fabriqué dans l'Assemblage.
+Elle fonctionne par cycles de 51 vagues dont la difficulté augmente progressivement.
+Il est possible de quitter volontairement la porte et de reprendre sa progression, mais une destruction met fin à la tentative et nécessite un nouveau CPU.
+Les gains en uridium sont limités, tandis que les autres récompenses peuvent continuer à progresser au-delà de la vague 101.
+
+[B]L'objectif n'est donc pas de terminer une porte traditionnelle, mais d'aller le plus loin possible pour améliorer ses récompenses, tout en tenant compte de ses ressources et de la difficulté croissante des combats.[/B]
+
+[I]Présentation fondée sur les règles officielles et les relevés communautaires de la GG Black Light éternel. Le repère de la vague 101 pour l'uridium reste indicatif, le plafond pouvant être atteint auparavant. Les classements et leurs récompenses particulières peuvent varier selon les événements organisés par Bigpoint.[/I]

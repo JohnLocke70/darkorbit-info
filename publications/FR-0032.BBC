@@ -1,0 +1,139 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][ÉTUDE] Canons à particules – Helios, Nidhogg ou Indra : lequel choisir ?[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Avec l'arrivée des canons à particules, DarkOrbit dispose désormais d'un système d'armement supplémentaire, distinct des lasers et des roquettes.
+Trois familles sont disponibles : Helios, Nidhogg et Indra.
+Mais ces canons ne produisent pas les mêmes effets, et le plus puissant sur une cible isolée n'est pas forcément le plus efficace contre plusieurs ennemis.
+Voyons dans quelles situations privilégier chacun d'eux.
+
+[COLOR=#42DFFF][B]1. Helios : les dégâts thermiques de zone[/B][/COLOR]
+
+Le canon Helios utilise des munitions thermiques.
+Lorsqu'il touche sa cible principale, il peut également infliger des dégâts à cinq autres cibles situées dans un rayon de 275 unités.
+Ces dégâts secondaires représentent 40 % des dégâts de l'attaque principale.
+
+[COLOR=#FFFFFF][B]Ses points forts :[/B][/COLOR]
+
+[LIST]
+[*]Intéressant contre plusieurs NPC regroupés.
+[*]Permet de toucher des ennemis supplémentaires avec un seul tir.
+[*]Utile lorsque les cibles restent suffisamment proches les unes des autres.
+[/LIST]
+
+[B]Sa limite :[/B] contre un adversaire isolé, son effet de zone ne procure aucun avantage supplémentaire.
+Helios devient donc particulièrement intéressant lorsque plusieurs cibles peuvent être touchées simultanément.
+
+[COLOR=#42DFFF][B]2. Nidhogg : affaiblir une cible résistante[/B][/COLOR]
+
+Le canon Nidhogg utilise des munitions corrosives.
+Son attaque applique à la cible un effet de vulnérabilité corrosive de 5 % pendant 20 secondes.
+Cet effet peut se cumuler jusqu'à cinq fois.
+
+[COLOR=#FFFFFF][B]Ses points forts :[/B][/COLOR]
+
+[LIST]
+[*]Dégâts de base élevés à qualité équivalente.
+[*]Effet de vulnérabilité corrosive cumulable.
+[*]Intéressant pour les combats prolongés contre une cible résistante.
+[/LIST]
+
+[B]Sa limite :[/B] l'effet nécessite plusieurs tirs pour atteindre son cumul maximal et concerne spécifiquement la vulnérabilité aux dégâts corrosifs.
+Nidhogg est donc un choix particulièrement intéressant contre un adversaire solide que l'on prévoit de combattre suffisamment longtemps.
+
+[COLOR=#42DFFF][B]3. Indra : les attaques électriques en chaîne[/B][/COLOR]
+
+Le canon Indra utilise des munitions électriques.
+Son attaque déclenche une chaîne électrique qui se propage successivement vers les ennemis adjacents les plus proches.
+Cette chaîne peut toucher jusqu'à sept cibles.
+Chaque cible successive reçoit 15 % de dégâts en moins que la précédente.
+
+[COLOR=#FFFFFF][B]Ses points forts :[/B][/COLOR]
+
+[LIST]
+[*]Permet d'attaquer plusieurs ennemis avec un seul tir.
+[*]Intéressant contre des groupes de NPC proches les uns des autres.
+[*]Peut toucher des cibles qui ne sont pas directement visées.
+[/LIST]
+
+[B]Sa limite :[/B] les dégâts diminuent progressivement au fil de la chaîne. Son intérêt dépend également de la disposition des ennemis.
+Indra est donc particulièrement adapté aux situations où plusieurs cibles sont suffisamment proches pour permettre la propagation de l'attaque.
+
+[COLOR=#42DFFF][B]4. Comparer les dégâts de base[/B][/COLOR]
+
+Les trois familles existent en plusieurs qualités, de Commune (C) à Ultime (UL).
+À qualité équivalente, leurs dégâts de base sont différents.
+
+[COLOR=#FFFFFF][B]Qualité commune (C) :[/B][/COLOR]
+
+[LIST]
+[*]C-Helios : 1 660 dégâts.
+[*]C-Nidhogg : 3 247 dégâts.
+[*]C-Indra : 1 336 dégâts.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Qualité ultime (UL) :[/B][/COLOR]
+
+[LIST]
+[*]UL-Helios : 16 571 dégâts.
+[*]UL-Nidhogg : 32 406 dégâts.
+[*]UL-Indra : 13 333 dégâts.
+[/LIST]
+
+Ces valeurs montrent que Nidhogg possède les dégâts de base les plus élevés des trois familles à qualité équivalente.
+Mais cela ne signifie pas qu'il inflige systématiquement les dégâts totaux les plus importants dans toutes les situations.
+Helios et Indra peuvent toucher plusieurs cibles, tandis que Nidhogg bénéficie de son effet de vulnérabilité corrosive.
+Les résultats dépendent également des munitions, des attributs supplémentaires, des améliorations, des résistances adverses et des éventuels bonus propres à certains vaisseaux.
+
+[COLOR=#42DFFF][B]5. Peut-on utiliser les trois canons ensemble ?[/B][/COLOR]
+
+Oui. Un vaisseau dispose de trois emplacements de canons à particules et peut équiper un canon de chaque famille.
+Cependant, les trois canons ne tirent pas simultanément.
+Le canon utilisé dépend du type de munition sélectionné :
+
+[LIST]
+[*]THS : munitions thermiques pour Helios.
+[*]COS : munitions corrosives pour Nidhogg.
+[*]ELS : munitions électriques pour Indra.
+[/LIST]
+
+Chaque famille possède plusieurs puissances de munitions, avec des multiplicateurs allant de x1 à x4.
+
+[B]Important :[/B] les canons partagent un temps de rechargement de quatre secondes.
+Après un tir de Nidhogg, par exemple, passer immédiatement sur Helios ne permet pas de contourner ce délai.
+Il est donc préférable de choisir les munitions selon la situation plutôt que de changer de canon dans l'espoir de tirer plus rapidement.
+Il existe également un CPU de tir automatique des canons à particules, disponible dans la boutique, permettant d'automatiser leur utilisation avec les munitions sélectionnées.
+
+[COLOR=#42DFFF][B]6. Quel canon privilégier selon la situation ?[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]Contre un NPC isolé et résistant :[/B][/COLOR]
+Nidhogg est généralement intéressant grâce à ses dégâts de base élevés et à son effet de vulnérabilité corrosive.
+[COLOR=#FFFFFF]
+[B]Contre plusieurs NPC regroupés :[/B][/COLOR]
+Helios peut être avantageux grâce à ses dégâts thermiques de zone.
+[COLOR=#FFFFFF]
+[B]Contre plusieurs NPC proches les uns des autres :[/B][/COLOR]
+Indra peut exploiter son effet de chaîne électrique pour atteindre successivement plusieurs cibles.
+[COLOR=#FFFFFF]
+[B]En PvP :[/B][/COLOR]
+Le choix dépend notamment des résistances de l'adversaire, des attributs supplémentaires de vos canons et de la situation du combat.
+Il n'existe donc pas de vainqueur universel.
+
+[COLOR=#FFFFFF][B]Attention aux attaques multiples ![/B][/COLOR]
+
+Les effets de zone de Helios et les chaînes électriques d'Indra peuvent également toucher des NPC voisins que vous ne souhaitiez pas attaquer.
+Cela peut déclencher leur riposte et compliquer un combat, particulièrement si un ennemi puissant se trouve à proximité.
+Il faut donc prendre en compte l'environnement avant d'utiliser ces attaques.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+Les trois familles de canons à particules possèdent des avantages différents.
+
+[LIST]
+[*]Helios : privilégier les dégâts thermiques de zone.
+[*]Nidhogg : privilégier les dégâts sur une cible résistante et l'effet corrosif cumulable.
+[*]Indra : privilégier les attaques électriques en chaîne contre plusieurs cibles proches.
+[/LIST]
+
+Leur intérêt dépend autant de leurs effets particuliers que de leurs dégâts de base.
+
+[B]Le meilleur choix n'est donc pas nécessairement le canon qui affiche les dégâts les plus élevés, mais celui dont l'effet correspond le mieux aux ennemis que vous affrontez.[/B]
+
+[I]Comparaison théorique fondée sur les caractéristiques de base des trois familles. Les dégâts réels peuvent varier selon les qualités, les améliorations, les munitions, les bonus et les défenses adverses.[/I]

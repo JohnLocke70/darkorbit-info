@@ -1,0 +1,157 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][ÉTUDE] Ignipropulseurs – Lite, Apex ou Prime : lequel choisir ?[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Les ignipropulseurs constituent un système d'armement supplémentaire dans DarkOrbit.
+Trois modèles sont disponibles : Lite, Apex et Prime.
+Tous permettent d'infliger des dégâts de zone, mais leurs puissances et leurs bonus ne sont pas identiques.
+Faut-il privilégier le modèle Prime, plus puissant, ou les versions Lite et Apex peuvent-elles suffire ?
+Comparons leurs caractéristiques et leurs avantages.
+
+[COLOR=#42DFFF][B]1. Fonctionnement des ignipropulseurs[/B][/COLOR]
+
+Les ignipropulseurs utilisent des emplacements spécifiques du vaisseau et des munitions GSP.
+Lorsqu'une attaque est déclenchée, elle peut toucher plusieurs ennemis dans un rayon de 150 unités autour de la cible principale.
+La zone d'effet reste fixe et disparaît après sa durée d'activité.
+Les trois modèles possèdent plusieurs caractéristiques communes :
+
+[LIST]
+[*]Dégâts de zone sur plusieurs cibles.
+[*]Portée de base : 600 unités.
+[*]Durée de l'effet : 8 secondes.
+[*]Probabilité de toucher : 85 %.
+[*]Utilisation de munitions spécifiques GSP.
+[/LIST]
+
+Le nombre maximal d'ignipropulseurs équipables dépend du vaisseau et peut atteindre dix emplacements.
+
+[B]Important :[/B] les trois modèles produisent le même type d'attaque de zone. Leurs différences concernent principalement les dégâts et les bonus disponibles.
+
+[COLOR=#42DFFF][B]2. Comparaison des dégâts de base[/B][/COLOR]
+
+Voici les caractéristiques des trois modèles, hors améliorations et autres bonus :
+
+[COLOR=#FFFFFF][B]Ignipropulseur Lite :[/B][/COLOR]
+
+[LIST]
+[*]Dégâts de base : 54.
+[*]Dégâts maximaux indiqués : 54.
+[*]Portée : 600 unités.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Ignipropulseur Apex :[/B][/COLOR]
+
+[LIST]
+[*]Dégâts de base : 90.
+[*]Dégâts maximaux indiqués : 135.
+[*]Portée : 600 unités.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Ignipropulseur Prime :[/B][/COLOR]
+
+[LIST]
+[*]Dégâts de base : 150.
+[*]Dégâts maximaux indiqués : 225.
+[*]Portée : 600 unités, extensible à 900 avec le bonus d'ensemble.
+[/LIST]
+
+À caractéristiques équivalentes, le Prime possède donc les dégâts de base les plus élevés, suivi de l'Apex, puis du Lite.
+Cependant, les valeurs maximales de l'Apex et du Prime supposent de bénéficier des bonus correspondants.
+Il ne faut donc pas les confondre avec leurs dégâts de base.
+
+[COLOR=#42DFFF][B]3. Les bonus d'ensemble : un avantage important[/B][/COLOR]
+
+Contrairement au Lite, les modèles Apex et Prime bénéficient de multiplicateurs de dégâts liés au nombre d'ignipropulseurs équipés.
+Les principaux paliers indiqués dans la FAQ sont les suivants :
+
+[LIST]
+[*]3 équipements : +10 % de dégâts.
+[*]4 équipements : +20 %.
+[*]5 ou 6 équipements : +30 %.
+[*]7 équipements : +40 %.
+[*]8 à 10 équipements : +50 %.
+[/LIST]
+
+Ces multiplicateurs expliquent les valeurs maximales annoncées :
+
+[LIST]
+[*]Apex : 90 × 1,5 = 135.
+[*]Prime : 150 × 1,5 = 225.
+[/LIST]
+
+[B]Attention :[/B] ces valeurs correspondent aux caractéristiques de l'armement avant application des autres facteurs de combat, notamment les munitions, améliorations et défenses adverses.
+Le véritable intérêt des modèles Apex et Prime augmente donc lorsque le joueur peut équiper suffisamment d'ignipropulseurs pour profiter des bonus d'ensemble.
+
+[COLOR=#42DFFF][B]4. L'avantage supplémentaire du Prime : la portée[/B][/COLOR]
+
+Le Prime possède un avantage que les deux autres modèles n'offrent pas : une augmentation de sa portée d'attaque.
+À partir de six ignipropulseurs équipés, le bonus d'ensemble du Prime permet de passer de 600 à 900 unités de portée.
+Cette différence peut être intéressante pour engager une cible plus éloignée ou conserver davantage de distance pendant un combat.
+
+[B]Attention :[/B] la portée d'attaque du Prime ne doit pas être confondue avec le rayon de son effet de zone.
+Le rayon de 150 unités autour de la cible principale reste une caractéristique distincte.
+Une portée supérieure permet donc d'attaquer depuis plus loin, mais ne signifie pas que l'explosion touche des ennemis dans un rayon de 900 unités.
+
+[COLOR=#42DFFF][B]5. Munitions et déclenchement automatique[/B][/COLOR]
+
+Les ignipropulseurs disposent de quatre familles de munitions :
+
+[LIST]
+[*]GSP-30 : multiplicateur x1.
+[*]GSP-75 : multiplicateur x2.
+[*]GSP-150 : multiplicateur x3.
+[*]GSP-300 : multiplicateur x4.
+[/LIST]
+
+Ces munitions possèdent un temps de rechargement commun.
+Changer de munition après un tir ne permet donc pas d'effectuer immédiatement une nouvelle attaque.
+Il existe également un CPU de tir automatique, l'AGS-X, disponible dans la boutique pour 25 000 uridium.
+Une fois équipé et activé, il permet de déclencher automatiquement l'attaque des ignipropulseurs lors des attaques laser, avec la munition sélectionnée.
+
+[B]Conseil :[/B] surveillez votre consommation de munitions, particulièrement avec plusieurs ignipropulseurs équipés.
+Le nombre de munitions consommées dépend du nombre d'ignipropulseurs utilisés.
+
+[COLOR=#42DFFF][B]6. Quel modèle privilégier ?[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]Lite : pour découvrir le système[/B][/COLOR]
+Le Lite représente une solution intéressante pour les joueurs qui souhaitent commencer à utiliser les ignipropulseurs sans rechercher immédiatement les performances maximales.
+Il peut notamment être fabriqué dans l'Assemblage avec 200 fragments SD, lorsque les ressources et recettes correspondantes sont disponibles.
+Sa puissance reste néanmoins limitée par rapport aux deux autres modèles.
+
+[COLOR=#FFFFFF][B]Apex : pour augmenter sa puissance[/B][/COLOR]
+L'Apex constitue une amélioration sensible par rapport au Lite.
+Il offre davantage de dégâts de base et bénéficie des bonus d'ensemble.
+Il peut donc être intéressant pour un joueur qui souhaite améliorer progressivement son équipement sans nécessairement posséder des Prime.
+
+[COLOR=#FFFFFF][B]Prime : pour rechercher les meilleures performances[/B][/COLOR]
+Le Prime possède la puissance de base la plus élevée et bénéficie également des bonus d'ensemble.
+Son avantage supplémentaire de portée, à partir du palier requis, peut présenter un intérêt tactique.
+Il représente donc le choix le plus performant sur le plan des caractéristiques de base, mais son acquisition et ses améliorations peuvent demander davantage de ressources.
+
+[COLOR=#42DFFF][B]7. Attention aux dégâts de zone ![/B][/COLOR]
+
+Comme les ignipropulseurs peuvent toucher plusieurs ennemis, leur utilisation nécessite quelques précautions.
+Une attaque peut également atteindre des NPC proches que vous ne souhaitiez pas combattre.
+Cela peut provoquer leur riposte et rendre une situation plus difficile, notamment lorsqu'un NPC puissant se trouve à proximité.
+Il faut donc évaluer la position des ennemis avant de déclencher une attaque de zone.
+
+[COLOR=#FFFFFF][B]À ne pas confondre avec les canons à particules :[/B][/COLOR]
+Les ignipropulseurs et les canons à particules constituent deux systèmes d'armement différents.
+Les ignipropulseurs utilisent tous une attaque de zone, tandis que les canons à particules possèdent des effets distincts selon leur famille.
+
+Pour approfondir cette différence, consultez notre étude précédente :
+[B][ÉTUDE] Canons à particules – Helios, Nidhogg ou Indra : lequel choisir ?[/B]
+[COLOR=#42DFFF]
+[B]Conclusion[/B][/COLOR]
+
+Les trois modèles d'ignipropulseurs ne présentent pas les mêmes performances.
+
+[LIST]
+[*]Lite : intéressant pour débuter et découvrir ce système d'armement.
+[*]Apex : compromis permettant d'obtenir davantage de dégâts et des bonus d'ensemble.
+[*]Prime : modèle le plus puissant, avec un avantage supplémentaire de portée.
+[/LIST]
+
+Le Prime possède les meilleures caractéristiques de base, mais cela ne signifie pas qu'il soit indispensable à tous les joueurs.
+Le choix doit également tenir compte des ressources disponibles, du nombre d'emplacements du vaisseau et des possibilités d'amélioration.
+
+[B]Un équipement bien adapté à ses besoins et correctement exploité peut être plus intéressant qu'un équipement théoriquement supérieur mais difficile à compléter.[/B]
+
+[I]Comparaison fondée sur les caractéristiques de base publiées pour les ignipropulseurs. Les dégâts réels dépendent notamment des munitions, des améliorations, des bonus d'ensemble, des attributs supplémentaires et des défenses adverses.[/I]
