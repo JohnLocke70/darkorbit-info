@@ -1,0 +1,281 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][GUIDE] Stations de combat de clan – Construction, fonctionnement et défense[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Les Stations de Combat de Clan (SCC), également appelées CBS (Clan Battle Stations), permettent aux clans de DarkOrbit de conquérir des astéroïdes et d'y construire leurs propres bases.
+Ces stations peuvent servir à défendre une position, obtenir des bonus pour les membres du clan et participer au classement des stations de combat.
+Mais leur fonctionnement possède plusieurs particularités : conditions de construction, droits du clan, choix des modules, activation du déflecteur, Prime Time et règles d'attaque.
+Ce guide présente les principaux mécanismes des stations de combat, aussi bien pour les joueurs qui souhaitent en construire une que pour ceux qui veulent les attaquer.
+[COLOR=#42DFFF]
+[B]1. À quoi sert une station de combat ?[/B][/COLOR]
+
+Une station de combat est une installation appartenant à un clan, construite sur un astéroïde disponible.
+Selon les modules installés, elle peut :
+[LIST]
+[*]Attaquer les vaisseaux considérés comme ennemis à l'aide de lasers et de roquettes.
+[*]Protéger une position stratégique sur une map.
+[*]Apporter des bonus d'expérience, d'honneur ou de dégâts aux membres du clan.
+[*]Réparer automatiquement ses propres modules.
+[*]Permettre certaines opérations, comme la vente de ressources ou la gestion des hangars lorsque le joueur se trouve sur la station.
+[*]Contribuer au classement des stations de combat.
+[/LIST]
+Les services disponibles dépendent du fonctionnement de la station et des fonctionnalités actuelles du jeu.
+[COLOR=#42DFFF]
+[B]2. Faut-il appartenir à un clan ?[/B][/COLOR]
+
+Il faut distinguer la construction d'une station de son attaque.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Action[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Condition[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Construire une station[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Être dans un clan et posséder les droits nécessaires[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Gérer les modules et le déflecteur[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Appartenir au clan propriétaire et disposer des droits requis[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Attaquer une station d'une firme adverse[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Possible même sans clan, si elle est vulnérable[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Attaquer une station de sa propre firme[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Normalement interdit, sauf cas particuliers comme une guerre entre clans[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Attaquer une station d'un clan multifirme (ALL)[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Possible hors du clan propriétaire, indépendamment de la firme[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[B]
+Exemple :[/B] Un joueur EIC sans clan peut attaquer une station MMO ou VRU lorsque son déflecteur est inactif.
+En revanche, une station EIC appartenant à un clan uniquement EIC est normalement protégée contre les attaques des joueurs de cette même firme, sauf exceptions prévues par le système de diplomatie.
+[COLOR=#42DFFF]
+[B]3. Trouver un astéroïde et construire une station[/B][/COLOR]
+
+Les stations de combat ne peuvent pas être construites n'importe où.
+Certaines maps possèdent un astéroïde prévu pour accueillir une station.
+La carte générale permet de repérer les astéroïdes libres, généralement représentés en gris.
+Pour construire une station :
+[LIST]
+[*]Rejoindre une map possédant un astéroïde libre.
+[*]Se placer suffisamment près de celui-ci.
+[*]Cliquer sur l'icône de construction pour ouvrir l'interface.
+[*]Installer les deux modules centraux obligatoires : coque et déflecteur.
+[*]Installer huit modules supplémentaires dans les emplacements périphériques.
+[*]Lorsque les dix modules sont présents, lancer la construction avec les droits appropriés.
+[*]Choisir la durée de construction, comprise historiquement entre 5 et 60 minutes.
+[*]Attendre la fin de la construction pour que la station devienne opérationnelle.
+[/LIST]
+[COLOR=#FFFFFF][B]Quelques particularités[/B][/COLOR]
+L'installation d'un module prend normalement une minute.
+Un joueur ne peut installer qu'un seul module à la fois, mais plusieurs membres du clan peuvent participer simultanément à l'installation.
+Il faut rester suffisamment proche de l'astéroïde pendant cette opération.
+Attention également : d'autres clans peuvent être intéressés par le même astéroïde. La présence de modules en cours d'installation ne garantit pas à elle seule la possession de la future station.
+[COLOR=#42DFFF]
+[B]4. Les différents modules[/B][/COLOR]
+
+Une station complète comporte dix emplacements :
+[LIST]
+[*]Deux emplacements centraux réservés à la coque et au déflecteur.
+[*]Huit emplacements périphériques pour les modules offensifs, les boosters et la réparation.
+[/LIST]
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Module[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Code[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Rôle[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Coque[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]HULM-01[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Points de vie du cœur de la station[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Déflecteur[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]DEFM-01[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Protection générale de la station[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Laser courte portée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LTM-LR[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Défense rapprochée[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Laser moyenne portée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LTM-MR[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Défense intermédiaire[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Laser longue portée[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LTM-HR[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Défense à distance[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Roquettes[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]RAM-LA / RAM-MA[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Attaques à distance[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Booster d'expérience[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]XPM-1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus d'expérience du clan[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Booster d'honneur[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]HONM-1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus d'honneur du clan[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Booster de dégâts[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]DMGM-1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus de dégâts sur la map de la station[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Réparation[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]REPM-1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Réparation des modules installés[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Une station ne peut comporter qu'un module central de chaque type, ni plusieurs exemplaires d'un même booster ou du module de réparation.
+Les modules laser et roquettes peuvent, en revanche, être installés en plusieurs exemplaires.
+[B]
+Bonus des modules :[/B] D'après les valeurs historiques, les boosters apportent jusqu'à 3 % au niveau 1 et jusqu'à 10 % au niveau 16. Leur puissance augmente progressivement après installation.
+Les boosters d'expérience et d'honneur s'appliquent aux membres du clan de manière globale, tandis que le booster de dégâts est limité à la map sur laquelle se trouve la station.
+[COLOR=#42DFFF]
+[B]5. Le déflecteur : protection et ouverture de la station[/B][/COLOR]
+
+Le déflecteur DEFM-01 est l'un des éléments les plus importants d'une station de combat.
+Son fonctionnement repose sur une réserve de temps de protection.
+[COLOR=#FFFFFF][B][/B]
+[B]Déflecteur activé[/B][/COLOR]
+Lorsque le déflecteur est actif :
+[LIST]
+[*]La station est protégée contre les attaques.
+[*]La réserve de temps de protection diminue progressivement.
+[*]La station ne peut pas accumuler de nouvelles minutes de protection.
+[/LIST]
+[COLOR=#FFFFFF][B]Déflecteur désactivé[/B][/COLOR]
+Lorsque le déflecteur est inactif :
+[LIST]
+[*]La station devient vulnérable aux attaques ennemies.
+[*]Elle accumule de nouvelles minutes de protection.
+[*]Le clan propriétaire doit surveiller la station jusqu'à la réactivation du déflecteur.
+[/LIST]
+Il faut donc régulièrement désactiver le déflecteur pour renouveler sa réserve de protection.
+[COLOR=#42DFFF]
+[B]6. Ouverture et fermeture de la station[/B][/COLOR]
+
+Le clan propriétaire peut désactiver volontairement le déflecteur depuis l'interface de gestion de sa station.
+Les anciennes documentations indiquent une durée de désactivation réglable entre 30 minutes et 8 heures.
+Une fois la désactivation lancée, la station reste ouverte pendant la durée choisie.
+[B]
+Conseil :[/B] Il est souvent préférable de programmer de courtes ouvertures de 30 minutes plutôt qu'une longue période d'inactivité.
+Cette méthode réduit le temps pendant lequel la station est exposée aux attaques ennemies.
+[COLOR=#FFFFFF]
+[B]Désactivation automatique[/B][/COLOR]
+Lorsque le temps de protection est entièrement épuisé, le déflecteur se désactive automatiquement.
+D'après les règles documentées, cette désactivation forcée dure deux heures.
+Il est donc important de surveiller la réserve restante pour éviter une ouverture prolongée au mauvais moment.
+[COLOR=#FFFFFF]
+[B]Une station récemment construite[/B][/COLOR]
+Après l'achèvement de sa construction, une station doit d'abord recharger son déflecteur.
+La période initiale documentée est de 30 minutes, durant lesquelles elle reste vulnérable.
+Il est donc conseillé aux membres du clan de rester présents afin de défendre leur nouvelle station.
+[COLOR=#42DFFF]
+[B]7. Comment récupérer du temps de protection ?[/B][/COLOR]
+
+Lorsque le déflecteur est désactivé, sa réserve augmente progressivement.
+Les valeurs de référence sont les suivantes :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Situation[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Temps récupéré par heure[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Recharge normale, déflecteur de base[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]120 minutes[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Recharge pendant le Prime Time, déflecteur de base[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]600 minutes[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[B]
+Exemple :[/B]
+Avec un déflecteur de base :
+[LIST]
+[*]30 minutes de désactivation normale permettent de récupérer environ 60 minutes de protection.
+[*]30 minutes de désactivation pendant le Prime Time permettent de récupérer environ 300 minutes de protection.
+[/LIST]
+Ces calculs correspondent aux taux historiques de référence. L'amélioration du module de déflecteur peut augmenter sa vitesse de recharge.
+Il est donc possible d'accumuler davantage de temps de protection que la durée réelle pendant laquelle la station est restée ouverte.
+[COLOR=#42DFFF]
+[B]8. Le Prime Time des stations de combat[/B][/COLOR]
+
+Le Prime Time est une période quotidienne pendant laquelle les stations de combat récupèrent beaucoup plus rapidement du temps de déflecteur.
+Il dure normalement trois heures.
+Pendant cette période, la recharge est multipliée par cinq.
+C'est donc le moment le plus intéressant pour reconstituer rapidement une réserve importante de protection.
+Mais attention : pour bénéficier de la recharge, le déflecteur doit être désactivé.
+[B]
+Important :[/B] Les horaires du Prime Time varient selon les serveurs.
+Les anciens tableaux du forum français ne doivent pas être utilisés comme référence automatique pour les serveurs actuels. Il faut vérifier les horaires effectivement appliqués sur son serveur.
+[COLOR=#42DFFF]
+[B]9. Réparer et remplacer les modules[/B][/COLOR]
+
+Les modules d'une station peuvent subir des dégâts lorsqu'elle est attaquée.
+Plusieurs possibilités existent pour les réparer :
+[LIST]
+[*]La régénération passive, normalement assez lente.
+[*]Le module de réparation REPM-1, qui accélère la récupération des points de vie.
+[*]La réparation d'urgence, utilisable par les membres du clan propriétaire selon les conditions prévues.
+[*]La réparation des modules détruits depuis l'inventaire du joueur.
+[/LIST]
+D'après la FAQ historique, une réparation d'urgence restaure 7 500 points de vie par seconde pendant 20 secondes.
+Les réparations d'urgence ne se cumulent pas simultanément : il faut attendre la fin d'une opération avant d'en lancer une nouvelle.
+[COLOR=#FFFFFF]
+[B]Remplacement des modules[/B][/COLOR]
+Il est également possible de modifier la composition d'une station déjà construite, à condition de disposer des droits nécessaires.
+Le remplacement d'un module installé demande historiquement quatre minutes.
+Cette opération doit être préparée avec précaution, notamment lorsqu'elle concerne la coque ou le déflecteur.
+[B]
+Attention :[/B] Si le module de coque est absent ou en cours de remplacement, le cœur de la station peut se retrouver avec seulement un point de vie.
+De même, l'absence ou le remplacement du déflecteur rend la station vulnérable.
+[COLOR=#42DFFF]
+[B]10. Comment attaquer une station de combat ?[/B][/COLOR]
+
+Pour attaquer une station, il faut d'abord s'assurer qu'elle est vulnérable.
+Si son déflecteur est actif, la station est protégée et ne peut normalement pas être détruite.
+Lorsque le déflecteur est inactif, les éléments de la station peuvent être pris pour cible, sous réserve des règles de firme et de clan.
+Une station possède plusieurs parties :
+[LIST]
+[*]Les modules périphériques, comprenant les armes, les boosters et la réparation.
+[*]Les modules centraux, comprenant la coque et le déflecteur.
+[*]Le cœur de la station, dont la destruction provoque la destruction complète de la base.
+[/LIST]
+Il n'est pas obligatoire de détruire tous les modules périphériques pour faire tomber une station.
+Cependant, certaines défenses peuvent empêcher les attaquants d'approcher suffisamment du cœur.
+Le choix des modules à neutraliser dépend donc de leur emplacement et de la puissance des défenseurs.
+[COLOR=#FFFFFF]
+[B]Des attaques possibles en solo[/B][/COLOR]
+Une station peut parfois être détruite par un seul joueur suffisamment équipé, notamment si elle est ouverte et peu défendue.
+La mécanique reste néanmoins conçue autour des clans : construction, gestion, défense, contrôle des positions et interventions collectives.
+Un joueur isolé doit également tenir compte de la présence éventuelle de membres du clan propriétaire.
+
+[B]Pour découvrir une technique particulière permettant d'attirer certains tirs défensifs sur le REX, consulter notre astuce complémentaire :[/B]
+[ASTUCE] Stations de combat – Détourner les tirs avec le REX
+[COLOR=#42DFFF]
+[B]11. Que se passe-t-il lorsqu'une station est détruite ?[/B][/COLOR]
+
+Lorsque le cœur d'une station est détruit :
+[LIST]
+[*]La station disparaît.
+[*]L'astéroïde redevient disponible pour la construction d'une nouvelle station.
+[*]Les modules détruits retournent dans les inventaires de leurs propriétaires et doivent être réparés avant d'être réutilisés.
+[*]Un clan peut ensuite tenter de conquérir à nouveau l'astéroïde.
+[/LIST]
+Les anciennes FAQ prévoyaient également des récompenses variables en uridium pour la destruction de certains modules, en fonction de leur type, de leur niveau et des dégâts infligés par les participants.
+Ces récompenses ne doivent pas être confondues avec une éventuelle prime forfaitaire supplémentaire pour la destruction complète d'une base.
+Les montants et conditions de récompense doivent être vérifiés sur la version actuelle du jeu.
+[COLOR=#42DFFF]
+[B]12. Classement et particularités des clans multifirmes[/B][/COLOR]
+
+Les stations de combat participent également à un système de classement des clans.
+Les anciennes règles attribuaient des points en fonction de la durée pendant laquelle un clan possédait une station entièrement construite.
+Le classement reflète ainsi la capacité des clans à conserver leurs positions.
+[COLOR=#FFFFFF]
+[B]Cas des clans multifirmes[/B][/COLOR]
+Un clan déclaré multifirme (ALL) possède une particularité importante : sa station n'est pas considérée comme appartenant exclusivement à une seule firme.
+Elle peut donc être attaquée par des joueurs extérieurs au clan, y compris des joueurs de la même firme que certains de ses membres.
+En revanche, les stations ALL n'attaquent normalement pas automatiquement tous les joueurs qui passent à proximité.
+Elles réagissent notamment lorsqu'elles sont attaquées.
+Cette distinction est importante, car les règles de protection d'une station et les règles d'honneur applicables aux combats entre joueurs ne sont pas nécessairement identiques.
+
+[B]Attention :[/B] Défendre une station contre un joueur de sa propre firme peut entraîner une perte d'honneur si les règles habituelles de combat entre alliés s'appliquent.
+[COLOR=#42DFFF]
+[B]13. Conseils pratiques[/B][/COLOR]
+
+Pour les clans propriétaires :
+[LIST]
+[*]Surveiller régulièrement la réserve du déflecteur.
+[*]Privilégier les ouvertures courtes lorsque cela est possible.
+[*]Profiter du Prime Time pour recharger rapidement la protection.
+[*]Éviter les opérations sensibles sur la coque lorsque la station est vulnérable.
+[*]Prévoir une défense pendant les premières minutes suivant sa construction.
+[*]Adapter la composition des modules aux besoins du clan.
+[/LIST]
+Pour les joueurs qui souhaitent attaquer :
+[LIST]
+[*]Vérifier que le déflecteur est inactif.
+[*]Tenir compte de l'appartenance de la station à une firme ou à un clan multifirme.
+[*]Observer les modules défensifs avant d'engager le combat.
+[*]Préparer une configuration adaptée à la résistance de la station.
+[*]Rester attentif à l'arrivée éventuelle des membres du clan propriétaire.
+[/LIST]
+[COLOR=#42DFFF]
+[B]Conclusion[/B][/COLOR]
+
+Les stations de combat de clan représentent une mécanique particulière de DarkOrbit, associant construction, gestion des modules, protection et affrontements entre joueurs.
+Leur fonctionnement repose principalement sur deux éléments : le module de coque, qui apporte les points de vie du cœur de la station, et le déflecteur, qui détermine les périodes pendant lesquelles elle peut être attaquée.
+Pour les clans propriétaires, une bonne gestion du déflecteur et du Prime Time est essentielle afin de conserver une station le plus longtemps possible.
+Pour les attaquants, il faut surtout connaître les conditions permettant d'engager le combat, repérer les modules défensifs et atteindre le cœur de la station.
+Enfin, contrairement à une idée répandue, il n'est pas nécessaire d'appartenir à un clan pour attaquer une station d'une firme adverse lorsque celle-ci est vulnérable.
+[B]
+Note documentaire :[/B] Ce guide s'appuie principalement sur les FAQ officielles des stations de combat et sur le Lexique 2.0 français, complétés par des observations de joueurs. Certaines valeurs historiques, notamment les taux de recharge, durées de réparation et récompenses, peuvent nécessiter une vérification après les mises à jour du jeu.
