@@ -118,6 +118,11 @@ html[lang="fr"] .entry-title .title-en,html[lang="en"] .entry-title .title-fr{fo
 html[lang="en"] .pending-link[lang="fr"]{display:none}
 html[lang="en"] .pending-link[lang="en"]{display:inline}
 .pending-copy:disabled{opacity:.7;cursor:default;background:#2b3543;color:#d8dee5}
+/* Navigation sur ordinateur : le panneau latéral ne doit pas dépasser l'écran.
+   Il conserve sa position sticky et défile indépendamment du catalogue au survol. */
+@media (min-width:951px){
+  .sidebar{max-height:calc(100vh - 28px);max-height:calc(100dvh - 28px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:#4a617c transparent}
+}
 </style></head>
 <body><div class="container">
 <header class="header">
