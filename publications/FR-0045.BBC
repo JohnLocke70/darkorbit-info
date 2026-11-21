@@ -1,0 +1,324 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][ÉTUDE] Eternal Blacklight – Prometheus vs Asmodeus[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Dans la Galaxy Gate Black Light éternelle, le choix des lasers peut avoir une grande importance, particulièrement lorsque les vagues de NPC deviennent de plus en plus difficiles.
+Les Prometheus sont réputés pour leurs dégâts élevés contre certains NPC Black Light.
+Les Asmodeus, quant à eux, possèdent une capacité spéciale qui augmente leurs dégâts contre les NPC au fur et à mesure des destructions.
+Mais lequel de ces deux lasers faut-il privilégier dans l'Eternal ?
+Cette étude compare leurs caractéristiques et leurs performances théoriques, en tenant compte des particularités de cette Galaxy Gate et du rendement global sur plusieurs vagues.
+
+[COLOR=#42DFFF][B]1. Attention au bonus Black Light du Prometheus ![/B][/COLOR]
+
+C'est le premier point important de notre comparaison.
+Le Prometheus possède un multiplicateur de dégâts ×3,5 contre certains NPC Black Light.
+Cependant, ce bonus ne s'applique pas automatiquement à tous les NPC présents dans les cartes ou les Galaxy Gates de l'univers Black Light.
+
+Les cibles explicitement mentionnées dans la FAQ officielle comprennent notamment :
+
+[LIST]
+[*]Impulse II.
+[*]Attend IX.
+[*]Invoke XVI.
+[*]Mindfire Behemoth.
+[/LIST]
+
+[B]Attention :[/B] ce n'est pas parce que la GG Eternal Blacklight appartient à l'univers Black Light que tous ses NPC bénéficient automatiquement du multiplicateur ×3,5.
+La porte contient de nombreux NPC classiques, Boss et Uber, ainsi que des ennemis spécifiques.
+Certains relevés de vagues mentionnent également des NPC de type Impulse ou Attend. Toutefois, la documentation consultée ne confirme pas explicitement que les versions éventuellement présentes dans l'Eternal bénéficient du même multiplicateur que les NPC concernés sur les cartes X-BL.
+Il ne faut donc pas considérer ce bonus comme acquis sans vérification des dégâts en jeu.
+
+[B]Pour cette étude, les calculs principaux seront effectués sans le multiplicateur Black Light du Prometheus.[/B]
+Nous présenterons également son effet théorique lorsqu'il s'applique effectivement.
+
+[COLOR=#42DFFF][B]2. Caractéristiques des deux lasers[/B][/COLOR]
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Caractéristique[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Prometheus[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Asmodeus[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Dégâts de base[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]210[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]205[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Capacité spéciale[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Dispersion supplémentaire[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Ferveur[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus PvE d'ensemble[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Aucun[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+25 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Condition d'ensemble[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Aucune[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 Asmodeus sur le vaisseau[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus maximal particulier[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]×3,5 sur NPC concernés[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+120 % avec Ferveur maximale[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]Prometheus :[/B][/COLOR]
+
+[LIST]
+[*]Dégâts de base : 210.
+[*]Dégâts de dispersion supplémentaires : 200.
+[*]Recharge de la dispersion : 5 secondes.
+[*]Multiplicateur ×3,5 contre certains NPC Black Light.
+[/LIST]
+
+Le multiplicateur Black Light ne s'applique pas aux 200 dégâts supplémentaires de dispersion.
+
+[COLOR=#FFFFFF][B]Asmodeus :[/B][/COLOR]
+
+[LIST]
+[*]Dégâts de base : 205.
+[*]Bonus d'ensemble de +25 % contre les NPC avec au moins trois lasers sur le vaisseau.
+[*]Capacité Ferveur augmentant les dégâts après chaque destruction de NPC.
+[*]Bonus total pouvant atteindre +120 % avec cinq niveaux de Ferveur.
+[/LIST]
+
+[B]Important :[/B] le bonus d'ensemble de l'Asmodeus s'applique à ses propres lasers équipés sur le vaisseau, et non à tous les lasers de la configuration.
+
+[COLOR=#42DFFF][B]3. Comment fonctionne la Ferveur de l'Asmodeus ?[/B][/COLOR]
+
+Lorsque le joueur détruit des NPC, la Ferveur augmente progressivement les dégâts des Asmodeus.
+
+Avec au moins trois Asmodeus installés sur le vaisseau, la progression est la suivante :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]NPC détruits[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Bonus total PvE[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Dégâts de base théoriques[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+25 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]256,25[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+30 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]266,50[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+51 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]309,55[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+73 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]354,65[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+96 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]401,80[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5 ou plus[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+120 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]451,00[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Ces valeurs sont calculées à partir des 205 dégâts de base d'un Asmodeus non amélioré.
+
+[COLOR=#FFFFFF][B]Durée de la Ferveur :[/B][/COLOR]
+
+[LIST]
+[*]Première destruction : 20 secondes de bonus.
+[*]Chaque destruction supplémentaire : 10 secondes de durée supplémentaire.
+[*]Maximum : cinq niveaux de Ferveur.
+[/LIST]
+
+Lorsque la durée totale expire, la Ferveur disparaît et revient directement à son état initial.
+Elle est également perdue lors d'un changement de carte, d'une déconnexion ou d'une destruction.
+
+[B]Attention :[/B] le bonus de +120 % n'est donc pas permanent !
+Pour en profiter durablement, il faut continuer à éliminer des NPC suffisamment régulièrement.
+
+[B]Important :[/B] avec moins de trois Asmodeus installés sur le vaisseau, le bonus d'ensemble de 25 % n'est pas activé.
+
+[COLOR=#42DFFF][B]4. Comparaison théorique des dégâts[/B][/COLOR]
+
+Pour comparer les deux lasers, prenons une situation simplifiée :
+
+[LIST]
+[*]Un Prometheus non amélioré.
+[*]Un Asmodeus non amélioré, avec son bonus d'ensemble activé.
+[*]Des NPC ne bénéficiant pas du ×3,5 du Prometheus.
+[*]Les mêmes conditions de combat et aucun autre bonus.
+[*]Une série de cinq tirs ordinaires par laser, avec un déclenchement supplémentaire de dispersion pour le Prometheus.
+[/LIST]
+
+Ce modèle sert uniquement à comparer leurs capacités propres.
+Il ne représente pas une mesure exacte des dégâts par seconde, puisque la dispersion du Prometheus fonctionne selon un délai de cinq secondes et non selon un nombre fixe de tirs.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Situation[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Dégâts théoriques sur 5 tirs[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Prometheus sans bonus BL[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 250[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Asmodeus, sans Ferveur[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 281,25[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Asmodeus, Ferveur niveau 1[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 332,50[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Asmodeus, Ferveur niveau 2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 547,75[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Asmodeus, Ferveur niveau 3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 773,25[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Asmodeus, Ferveur niveau 4[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2 009[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Asmodeus, Ferveur niveau 5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2 255[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]Calcul du Prometheus :[/B][/COLOR]
+
+5 × 210 + 200 = 1 250 dégâts.
+
+[COLOR=#FFFFFF][B]Calcul de l'Asmodeus sans Ferveur :[/B][/COLOR]
+
+5 × (205 × 1,25) = 1 281,25 dégâts.
+
+[COLOR=#FFFFFF][B]Calcul de l'Asmodeus à Ferveur maximale :[/B][/COLOR]
+
+5 × (205 × 2,20) = 2 255 dégâts.
+
+[COLOR=#FFFFFF][B]Résultat théorique :[/B][/COLOR]
+
+Dans ces conditions simplifiées, l'Asmodeus avec son bonus d'ensemble possède déjà un léger avantage.
+Lorsque sa Ferveur augmente, cet avantage devient nettement plus important.
+
+[B]Attention :[/B] ces résultats supposent que le niveau de Ferveur reste constant pendant les cinq tirs considérés.
+Ils ne tiennent pas compte de la cadence réelle des tirs, des munitions, des améliorations, des bonus de configuration, de la précision ou des autres facteurs intervenant pendant les combats.
+Il ne faut donc pas interpréter ce tableau comme une mesure exacte du DPS.
+
+[COLOR=#42DFFF][B]5. Et si le Prometheus bénéficie du ×3,5 ?[/B][/COLOR]
+
+La comparaison change radicalement lorsque le Prometheus attaque un NPC bénéficiant réellement de son multiplicateur Black Light.
+Ses 210 dégâts de base deviennent alors :
+210 × 3,5 = 735 dégâts.
+
+Les 200 dégâts supplémentaires de dispersion ne bénéficient pas de ce multiplicateur.
+Sur notre exemple simplifié de cinq tirs et une dispersion :
+5 × 735 + 200 = 3 875 dégâts.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Laser[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Dégâts théoriques sur 5 tirs[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Prometheus avec ×3,5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3 875[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Asmodeus avec Ferveur maximale[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2 255[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]Résultat :[/B][/COLOR]
+
+Lorsque le multiplicateur ×3,5 est effectivement actif, le Prometheus conserve un avantage théorique important face à l'Asmodeus.
+C'est pourquoi il ne faut pas généraliser les résultats précédents à tous les NPC Black Light.
+
+[COLOR=#42DFFF][B]6. Efficacité globale sur les vagues de l'Eternal[/B][/COLOR]
+
+Il faut maintenant considérer un autre aspect important : le rendement sur l'ensemble de la GG.
+L'Eternal comporte de nombreuses vagues composées de NPC différents, dont beaucoup ne font pas partie des cibles explicitement concernées par le bonus ×3,5 du Prometheus.
+
+[COLOR=#FFFFFF][B]Conséquence :[/B][/COLOR]
+
+Même si certains NPC de l'Eternal bénéficient éventuellement de ce multiplicateur, ils ne représentent pas nécessairement la majorité des ennemis rencontrés.
+Si la plus grande partie des combats concerne des NPC ne bénéficiant pas du bonus Black Light, les Asmodeus pourraient offrir un meilleur rendement global, particulièrement lorsque leur Ferveur est maintenue.
+
+[B]Attention toutefois :[/B] il ne suffit pas de compter les NPC pour déterminer quel laser est le plus efficace.
+Un seul ennemi possédant plusieurs millions de points de vie peut demander davantage de dégâts que toute une vague de petits NPC.
+
+Il faut donc considérer :
+
+[LIST]
+[*]Le nombre de NPC concernés par le bonus Prometheus.
+[*]Leurs points de vie et leurs boucliers.
+[*]Le temps nécessaire pour les détruire.
+[*]La fréquence des destructions permettant de maintenir la Ferveur.
+[*]La proportion du temps de combat consacrée aux différents types de NPC.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Exemple :[/B][/COLOR]
+
+Si un joueur élimine rapidement plusieurs petits NPC sans bonus Black Light, ses Asmodeus peuvent accumuler la Ferveur et augmenter fortement leurs dégâts.
+En revanche, si une grande partie du temps de combat est consacrée à un NPC bénéficiant du multiplicateur ×3,5, les Prometheus peuvent redevenir plus intéressants pendant cet affrontement.
+
+[B]Le choix optimal dépend donc de l'ensemble des vagues affrontées et de leur résistance, plutôt que de quelques NPC particuliers.[/B]
+
+C'est cette efficacité globale qui doit être prise en compte pour choisir l'armement le plus adapté à une progression prolongée dans l'Eternal.
+
+[COLOR=#42DFFF][B]7. Quel laser privilégier selon les vagues ?[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]Contre les vagues de petits NPC :[/B][/COLOR]
+
+L'Asmodeus peut être particulièrement intéressant.
+Lorsque les destructions s'enchaînent rapidement, il devient plus facile d'accumuler les niveaux de Ferveur.
+Avec cinq destructions, son bonus peut atteindre +120 %.
+
+[COLOR=#FFFFFF][B]Contre les gros NPC :[/B][/COLOR]
+
+La situation est plus délicate.
+Certains ennemis, comme les UberKristallons, peuvent demander beaucoup de temps pour être détruits.
+Si aucun NPC n'est éliminé avant l'expiration de la Ferveur, le bonus temporaire disparaît.
+L'Asmodeus conserve néanmoins son bonus d'ensemble de +25 %, si au moins trois exemplaires sont équipés sur le vaisseau.
+Le Prometheus, quant à lui, conserve ses dégâts habituels et sa dispersion supplémentaire.
+
+[COLOR=#FFFFFF][B]Contre les NPC bénéficiant du ×3,5 :[/B][/COLOR]
+
+Le Prometheus peut reprendre un avantage considérable.
+L'activation effective de ce multiplicateur sur une cible donnée doit donc être vérifiée avant de choisir définitivement son armement.
+
+[COLOR=#FFFFFF][B]À retenir :[/B][/COLOR]
+
+[LIST]
+[*]Petits NPC éliminés rapidement : avantage potentiel de l'Asmodeus grâce à la Ferveur.
+[*]Gros NPC sans bonus Black Light : comparaison dépendant surtout du maintien de la Ferveur et des conditions réelles de tir.
+[*]NPC bénéficiant du ×3,5 : avantage théorique important du Prometheus.
+[*]Ensemble des vagues : rendement dépendant de la composition et de la résistance des NPC rencontrés.
+[/LIST]
+
+[COLOR=#42DFFF][B]8. Conseils d'équipement et de vérification[/B][/COLOR]
+
+[COLOR=#FFFFFF][B]Pour les Asmodeus :[/B][/COLOR]
+
+[LIST]
+[*]Installez au minimum trois Asmodeus sur le vaisseau pour activer le bonus d'ensemble.
+[*]Les Asmodeus placés sur les drones ou le REX ne participent pas à ce bonus.
+[*]Profitez des vagues comportant plusieurs NPC pour accumuler la Ferveur.
+[*]Surveillez sa durée avant d'engager un gros NPC.
+[*]N'oubliez pas que le bonus temporaire disparaît si les destructions sont trop espacées.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Pour les Prometheus :[/B][/COLOR]
+
+[LIST]
+[*]Leur dispersion supplémentaire reste utilisable contre les NPC ordinaires.
+[*]Le multiplicateur ×3,5 ne doit pas être supposé actif sur tous les NPC de l'Eternal.
+[*]Leur intérêt demeure important lorsque le bonus Black Light est réellement applicable.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Comment vérifier en jeu ?[/B][/COLOR]
+
+Pour comparer les deux armements dans des conditions réelles :
+
+[LIST]
+[*]Utilisez le même vaisseau et des configurations aussi proches que possible.
+[*]Choisissez les mêmes munitions et conservez les mêmes bonus.
+[*]Comparez les dégâts sur un même type de NPC.
+[*]Observez séparément les tirs ordinaires et la dispersion du Prometheus.
+[*]Pour l'Asmodeus, distinguez les essais sans Ferveur et avec plusieurs niveaux de Ferveur.
+[*]Répétez les mesures afin de limiter l'effet des variations de dégâts.
+[/LIST]
+
+Cette vérification serait particulièrement intéressante sur les NPC de type Impulse ou Attend éventuellement rencontrés dans l'Eternal.
+Elle permettrait de déterminer si leurs versions bénéficient effectivement du multiplicateur du Prometheus.
+
+[B]Important :[/B] une comparaison rigoureuse doit également tenir compte du nombre de lasers équipés et de leurs niveaux d'amélioration.
+Comparer une configuration complète de Prometheus à seulement trois Asmodeus non améliorés ne permettrait pas de mesurer correctement les performances propres des deux modèles.
+
+[COLOR=#42DFFF][B]9. Conclusion : Prometheus ou Asmodeus ?[/B][/COLOR]
+
+Notre comparaison montre que le choix dépend essentiellement de trois facteurs :
+
+[LIST]
+[*]L'activation ou non du multiplicateur Black Light du Prometheus.
+[*]La capacité à maintenir la Ferveur de l'Asmodeus.
+[*]La composition et la résistance des vagues affrontées.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Sans multiplicateur ×3,5 :[/B][/COLOR]
+
+Les Asmodeus deviennent théoriquement intéressants dès que leur bonus d'ensemble est activé, et leur avantage augmente fortement avec la Ferveur.
+
+[COLOR=#FFFFFF][B]Avec multiplicateur ×3,5 :[/B][/COLOR]
+
+Le Prometheus conserve un avantage théorique important, même face à un Asmodeus bénéficiant de sa Ferveur maximale.
+
+[COLOR=#FFFFFF][B]Sur l'ensemble de l'Eternal :[/B][/COLOR]
+
+Si la majorité des combats concerne des NPC qui ne bénéficient pas du bonus spécial Prometheus, les Asmodeus pourraient représenter un choix plus efficace sur la durée.
+Cette possibilité est particulièrement intéressante lorsque les destructions régulières permettent de maintenir la Ferveur.
+Cependant, le nombre de NPC ne suffit pas à déterminer le rendement global : leur résistance et le temps consacré aux différents combats restent essentiels.
+
+[B]Il ne faut donc pas choisir automatiquement les Prometheus sous prétexte que la GG s'appelle Black Light éternelle, ni considérer les Asmodeus systématiquement supérieurs. Le meilleur choix dépend des NPC réellement affrontés et des conditions de combat.[/B]
+
+[COLOR=#FFFFFF][B]Référence complémentaire :[/B][/COLOR]
+
+Pour connaître le fonctionnement général, les vagues, les boss et les récompenses de cette Galaxy Gate, consultez notre guide déjà publié :
+
+[B][GUIDE] GG Black Light éternel – Accès, fonctionnement et récompenses[/B]
+
+[I]Cette étude repose sur les caractéristiques officielles des lasers Prometheus et Asmodeus ainsi que sur les informations disponibles concernant les NPC de l'Eternal. Les tableaux de dégâts sont des simulations simplifiées et non des mesures effectuées en jeu. L'application du multiplicateur Black Light à certaines versions de NPC présentes dans l'Eternal reste à confirmer par des essais ciblés.[/I]

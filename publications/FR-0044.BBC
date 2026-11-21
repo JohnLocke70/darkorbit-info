@@ -1,0 +1,301 @@
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #2563A6"][CENTER][COLOR=#FFFFFF][B][ÉTUDE] Lasers LF-5 – Classique, Anchorlock et Mortifier[/B][/COLOR][/CENTER][/TD][/TR][/THEAD][/TABLE]
+Les lasers LF-5 constituent une nouvelle génération d'armements introduite dans DarkOrbit en 2025.
+Il existe trois modèles : le LF-5 classique, le LF-5 Anchorlock et le LF-5 Mortifier.
+Bien qu'ils appartiennent à la même famille, leurs caractéristiques, leurs bonus et leurs méthodes d'obtention sont différents.
+Cette étude présente leurs dégâts, leurs capacités particulières, les conditions d'activation des bonus, les emplacements à privilégier et les différentes possibilités d'obtention.
+
+[COLOR=#42DFFF][B]1. Comparatif des trois lasers[/B][/COLOR]
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Laser[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Dégâts de base[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Particularité[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LF-5 classique[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]245[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Aucun bonus d'ensemble[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LF-5 Anchorlock (LF-5-AL)[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]245[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus JcJ et ralentissement[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LF-5 Mortifier (LF-5-MF)[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]452[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus de dégâts des Mortifier équipés[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Les valeurs indiquées correspondent aux dégâts de base, sans tenir compte des améliorations, munitions, boosters ou autres bonus d'équipement.
+
+[COLOR=#42DFFF][B]2. Le LF-5 classique[/B][/COLOR]
+
+Le LF-5 classique possède une puissance de base de 245 dégâts.
+À titre de comparaison, le LF-4 classique possède une puissance de base de 200 dégâts.
+Le LF-5 est également plus puissant que le Prometheus en dégâts de base, mais ce dernier possède une capacité de tir supplémentaire périodique.
+
+[COLOR=#FFFFFF][B]Ses caractéristiques :[/B][/COLOR]
+
+[LIST]
+[*]Dégâts de base : 245.
+[*]Aucun nombre minimum nécessaire.
+[*]Aucun bonus d'ensemble.
+[*]Utilisable sur le vaisseau, les drones et le REX.
+[*]Améliorable jusqu'au niveau 20.
+[/LIST]
+
+[B]Conseil :[/B] le LF-5 classique peut être réparti librement entre les différents emplacements laser puisqu'il ne possède aucune condition particulière d'activation.
+Son principal intérêt est d'offrir une puissance de tir supérieure à celle du LF-4 classique.
+
+[COLOR=#42DFFF][B]3. Le LF-5 Anchorlock[/B][/COLOR]
+
+Le LF-5 Anchorlock (LF-5-AL) possède également une puissance de base de 245 dégâts.
+Il se distingue par deux capacités destinées principalement aux combats entre joueurs :
+
+[LIST]
+[*]Un bonus de dégâts JcJ.
+[*]Une possibilité de ralentir la cible.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Condition d'activation :[/B][/COLOR]
+
+Il faut installer au minimum 3 LF-5 Anchorlock sur le vaisseau pour activer leur bonus d'ensemble.
+Les Anchorlock placés sur les drones ou le REX ne participent pas à cette activation.
+
+[COLOR=#FFFFFF][B]Le ralentissement :[/B][/COLOR]
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Anchorlock sur le vaisseau[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Chance par tir[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Ralentissement[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Durée[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]-15 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 seconde[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]20 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]-20 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2 secondes[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]15[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]25 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]-55 %[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]2 secondes[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Plus le nombre d'Anchorlock installés sur le vaisseau augmente, plus leur capacité de ralentissement devient intéressante.
+
+[COLOR=#FFFFFF][B]Le bonus de dégâts JcJ :[/B][/COLOR]
+
+Ce bonus augmente également selon le nombre d'Anchorlock installés sur le vaisseau.
+
+Voici quelques valeurs de référence :
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Anchorlock sur le vaisseau[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Bonus JcJ[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+8 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+10 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+12 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+15 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]12[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+20 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]15[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+20 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]18[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+25 %[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Le bonus maximal est donc de 25 % avec 18 Anchorlock installés sur le vaisseau.
+
+[B]Important :[/B]
+
+[LIST]
+[*]Le bonus concerne les dégâts de base des LF-5 Anchorlock équipés sur le vaisseau.
+[*]Il ne renforce pas les autres modèles de lasers.
+[*]Il ne multiplie pas les dégâts supplémentaires provenant des boosters ou d'autres sources.
+[*]Les bonus d'ensemble ne se cumulent pas plusieurs fois.
+[/LIST]
+
+[B]Conseil :[/B] pour exploiter les capacités spéciales de l'Anchorlock, privilégiez les emplacements laser du vaisseau.
+Avec moins de trois Anchorlock sur le vaisseau, le bonus d'ensemble n'est pas activé.
+
+[COLOR=#42DFFF][B]4. Le LF-5 Mortifier[/B][/COLOR]
+
+Le LF-5 Mortifier (LF-5-MF) possède une puissance de base de 452 dégâts.
+Il est donc nettement plus puissant, en dégâts de base, que les deux autres LF-5.
+Sa particularité est de bénéficier d'un bonus d'ensemble qui augmente les dégâts des Mortifier installés sur le vaisseau.
+
+[COLOR=#FFFFFF][B]Condition d'activation :[/B][/COLOR]
+
+Il faut installer au minimum 3 LF-5 Mortifier sur le vaisseau pour activer leur bonus.
+Le bonus augmente ensuite progressivement selon le nombre de Mortifier équipés.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Mortifier sur le vaisseau[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Bonus de dégâts[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]1 à 2[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]0 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+10 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]4[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+20 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]5[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+28 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]6[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+32 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]7[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+36 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]8[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+40 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]9[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+42 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]10[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+44 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]11[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+46 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]12[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+48 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]13[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+49 %[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]14 ou plus[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]+50 %[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+Le bonus maximal est donc atteint avec 14 LF-5 Mortifier installés sur le vaisseau.
+
+[B]Important :[/B]
+
+[LIST]
+[*]Le bonus concerne les LF-5 Mortifier équipés sur le vaisseau.
+[*]Il ne renforce pas les autres modèles de lasers.
+[*]Les Mortifier installés sur les drones ou le REX ne participent pas à l'activation du bonus.
+[*]Le bonus d'ensemble ne se cumule pas plusieurs fois.
+[*]Au-delà de 14 Mortifier, le bonus reste limité à 50 %.
+[/LIST]
+
+[B]Conseil :[/B] pour exploiter pleinement le Mortifier, privilégiez les emplacements du vaisseau.
+Trois Mortifier suffisent pour activer le premier bonus, mais quatorze sont nécessaires pour atteindre le maximum de 50 %.
+
+[COLOR=#42DFFF][B]5. Vaisseau, drones ou REX : où installer les LF-5 ?[/B][/COLOR]
+
+Les trois modèles peuvent être installés dans les emplacements laser habituels.
+Cependant, leurs capacités spéciales dépendent de l'emplacement choisi.
+
+[TABLE="width: 100%"][THEAD][TR][TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Laser[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Vaisseau[/B][/COLOR][/CENTER][/TD]
+[TD="bgcolor: #455464"][CENTER][COLOR=#FFFFFF][B]Drones / REX[/B][/COLOR][/CENTER][/TD][/TR][/THEAD]
+[TBODY][TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LF-5 classique[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Dégâts normaux[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Dégâts normaux[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LF-5 Anchorlock[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus spécial à partir de 3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus spécial inactif[/COLOR][/CENTER][/TD][/TR]
+[TR][TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]LF-5 Mortifier[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus spécial à partir de 3[/COLOR][/CENTER][/TD]
+[TD="bgcolor: #25323E"][CENTER][COLOR=#FFFFFF]Bonus spécial inactif[/COLOR][/CENTER][/TD][/TR][/TBODY][/TABLE]
+[COLOR=#FFFFFF][B]À retenir :[/B][/COLOR]
+
+[LIST]
+[*]Le LF-5 classique n'impose aucune contrainte particulière d'emplacement.
+[*]Les LF-5 Anchorlock doivent être installés sur le vaisseau pour activer leur bonus d'ensemble.
+[*]Les LF-5 Mortifier doivent également être installés sur le vaisseau pour activer leur bonus d'ensemble.
+[/LIST]
+
+Les Anchorlock et Mortifier restent utilisables sur les drones ou le REX, mais leurs bonus d'ensemble ne s'y activent pas.
+Ils conservent néanmoins leurs dégâts de base et les améliorations applicables.
+
+[B]Attention :[/B] les LF-5 classiques ne comptent pas dans les trois lasers nécessaires à l'activation des bonus Anchorlock ou Mortifier.
+Chaque modèle possède sa propre condition d'activation.
+
+[B]Conseil :[/B] il n'existe pas une seule configuration idéale pour tous les joueurs. La meilleure répartition dépend également des bonus des drones, du vaisseau et des autres équipements.
+
+[COLOR=#42DFFF][B]6. Les améliorations[/B][/COLOR]
+
+Les trois modèles de LF-5 peuvent être améliorés jusqu'au niveau 20.
+Chaque niveau d'amélioration supplémentaire apporte 0,5 % de dégâts.
+Le passage du niveau 1 au niveau 20 représente ainsi un bonus total d'amélioration de 9,5 %.
+
+Les ressources nécessaires diffèrent selon le modèle :
+
+[LIST]
+[*]LF-5 classique : plaques d'égalisation plasmatiques, RLA et uridium.
+[*]LF-5 Anchorlock : plaques d'égalisation plasmatiques, RLA, diamétrion et uridium.
+[*]LF-5 Mortifier : éclats de neutrons, RLA, diamétrion et uridium.
+[/LIST]
+
+Le diamétrion est notamment nécessaire aux niveaux d'amélioration supérieurs de l'Anchorlock et du Mortifier.
+Les quantités exactes et les coûts détaillés sont consultables directement dans le système d'amélioration du jeu.
+
+[COLOR=#42DFFF][B]7. Comment obtenir les différents LF-5 ?[/B][/COLOR]
+
+Les trois modèles ne s'obtiennent pas nécessairement de la même manière.
+Il faut distinguer la fabrication dans l'Assemblage, les récompenses d'événements et les offres particulières.
+
+[COLOR=#FFFFFF][B]LF-5 classique :[/B][/COLOR]
+
+[LIST]
+[*]Fabrication dans l'Assemblage à partir d'un LF-4.
+[*]Recette : 1 LF-4, 30 000 uridium et 350 plaques d'égalisation plasmatiques.
+[*]Les plaques d'égalisation plasmatiques peuvent notamment être récupérées grâce au Vortex de cupidité, en échange de pièces stellaires.
+[/LIST]
+
+[COLOR=#FFFFFF][B]LF-5 Anchorlock :[/B][/COLOR]
+
+[LIST]
+[*]Fabrication dans l'Assemblage à partir d'un LF-5 classique.
+[*]Utilisation de 10 refroidisseurs cryo-nano ou d'un stabilisateur plasmatique, selon la recette choisie.
+[*]Les refroidisseurs cryo-nano peuvent notamment être obtenus grâce au Vortex de cupidité.
+[*]Certaines éditions des Fouilles intergalactiques (Galaxy Trek) ont proposé directement des LF-5 Anchorlock comme récompenses de progression.
+[*]Des offres particulières peuvent également être proposées dans la boutique.
+[/LIST]
+
+[B]Exemple :[/B] une édition des Fouilles intergalactiques a proposé 3 LF-5 Anchorlock après l'exploration de 40 planètes.
+Cette récompense dépend de l'édition et n'est pas nécessairement reconduite à chaque retour de l'événement.
+
+[COLOR=#FFFFFF][B]LF-5 Mortifier :[/B][/COLOR]
+
+Plusieurs méthodes d'obtention ont été proposées :
+
+[LIST]
+[*]Fabrication dans l'Assemblage.
+[*]Récompenses de progression des Fouilles intergalactiques, selon l'édition.
+[*]Récompenses de certains Pass de Saison.
+[*]Échanges de clés de Pass bataille lors de certains événements.
+[*]Offres particulières dans la boutique.
+[/LIST]
+
+[COLOR=#FFFFFF][B]Fabrication :[/B][/COLOR]
+
+Pour fabriquer un LF-5 Mortifier dans l'Assemblage, il faut réunir :
+
+[LIST]
+[*]10 fragments d'Éther.
+[*]30 000 uridium.
+[/LIST]
+
+[B]Conseil :[/B] surveillez les récompenses des Pass de Saison, notamment la présence de fragments d'Éther. Il faut en réunir 10 pour fabriquer un LF-5 Mortifier.
+Certains Pass peuvent proposer ces fragments dans leurs parcours payants. Vérifiez donc les conditions d'obtention avant de vous engager.
+Les récompenses des Pass changent d'une saison à l'autre.
+
+[COLOR=#FFFFFF][B]Autres événements :[/B][/COLOR]
+
+Certaines éditions des Fouilles intergalactiques ont proposé directement des Mortifier en récompense de progression.
+Des Mortifier ont également figuré parmi les échanges de Pass bataille de certains événements, notamment l'Épreuve des terreurs et la Mutinerie Mimesis.
+
+[B]Important :[/B] ces possibilités dépendent des éditions concernées.
+Les quêtes quotidiennes de certains événements permettent de récupérer les clés ou les ressources nécessaires à leur progression, mais ne donnent pas nécessairement directement le laser recherché.
+Il est donc conseillé de consulter les récompenses de l'événement en cours avant de rechercher un équipement particulier.
+
+[COLOR=#FFFFFF][B]Référence :[/B][/COLOR]
+
+Pour connaître les transformations possibles à partir des anciens LF-4, consultez notre astuce déjà publiée :
+
+[B][ASTUCE] Lasers – Transformer ses LF-4 en LF-5, puis en LF-5 Anchorlock[/B]
+
+Cette publication explique les transformations et les ressources nécessaires, sans qu'il soit utile de reproduire ici toutes les recettes.
+Les coûts exacts restent également consultables directement dans l'Assemblage.
+
+[COLOR=#42DFFF][B]Conclusion[/B][/COLOR]
+
+Les trois modèles de LF-5 répondent à des besoins différents :
+
+[LIST]
+[*]Le LF-5 classique constitue une amélioration du LF-4, sans condition particulière de placement.
+[*]Le LF-5 Anchorlock privilégie les combats JcJ, grâce à ses bonus de dégâts et de ralentissement.
+[*]Le LF-5 Mortifier possède des dégâts de base élevés et un bonus d'ensemble pouvant atteindre 50 %.
+[/LIST]
+
+[B]Pour bénéficier des capacités spéciales de l'Anchorlock et du Mortifier, il faut installer au minimum trois lasers du même modèle sur le vaisseau. Les lasers placés sur les drones ou le REX ne participent pas à ces bonus d'ensemble.[/B]
+
+Les LF-5 peuvent être fabriqués ou obtenus grâce à différentes récompenses, notamment lors de certains événements.
+Leur choix et leur répartition doivent donc tenir compte des capacités recherchées, de leur disponibilité et des autres bonus de la configuration.
+
+[I]Étude fondée principalement sur les FAQ officielles allemandes consacrées aux armements et à l'Assemblage, ainsi que sur les récompenses événementielles annoncées jusqu'en novembre 2026. Les caractéristiques et les méthodes d'obtention peuvent évoluer lors des prochaines mises à jour de DarkOrbit.[/I]
