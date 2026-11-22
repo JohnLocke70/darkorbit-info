@@ -670,12 +670,12 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 <footer class="footer">
   <div class="footer-info-panel" id="footer-info-panel">
     <h3>À propos de l’index</h3>
-    <p>Ce répertoire documentaire indépendant et non officiel, maintenu par JohnLocke, référence actuellement <strong>85 fiches</strong> du French Corner. Les contenus restent consultables sur le forum officiel DarkOrbit ; les liens directs des nouvelles fiches sont complétés après vérification.</p>
+    <p>Ce répertoire documentaire indépendant et non officiel, maintenu par JohnLocke, rassemble les guides, études, astuces et notes du French Corner. Les publications restent consultables sur le forum officiel DarkOrbit grâce aux liens de chaque fiche.</p>
     <p><strong>Référencement :</strong> seuls les guides, études, astuces et notes à caractère documentaire sont recensés. Les messages de discussion et de communication ne sont pas inclus.</p>
     <p><strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible par le bouton à droite des compteurs.</p>
-    <p>La catégorie « Divers » est prévue pour les publications qui ne relèvent d’aucun autre thème ; elle est actuellement vide.</p>
+    <p>La catégorie « Divers » regroupe les publications qui ne relèvent d’aucun autre thème.</p>
   </div>
-  <div class="footer-bottom"><span class="copyright">© 2026 JohnLocke</span><span aria-hidden="true">·</span><a href="https://discord.gg/radpDE9UGR" target="_blank" rel="noopener noreferrer" title="Rejoindre DO-PLAY sur Discord">Discord</a><span aria-hidden="true">·</span><a href="mailto:John.Locke.70@outlook.fr" title="Contacter JohnLocke par e-mail">E-mail</a><span class="last-update">Dernière mise à jour : 21/11/2026</span></div>
+  <div class="footer-bottom"><span class="copyright">© 2026 JohnLocke</span><span aria-hidden="true">·</span><a href="https://discord.gg/radpDE9UGR" target="_blank" rel="noopener noreferrer" title="Rejoindre DO-PLAY sur Discord">Discord</a><span aria-hidden="true">·</span><a href="mailto:John.Locke.70@outlook.fr" title="Contacter JohnLocke par e-mail">E-mail</a><span class="last-update">Dernière mise à jour : 22/11/2026</span></div>
 </footer>
 </div>
 <script>
@@ -806,8 +806,8 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   }
   setText('.footer-info-panel h3',tr('À propos de l’index','About this index'));
   setHtml('.footer-info-panel p:nth-of-type(1)',tr(
-   'Ce répertoire documentaire indépendant et non officiel, maintenu par JohnLocke, référence actuellement <strong>83 fiches</strong> du French Corner (dont une en attente de lien direct). Les contenus restent consultables sur le forum officiel DarkOrbit ; les liens directs des nouvelles fiches sont complétés après vérification.',
-   'This independent, unofficial directory maintained by JohnLocke currently lists <strong>85 entries</strong> from the French Corner. Original content remains available on the official DarkOrbit forum; direct links for new entries are added after verification.'));
+   'Ce répertoire documentaire indépendant et non officiel, maintenu par JohnLocke, rassemble les guides, études, astuces et notes du French Corner. Les publications restent consultables sur le forum officiel DarkOrbit grâce aux liens de chaque fiche.',
+   'This independent, unofficial directory maintained by JohnLocke brings together guides, studies, tips and notes from the French Corner. Publications can be accessed on the official DarkOrbit forum through the links provided for each entry.'));
   setHtml('.footer-info-panel p:nth-of-type(2)',tr(
    '<strong>Référencement :</strong> seuls les guides, études, astuces et notes à caractère documentaire sont recensés. Les messages de discussion et de communication ne sont pas inclus.',
    '<strong>Scope:</strong> only informational guides, studies, tips and notes are indexed. General discussions and announcements are excluded.'));
@@ -815,12 +815,12 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
    '<strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible par le bouton à droite des compteurs.',
    '<strong>Numbering:</strong> publication numbers retain their original positions and are not renumbered. Some numbers may therefore be missing; see the button next to the counters for details.'));
   setText('.footer-info-panel p:nth-of-type(4)',tr(
-   'La catégorie « Divers » est prévue pour les publications qui ne relèvent d’aucun autre thème ; elle est actuellement vide.',
-   'The “Miscellaneous” category is reserved for publications that do not fit any other topic; it is currently empty.'));
+   'La catégorie « Divers » regroupe les publications qui ne relèvent d’aucun autre thème.',
+   'The “Miscellaneous” category groups publications that do not fit any other topic.'));
   setAttr('.footer-bottom a[href^="https://discord.gg/"]','title',tr('Rejoindre DO-PLAY sur Discord','Join DO-PLAY on Discord'));
   setAttr('.footer-bottom a[href^="mailto:"]','title',tr('Contacter JohnLocke par e-mail','Contact JohnLocke by email'));
   setText('.footer-bottom a[href^="mailto:"]',tr('E-mail','Email'));
-  setText('.footer-bottom .last-update',tr('Dernière mise à jour : 21/11/2026','Last updated: 21/11/2026'));
+  setText('.footer-bottom .last-update',tr('Dernière mise à jour : 22/11/2026','Last updated: 22/11/2026'));
  }
  const input=document.getElementById('filter');
  const sections=[...document.querySelectorAll('section.category:not(#chronological-view)')];
