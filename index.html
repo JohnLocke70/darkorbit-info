@@ -152,6 +152,37 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 @media(max-width:930px){.stats-row{align-items:flex-start}.tracking-actions{margin-left:0;width:100%}}
 @media(max-width:590px){.stats-row .stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}.stats-row .stat{min-width:0;padding:11px 10px}.progress-stat strong{font-size:21px}.progress-caption{white-space:normal}}
 @media print{.tracking-actions{display:none}.progress-fill{transition:none}}
+
+/* Harmonisation des indicateurs : quatre zones égales, alignées sur les bords du contenu. */
+.stats-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:stretch}
+.stats-row .stats,.stats-row .tracking-actions{display:contents}
+.stats-row .stat{width:100%;height:100%;min-width:0;padding:18px}
+.stats-row .progress-stat{flex:none;min-width:0}
+.stats-row .koda-anchor,.stats-row .excluded-anchor{width:100%;min-width:0;margin:0;height:100%}
+.stats-row .koda-toggle,.stats-row .excluded-toggle{width:100%;height:100%;min-height:132px;
+  background:var(--panel);border-color:var(--border);border-radius:12px;
+  justify-content:space-between;gap:8px;padding:18px;text-align:left}
+.stats-row .koda-toggle:hover,.stats-row .excluded-toggle:hover{background:var(--raised)}
+.stats-row #koda-toggle-label{flex:1;min-width:0}
+.stats-row .koda-panel,.stats-row .excluded-panel{max-width:calc(100vw - 30px)}
+/* Compteurs de types à l'endroit des cases à cocher. */
+.type-option{display:grid;grid-template-columns:15px minmax(0,1fr) auto;gap:6px;width:100%;align-items:center}
+.type-option .type-label{white-space:nowrap}
+.type-option .type-count{color:#c0d8e8;font-size:11px;font-weight:750;justify-self:end;
+ font-variant-numeric:tabular-nums}
+/* Répartition compacte dans chaque bandeau de catégorie. */
+.section-top .section-count{font-variant-numeric:tabular-nums;text-align:right}
+@media(max-width:970px){
+ .stats-row{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .stats-row .koda-toggle,.stats-row .excluded-toggle{min-height:102px}
+}
+@media(max-width:540px){
+ .stats-row{grid-template-columns:minmax(0,1fr)}
+ .stats-row .koda-toggle,.stats-row .excluded-toggle{min-height:78px}
+ .stats-row .koda-panel,.stats-row .excluded-panel{width:min(420px,calc(100vw - 30px));left:0;right:auto}
+ .section-top .section-count{text-align:left;white-space:normal}
+}
+@media print{.stats-row{display:none}}
 </style></head>
 <body><div class="container">
 <header class="header">
@@ -180,8 +211,6 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   <div class="progress-track" role="progressbar" aria-label="Avancement du sommaire de Koda" aria-valuemin="0" aria-valuemax="85" aria-valuenow="85"><span class="progress-fill" id="koda-progress-fill" style="width:100%"></span></div>
   <span class="progress-caption" id="koda-progress-caption">Jusqu'au #88 · 100 %</span>
  </div>
- <div class="stat"><strong>10</strong><small>Catégories thématiques</small></div>
- <div class="stat"><strong>32 · 29 · 23 · 1</strong><small>Guides · Études · Astuces · Notes</small></div>
 </div>
 <div class="tracking-actions">
   <div class="koda-anchor">
@@ -192,7 +221,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
       <div class="koda-panel-heading"><strong>Publications absentes du sommaire</strong><small id="koda-panel-count">0 en attente</small></div>
       <div id="koda-missing-list" class="koda-missing-list" aria-live="polite">Aucune publication en attente.</div>
       <p class="koda-link-note"><strong>À signaler :</strong> le guide Écho (#39) figure dans le sommaire, mais son titre n'est pas cliquable.</p>
-      <p class="koda-snapshot-note" id="koda-snapshot-note">Comparaison vérifiée le 22/11/2026, jusqu'au message #88. Suivi manuel, sans synchronisation automatique avec le forum.</p>
+      <p class="koda-snapshot-note" id="koda-snapshot-note">Comparaison vérifiée le 22/11/2026, jusqu'au message #88.</p>
     </div>
   </div>
 <div class="excluded-anchor">
@@ -215,13 +244,13 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   </div>
 </div>
 </div>
-<div class="layout"><aside class="sidebar"><p class="sidebar-label" id="sidebar-heading">Naviguer par catégorie</p><input id="filter" class="filter" type="search" placeholder="Rechercher un titre ou un n°..." aria-label="Rechercher dans les publications"/>
+<div class="layout"><aside class="sidebar"><p class="sidebar-label" id="sidebar-heading">Naviguer parmi les 10 catégories</p><input id="filter" class="filter" type="search" placeholder="Rechercher un titre ou un n°..." aria-label="Rechercher dans les publications"/>
 <fieldset class="type-filter" id="type-filter"><legend>Filtrer par type</legend>
 <div class="type-options">
-<label class="type-option"><input type="checkbox" name="publication-type" value="GUIDE" checked/> GUIDE</label>
-<label class="type-option"><input type="checkbox" name="publication-type" value="ÉTUDE" checked/> ÉTUDE</label>
-<label class="type-option"><input type="checkbox" name="publication-type" value="ASTUCE" checked/> ASTUCE</label>
-<label class="type-option"><input type="checkbox" name="publication-type" value="NOTE" checked/> NOTE</label>
+<label class="type-option"><input type="checkbox" name="publication-type" value="GUIDE" checked/><span class="type-label">GUIDE</span><span class="type-count" data-type-count="GUIDE"></span></label>
+<label class="type-option"><input type="checkbox" name="publication-type" value="ÉTUDE" checked/><span class="type-label">ÉTUDE</span><span class="type-count" data-type-count="ÉTUDE"></span></label>
+<label class="type-option"><input type="checkbox" name="publication-type" value="ASTUCE" checked/><span class="type-label">ASTUCE</span><span class="type-count" data-type-count="ASTUCE"></span></label>
+<label class="type-option"><input type="checkbox" name="publication-type" value="NOTE" checked/><span class="type-label">NOTE</span><span class="type-count" data-type-count="NOTE"></span></label>
 </div><div class="filter-tools"><button class="reset-types" id="reset-types" type="button">Tout afficher</button><span class="visible-count" id="visible-count" aria-live="polite"></span></div>
 </fieldset>
 <label class="sort-label" for="sort-order">Ordre d'affichage</label>
@@ -784,14 +813,12 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   // Il apparaît pendant 10 secondes au changement de langue ou lors d'une première visite en anglais.
   setText('.stats .stat:nth-child(1) small',tr('Notre bibliothèque','Our library'));
   setText('.stats .stat:nth-child(2) small',tr('Sommaire de Koda','Koda’s index'));
-  setText('.stats .stat:nth-child(3) small',tr('Catégories thématiques','Thematic categories'));
-  setText('.stats .stat:nth-child(4) small',tr('Guides · Études · Astuces · Notes','Guides · Studies · Tips · Notes'));
   setAttr('#library-progress-stat .progress-track','aria-label',tr('Avancement de notre bibliothèque','Progress of our library'));
   setAttr('#koda-progress-stat .progress-track','aria-label',tr('Avancement du sommaire de Koda','Progress of Koda’s index'));
   setText('#koda-toggle-label',tr('À ajouter chez Koda','To add to Koda’s index'));
   setText('.koda-panel-heading strong',tr('Publications absentes du sommaire','Publications missing from the index'));
   setHtml('.koda-link-note',tr('<strong>À signaler :</strong> le guide Écho (#39) figure dans le sommaire, mais son titre n’est pas cliquable.','<strong>Link to fix:</strong> the Echo guide (#39) appears in the index, but its title is not clickable.'));
-  setText('#koda-snapshot-note',tr('Comparaison vérifiée le 22/11/2026, jusqu’au message #88. Suivi manuel, sans synchronisation automatique avec le forum.','Comparison verified on 22 Nov 2026, through post #88. Manually maintained, not automatically synchronized with the forum.'));
+  setText('#koda-snapshot-note',tr('Comparaison vérifiée le 22/11/2026, jusqu’au message #88.','Comparison verified on 22 Nov 2026, through post #88.'));
   renderTracking();
   setText('#excluded-toggle > span:first-child',tr('Numéros non référencés','Unindexed numbers'));
   setText('.excluded-panel-heading strong',tr('Messages non référencés','Unindexed messages'));
@@ -815,7 +842,8 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   setText('.type-filter legend',tr('Filtrer par type','Filter by type'));
   document.querySelectorAll('.type-option').forEach(label=>{
    const type=label.querySelector('input').value;
-   label.lastChild.textContent=' '+typeName(type);
+   const typeLabel=label.querySelector('.type-label');
+   if(typeLabel)typeLabel.textContent=typeName(type);
   });
   setText('#reset-types',tr('Tout afficher','Show all'));
   setText('.sort-label',tr('Ordre d\'affichage','Display order'));
@@ -902,6 +930,14 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
  const resetTypes=document.getElementById('reset-types');
  const visibleCount=document.getElementById('visible-count');
  const totalEntries=originalEntries.length;
+ // Statistiques des filtres déduites des fiches : aucune valeur à maintenir séparément.
+ const publicationTypes=['GUIDE','ÉTUDE','ASTUCE','NOTE'];
+ const typeTotals=Object.fromEntries(publicationTypes.map(type=>[
+   type,originalEntries.filter(entry=>entry.dataset.type===type).length
+ ]));
+ document.querySelectorAll('[data-type-count]').forEach(node=>{
+   node.textContent=typeTotals[node.dataset.typeCount]||0;
+ });
  // Suivi manuel : instantané du sommaire de BA-Koda vérifié le 22/11/2026 (jusqu'au #88).
  // Ajouter ici le N° d'une nouvelle publication dès qu'elle apparaît dans son sommaire.
  const kodaListedNumbers=new Set([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]);
@@ -991,7 +1027,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   const selected=new Set(typeBoxes.filter(box=>box.checked).map(box=>box.value));
   const typesFiltered=selected.size!==typeBoxes.length;
   const isChron=sortSelect.value!=='categories';
-  sidebarHeading.textContent=isChron?tr('Explorer les publications','Browse publications'):tr('Naviguer par catégorie','Browse by category');
+  sidebarHeading.textContent=isChron?tr('Explorer les publications','Browse publications'):tr('Naviguer parmi les '+sections.length+' catégories','Browse the '+sections.length+' categories');
   nav.classList.toggle('hidden',isChron);
   hint.classList.toggle('hidden',!isChron);
   chronologicalSection.classList.toggle('hidden',!isChron);
@@ -1012,16 +1048,21 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   }else{
    for(const sec of sections){
     let count=0;
+    const visibleByType={GUIDE:0,'ÉTUDE':0,ASTUCE:0,NOTE:0};
     const category=sec.dataset.category;
     const entries=[...sec.querySelectorAll('.entry')];
     for(const el of entries){
      const show=matchEntry(el,category,q,selected);
      el.classList.toggle('hidden',!show);
-     if(show)count++;
+     if(show){count++;visibleByType[el.dataset.type]=(visibleByType[el.dataset.type]||0)+1;}
     }
     sec.classList.toggle('hidden',!(count>0 || (!q && !typesFiltered && entries.length===0)));
     const secCount=sec.querySelector('.section-count');
-    if(secCount)secCount.textContent=countLabel(count);
+    if(secCount){
+      const abbreviations=lang==='en'?{GUIDE:'G','ÉTUDE':'S',ASTUCE:'T',NOTE:'N'}:{GUIDE:'G','ÉTUDE':'É',ASTUCE:'A',NOTE:'N'};
+      const details=publicationTypes.filter(type=>visibleByType[type]>0).map(type=>abbreviations[type]+':'+visibleByType[type]);
+      secCount.textContent=countLabel(count)+(details.length?' · '+details.join(' · '):'');
+    }
     const navCount=document.querySelector('a.nav-item[href="#'+sec.id+'"] .nav-count');
     if(navCount)navCount.textContent=count;
     visible+=count;
