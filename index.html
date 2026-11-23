@@ -156,18 +156,24 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 /* Trois indicateurs équilibrés et des espacements verticaux harmonisés. */
 .stats-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch;margin:24px 0}
 .stats-row .stats,.stats-row .tracking-actions{display:contents}
-.stats-row .stat{width:100%;min-width:0;min-height:154px;height:100%;padding:18px;display:flex;flex-direction:column;justify-content:center}
-.stats-row .progress-stat{flex:none;min-width:0;justify-content:flex-start}
-.stats-row .koda-anchor{position:relative;flex-shrink:0;width:100%;height:auto;margin:12px 0 0}
-.stats-row .koda-toggle{width:100%;height:auto;min-height:0;display:flex;align-items:center;justify-content:space-between;
-  gap:8px;text-align:left;background:#122e48;border:1px solid #6280a0;border-radius:8px;padding:8px 10px}
+.stats-row .stat{width:100%;min-width:0;min-height:100px;height:100%;padding:10px 15px;display:flex;flex-direction:column;justify-content:center}
+.stats-row .progress-stat{flex:none;min-width:0;justify-content:flex-start;text-align:center}
+.stats-row .progress-heading{display:flex;align-items:baseline;justify-content:center;gap:10px;flex-wrap:wrap;line-height:1.3}
+.stats-row .progress-heading small{font-size:15px;color:#dbe8f1;font-weight:650}
+.stats-row .progress-heading strong{display:inline;font-size:22px;white-space:nowrap}
+.stats-row .progress-caption{text-align:center;margin:0;white-space:nowrap}
+.stats-row .progress-meta{display:flex;align-items:center;justify-content:center;gap:10px;min-height:27px;margin-top:7px;flex-wrap:wrap}
+.stats-row .koda-anchor{position:relative;flex:0 0 auto;width:auto;height:auto;margin:0}
+.stats-row .koda-toggle{width:auto;height:auto;min-height:0;display:flex;align-items:center;justify-content:space-between;
+  gap:8px;text-align:left;background:#122e48;border:1px solid #6280a0;border-radius:8px;padding:4px 8px;font-size:11px}
 .stats-row .koda-toggle:hover{background:#214969}
 .stats-row #koda-toggle-label{flex:1;min-width:0}
 .stats-row .excluded-anchor{width:100%;height:100%;min-width:0;margin:0}
-.stats-row .excluded-toggle{width:100%;height:100%;min-height:154px;display:flex;justify-content:center;align-items:center;gap:10px;
+.stats-row .excluded-toggle{width:100%;height:100%;min-height:100px;display:flex;justify-content:center;align-items:center;gap:10px;
   background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:18px;text-align:center}
 .stats-row .excluded-toggle > span:first-child{flex:0 0 auto}
 .stats-row .excluded-toggle:hover{background:var(--raised)}
+.stats-row .progress-track{margin-top:6px}
 .stats-row .koda-panel,.stats-row .excluded-panel{max-width:calc(100vw - 30px)}
 /* Compteurs de types à l'endroit des cases à cocher. */
 .type-option{display:grid;grid-template-columns:15px minmax(0,1fr) auto;gap:6px;width:100%;align-items:center}
@@ -182,10 +188,14 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 }
 @media(max-width:540px){
  .stats-row{grid-template-columns:minmax(0,1fr);gap:12px;margin:18px 0}
- .stats-row .stat{min-height:0;padding:16px}
+ .stats-row .stat{min-height:0;padding:12px 14px}
+ .stats-row .progress-heading{gap:6px}
  .stats-row .excluded-anchor{grid-column:auto}
  .stats-row .excluded-toggle{min-height:74px}
- .stats-row .koda-panel,.stats-row .excluded-panel{width:min(420px,calc(100vw - 30px));left:0;right:auto}
+ .stats-row #koda-progress-stat{position:relative}
+ .stats-row .koda-anchor{position:static}
+ .stats-row .koda-panel{left:10px;right:10px;width:auto;max-width:none}
+ .stats-row .excluded-panel{width:min(420px,calc(100vw - 30px));left:0;right:auto}
  .section-top .section-count{text-align:left;white-space:normal}
 }
 @media print{.stats-row{display:none}}
@@ -206,16 +216,14 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 <div class="stats-row">
 <div class="stats">
  <div class="stat progress-stat" id="library-progress-stat">
-  <strong><span id="library-covered">86</span><span class="fraction-separator"> / </span><span id="library-total">86</span></strong>
-  <small>Notre bibliothèque</small>
+  <div class="progress-heading"><small>Notre bibliothèque</small><strong><span id="library-covered">86</span><span class="fraction-separator"> / </span><span id="library-total">86</span></strong></div>
   <div class="progress-track" role="progressbar" aria-label="Avancement de notre bibliothèque" aria-valuemin="0" aria-valuemax="86" aria-valuenow="86"><span class="progress-fill" id="library-progress-fill" style="width:100%"></span></div>
-  <span class="progress-caption" id="library-progress-caption">Vérifié jusqu’au #89 · 100 %</span>
+  <div class="progress-meta"><span class="progress-caption" id="library-progress-caption">Vérifié 86 sur 86</span></div>
  </div>
  <div class="stat progress-stat" id="koda-progress-stat">
-  <strong><span id="koda-covered">85</span><span class="fraction-separator"> / </span><span id="koda-total">86</span></strong>
-  <small>Sommaire de Koda</small>
+  <div class="progress-heading"><small>Sommaire de Koda</small><strong><span id="koda-covered">85</span><span class="fraction-separator"> / </span><span id="koda-total">86</span></strong></div>
   <div class="progress-track" role="progressbar" aria-label="Avancement du sommaire de Koda" aria-valuemin="0" aria-valuemax="86" aria-valuenow="85"><span class="progress-fill" id="koda-progress-fill" style="width:99%"></span></div>
-  <span class="progress-caption" id="koda-progress-caption">Vérifié jusqu’au #88 · 99 %</span>
+  <div class="progress-meta"><span class="progress-caption" id="koda-progress-caption">Vérifié 85 sur 86</span>
   <div class="koda-anchor">
     <button class="koda-toggle" type="button" id="koda-toggle" aria-controls="koda-panel" aria-expanded="false" aria-haspopup="true">
       <span id="koda-toggle-label">À ajouter chez Koda</span><span class="koda-count" id="koda-missing-count">1</span><span class="koda-chevron" aria-hidden="true">▾</span>
@@ -226,6 +234,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
       <p class="koda-link-note"><strong>À signaler :</strong> le guide Écho (#39) figure dans le sommaire, mais son titre n'est pas cliquable.</p>
       <p class="koda-snapshot-note" id="koda-snapshot-note">Comparaison vérifiée le 23/11/2026 : forum jusqu’au #89, sommaire de Koda jusqu’au #88.</p>
     </div>
+  </div>
   </div>
  </div>
 </div>
@@ -823,8 +832,8 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   setText('.forum-links a:first-child',tr('Forum anglais','English forum'));
   // L'avis sur la langue des messages du forum n'est plus permanent.
   // Il apparaît pendant 10 secondes au changement de langue ou lors d'une première visite en anglais.
-  setText('.stats .stat:nth-child(1) small',tr('Notre bibliothèque','Our library'));
-  setText('.stats .stat:nth-child(2) small',tr('Sommaire de Koda','Koda’s index'));
+  setText('#library-progress-stat .progress-heading small',tr('Notre bibliothèque','Our library'));
+  setText('#koda-progress-stat .progress-heading small',tr('Sommaire de Koda','Koda’s index'));
   setAttr('#library-progress-stat .progress-track','aria-label',tr('Avancement de notre bibliothèque','Progress of our library'));
   setAttr('#koda-progress-stat .progress-track','aria-label',tr('Avancement du sommaire de Koda','Progress of Koda’s index'));
   setText('#koda-toggle-label',tr('À ajouter chez Koda','To add to Koda’s index'));
@@ -972,7 +981,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
    const track=document.querySelector('#'+group+'-progress-stat .progress-track');
    track.setAttribute('aria-valuemax',String(total));
    track.setAttribute('aria-valuenow',String(count));
-   document.getElementById(group+'-progress-caption').textContent=tr('Vérifié jusqu’au #','Checked through #')+until+' · '+percentage+' %';
+   document.getElementById(group+'-progress-caption').textContent=tr('Vérifié '+count+' sur '+total,'Checked '+count+' of '+total);
   }
   setProgress('library',siteCount,libraryCheckedThrough);
   setProgress('koda',kodaCount,kodaCheckedThrough);
