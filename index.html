@@ -6,10 +6,10 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:22px}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.45}
 a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}button,input{font:inherit}button{cursor:pointer}
 .container{max-width:1240px;margin:auto;padding:32px 22px 60px}
-.header{background:linear-gradient(125deg,#173f65,#111c2b 70%);padding:27px 30px;border:1px solid #335372;border-radius:18px}
+.header{background:linear-gradient(125deg,#173f65,#111c2b 70%);padding:19px 30px;border:1px solid #335372;border-radius:18px}
 .kicker{font-size:12px;letter-spacing:.13em;font-weight:750;color:#b9d6ef;text-transform:uppercase}
-h1{font-size:clamp(22px,3.7vw,35px);line-height:1.15;margin:10px 0 12px}.header p{margin:0 0 15px;max-width:850px;color:#d1e0ef}
-.forum-links{display:flex;gap:13px;flex-wrap:wrap}.forum-links a{border:1px solid #6280a0;border-radius:9px;background:#122e48;padding:8px 12px;font-weight:600;font-size:14px}
+h1{font-size:clamp(22px,3.7vw,35px);line-height:1.15;margin:10px 0 12px}.header p{margin:0 0 10px;max-width:850px;color:#d1e0ef}
+.forum-links{display:flex;gap:13px;flex-wrap:wrap}.forum-links a{border:1px solid #6280a0;border-radius:9px;background:#122e48;padding:7px 12px;font-weight:600;font-size:14px}
 .stats{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 22px}.stat{background:var(--panel);border:1px solid var(--border);padding:12px 18px;border-radius:12px;min-width:150px}.stat strong{display:block;font-size:24px}.stat small{color:var(--sub)}
 .layout{display:grid;grid-template-columns:minmax(220px,290px) minmax(0,1fr);align-items:start;gap:22px}.sidebar{position:sticky;top:14px;background:var(--panel);border:1px solid var(--border);padding:16px;border-radius:14px}.sidebar-label{font-size:12px;text-transform:uppercase;color:var(--sub);font-weight:800;letter-spacing:.08em;margin:0 0 12px}.filter{width:100%;background:#0d1826;border:1px solid #4a617c;color:var(--text);border-radius:9px;padding:10px 12px;margin-bottom:14px;outline-offset:2px}.filter::placeholder{color:#8097ab}
 .nav-list{display:grid;gap:5px}.nav-item{display:grid;grid-template-columns:29px 1fr auto;align-items:start;gap:5px;padding:9px 8px;border-radius:8px;font-size:13px;color:#dbe8f1}.nav-item:hover,.nav-item:focus-visible{background:var(--raised);text-decoration:none}.nav-num{color:var(--cyan);font-weight:700}.nav-count{background:#30445e;color:#d0e8f4;padding:1px 6px;border-radius:6px;font-size:12px}
@@ -51,7 +51,7 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
 .entry-category{color:var(--sub)}
 
 /* Panneau d'exclusions : sur la rangée des compteurs, aligné à droite. */
-.header h1{text-align:center;margin:0 0 16px}.header .kicker{margin-bottom:12px}
+.header h1{text-align:center;margin:0 0 8px}.header .kicker{margin-bottom:8px}
 .stats-row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin:16px 0 22px}
 .stats-row .stats{margin:0}
 @media(max-width:880px){.stats-row{flex-wrap:wrap}.stats-row .excluded-anchor{margin-left:auto}}
@@ -73,7 +73,7 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
 .excluded-caption{margin:10px 0 0!important;color:var(--sub)!important;font-size:11px!important;line-height:1.4!important}
 @media(max-width:590px){.stats-row{align-items:stretch}.excluded-anchor{width:100%;margin-left:0}.excluded-toggle{width:100%;justify-content:space-between}.excluded-panel{right:0;width:100%}}
 /* Sélecteur FR/EN discret dans l'en-tête */
-.header{position:relative;padding-top:63px}
+.header{position:relative;padding-top:46px}
 .language-switch{position:absolute;right:22px;top:16px;display:inline-flex;align-items:center;gap:3px;border:1px solid #6280a0;background:#102b45;padding:3px;border-radius:9px}
 .language-switch button{font-size:12px;line-height:1.2;font-weight:750;min-width:36px;padding:6px 9px;color:#bed4e5;border:0;border-radius:6px;background:transparent}
 .language-switch button:hover{background:#244e74;color:white}
@@ -88,7 +88,7 @@ h2{font-size:17px;line-height:1.4;margin:0;font-weight:750}.section-num{color:va
 @media(prefers-reduced-motion:reduce){.language-notice.is-visible{animation:none}}
 @media(max-width:690px){.language-notice{right:12px;max-width:calc(100% - 24px)}}
 @media print{.language-notice{display:none!important}}
-@media(max-width:690px){.header{padding-top:67px}}
+@media(max-width:690px){.header{padding-top:62px}}
 @media print{.language-switch{display:none}.header{padding-top:20px}}
 
 /* Informations générales visibles en permanence au-dessus du copyright. */
