@@ -153,32 +153,37 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 @media(max-width:590px){.stats-row .stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%}.stats-row .stat{min-width:0;padding:11px 10px}.progress-stat strong{font-size:21px}.progress-caption{white-space:normal}}
 @media print{.tracking-actions{display:none}.progress-fill{transition:none}}
 
-/* Harmonisation des indicateurs : quatre zones égales, alignées sur les bords du contenu. */
-.stats-row{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:stretch}
+/* Trois indicateurs équilibrés et des espacements verticaux harmonisés. */
+.stats-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:stretch;margin:24px 0}
 .stats-row .stats,.stats-row .tracking-actions{display:contents}
-.stats-row .stat{width:100%;height:100%;min-width:0;padding:18px}
+.stats-row .stat{width:100%;min-width:0;min-height:154px;height:100%;padding:18px;display:flex;flex-direction:column;justify-content:center}
 .stats-row .progress-stat{flex:none;min-width:0}
-.stats-row .koda-anchor,.stats-row .excluded-anchor{width:100%;min-width:0;margin:0;height:100%}
-.stats-row .koda-toggle,.stats-row .excluded-toggle{width:100%;height:100%;min-height:132px;
-  background:var(--panel);border-color:var(--border);border-radius:12px;
-  justify-content:space-between;gap:8px;padding:18px;text-align:left}
-.stats-row .koda-toggle:hover,.stats-row .excluded-toggle:hover{background:var(--raised)}
+.stats-row .koda-anchor{position:relative;flex-shrink:0;width:100%;height:auto;margin:12px 0 0}
+.stats-row .koda-toggle{width:100%;height:auto;min-height:0;display:flex;align-items:center;justify-content:space-between;
+  gap:8px;text-align:left;background:#122e48;border:1px solid #6280a0;border-radius:8px;padding:8px 10px}
+.stats-row .koda-toggle:hover{background:#214969}
 .stats-row #koda-toggle-label{flex:1;min-width:0}
+.stats-row .excluded-anchor{width:100%;height:100%;min-width:0;margin:0}
+.stats-row .excluded-toggle{width:100%;height:100%;min-height:154px;display:flex;justify-content:space-between;align-items:center;
+  background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:18px;text-align:left}
+.stats-row .excluded-toggle:hover{background:var(--raised)}
 .stats-row .koda-panel,.stats-row .excluded-panel{max-width:calc(100vw - 30px)}
 /* Compteurs de types à l'endroit des cases à cocher. */
 .type-option{display:grid;grid-template-columns:15px minmax(0,1fr) auto;gap:6px;width:100%;align-items:center}
 .type-option .type-label{white-space:nowrap}
-.type-option .type-count{color:#c0d8e8;font-size:11px;font-weight:750;justify-self:end;
- font-variant-numeric:tabular-nums}
+.type-option .type-count{color:#c0d8e8;font-size:11px;font-weight:750;justify-self:end;font-variant-numeric:tabular-nums}
 /* Répartition compacte dans chaque bandeau de catégorie. */
 .section-top .section-count{font-variant-numeric:tabular-nums;text-align:right}
 @media(max-width:970px){
- .stats-row{grid-template-columns:repeat(2,minmax(0,1fr))}
- .stats-row .koda-toggle,.stats-row .excluded-toggle{min-height:102px}
+ .stats-row{grid-template-columns:repeat(2,minmax(0,1fr));margin:20px 0}
+ .stats-row .excluded-anchor{grid-column:1 / -1}
+ .stats-row .excluded-toggle{min-height:82px}
 }
 @media(max-width:540px){
- .stats-row{grid-template-columns:minmax(0,1fr)}
- .stats-row .koda-toggle,.stats-row .excluded-toggle{min-height:78px}
+ .stats-row{grid-template-columns:minmax(0,1fr);gap:12px;margin:18px 0}
+ .stats-row .stat{min-height:0;padding:16px}
+ .stats-row .excluded-anchor{grid-column:auto}
+ .stats-row .excluded-toggle{min-height:74px}
  .stats-row .koda-panel,.stats-row .excluded-panel{width:min(420px,calc(100vw - 30px));left:0;right:auto}
  .section-top .section-count{text-align:left;white-space:normal}
 }
@@ -200,30 +205,30 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 <div class="stats-row">
 <div class="stats">
  <div class="stat progress-stat" id="library-progress-stat">
-  <strong><span id="library-covered">85</span><span class="fraction-separator"> / </span><span id="library-total">85</span></strong>
+  <strong><span id="library-covered">86</span><span class="fraction-separator"> / </span><span id="library-total">86</span></strong>
   <small>Notre bibliothèque</small>
-  <div class="progress-track" role="progressbar" aria-label="Avancement de notre bibliothèque" aria-valuemin="0" aria-valuemax="85" aria-valuenow="85"><span class="progress-fill" id="library-progress-fill" style="width:100%"></span></div>
-  <span class="progress-caption" id="library-progress-caption">Jusqu'au #88 · 100 %</span>
+  <div class="progress-track" role="progressbar" aria-label="Avancement de notre bibliothèque" aria-valuemin="0" aria-valuemax="86" aria-valuenow="86"><span class="progress-fill" id="library-progress-fill" style="width:100%"></span></div>
+  <span class="progress-caption" id="library-progress-caption">Vérifié jusqu’au #89 · 100 %</span>
  </div>
  <div class="stat progress-stat" id="koda-progress-stat">
-  <strong><span id="koda-covered">85</span><span class="fraction-separator"> / </span><span id="koda-total">85</span></strong>
+  <strong><span id="koda-covered">85</span><span class="fraction-separator"> / </span><span id="koda-total">86</span></strong>
   <small>Sommaire de Koda</small>
-  <div class="progress-track" role="progressbar" aria-label="Avancement du sommaire de Koda" aria-valuemin="0" aria-valuemax="85" aria-valuenow="85"><span class="progress-fill" id="koda-progress-fill" style="width:100%"></span></div>
-  <span class="progress-caption" id="koda-progress-caption">Jusqu'au #88 · 100 %</span>
+  <div class="progress-track" role="progressbar" aria-label="Avancement du sommaire de Koda" aria-valuemin="0" aria-valuemax="86" aria-valuenow="85"><span class="progress-fill" id="koda-progress-fill" style="width:99%"></span></div>
+  <span class="progress-caption" id="koda-progress-caption">Vérifié jusqu’au #88 · 99 %</span>
+  <div class="koda-anchor">
+    <button class="koda-toggle" type="button" id="koda-toggle" aria-controls="koda-panel" aria-expanded="false" aria-haspopup="true">
+      <span id="koda-toggle-label">À ajouter chez Koda</span><span class="koda-count" id="koda-missing-count">1</span><span class="koda-chevron" aria-hidden="true">▾</span>
+    </button>
+    <div class="koda-panel" id="koda-panel" hidden>
+      <div class="koda-panel-heading"><strong>Publications absentes du sommaire</strong><small id="koda-panel-count">1 en attente</small></div>
+      <div id="koda-missing-list" class="koda-missing-list" aria-live="polite">Publication #89 en attente.</div>
+      <p class="koda-link-note"><strong>À signaler :</strong> le guide Écho (#39) figure dans le sommaire, mais son titre n'est pas cliquable.</p>
+      <p class="koda-snapshot-note" id="koda-snapshot-note">Comparaison vérifiée le 23/11/2026 : forum jusqu’au #89, sommaire de Koda jusqu’au #88.</p>
+    </div>
+  </div>
  </div>
 </div>
 <div class="tracking-actions">
-  <div class="koda-anchor">
-    <button class="koda-toggle" type="button" id="koda-toggle" aria-controls="koda-panel" aria-expanded="false" aria-haspopup="true">
-      <span id="koda-toggle-label">À ajouter chez Koda</span><span class="koda-count" id="koda-missing-count">0</span><span class="koda-chevron" aria-hidden="true">▾</span>
-    </button>
-    <div class="koda-panel" id="koda-panel" hidden>
-      <div class="koda-panel-heading"><strong>Publications absentes du sommaire</strong><small id="koda-panel-count">0 en attente</small></div>
-      <div id="koda-missing-list" class="koda-missing-list" aria-live="polite">Aucune publication en attente.</div>
-      <p class="koda-link-note"><strong>À signaler :</strong> le guide Écho (#39) figure dans le sommaire, mais son titre n'est pas cliquable.</p>
-      <p class="koda-snapshot-note" id="koda-snapshot-note">Comparaison vérifiée le 22/11/2026, jusqu'au message #88.</p>
-    </div>
-  </div>
 <div class="excluded-anchor">
     <button class="excluded-toggle" type="button" id="excluded-toggle" aria-controls="excluded-panel" aria-expanded="false" aria-haspopup="true">
       <span>Numéros non référencés</span><span class="excluded-chevron" aria-hidden="true">▾</span>
@@ -272,7 +277,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 <a class="nav-item" href="#cat-divers" data-nav="divers"><span class="nav-num">10</span><span>Divers</span><span class="nav-count">0</span></a></nav></aside>
 <main class="main"><p class="muted-note">Cliquer sur un titre pour ouvrir le forum. « Copier lien » copie son URL ; « Copier Discord » copie une ligne prête à coller comme message Discord avec une puce et un titre cliquable sans aperçu.</p><div id="search-empty">Aucun résultat pour cette recherche.</div>
 <section class="category hidden" id="chronological-view" aria-label="Publications classées par date">
-<div class="section-top"><h2>Publications par date</h2><span class="section-count" id="chronological-count">85 publications</span></div>
+<div class="section-top"><h2>Publications par date</h2><span class="section-count" id="chronological-count">86 publications</span></div>
 <div class="entries" id="chronological-entries"></div>
 </section>
 <section class="category" id="cat-clans" data-category="Clans et stations de combat">
@@ -748,6 +753,12 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
 <span class="entry-meta">20/11/2026 · <span class="link-tail">post-981415</span> · Auteur : <span class="entry-author">JohnLocke</span></span></div>
 <div class="actions"><button class="copy" type="button" data-copy="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-5#post-981415" aria-label="Copier le lien vers [GUIDE] Fouilles intergalactiques &amp; clés VSL">Copier lien</button><button class="copy discord" type="button" data-copy="• **[GUIDE]** [Fouilles intergalactiques &amp; clés VSL](&lt;https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-5#post-981415&gt;)" aria-label="Copier une référence prête pour Discord">Copier Discord</button></div>
 </article>
+<article class="entry" data-type="ASTUCE" data-author="JohnLocke" data-text="[ASTUCE] Mimesis – Convertir les reliquats d'octets en munitions grâce aux AA-1 89">
+ <span class="index" title="N° dans l’index d’origine">#89</span>
+ <div class="entry-main"><div class="entry-heading"><a class="entry-title" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/page-5" target="_blank" rel="noopener noreferrer"><span class="title-fr" lang="fr">[ASTUCE] Mimesis – Convertir les reliquats d'octets en munitions grâce aux AA-1</span><span class="title-en" lang="en">[TIP] Mimesis – Convert Byte Remnants into ammunition using AA-1 lasers</span></a><span class="type-badge" aria-label="Type de publication : ASTUCE">ASTUCE</span></div>
+ <span class="entry-meta">23/11/2026 · <span class="pending-link" lang="fr">Lien direct à confirmer (page 5)</span><span class="pending-link" lang="en">Direct post link pending (page 5)</span> · Auteur : <span class="entry-author">JohnLocke</span></span></div>
+ <div class="actions"><button class="copy pending-copy" type="button" disabled aria-label="Lien direct en attente">Lien direct en attente</button><button class="copy discord pending-copy" type="button" disabled aria-label="Lien direct en attente">Lien direct en attente</button></div>
+ </article>
 </div>
  </section><section class="category" id="cat-divers" data-category="Divers">
   <div class="section-top"><h2><span class="section-num">10.</span> Divers</h2><span class="section-count">0 publications</span></div>
@@ -758,10 +769,10 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
     <h3>À propos de l’index</h3>
     <p>Ce répertoire documentaire indépendant et non officiel, maintenu par JohnLocke, rassemble les guides, études, astuces et notes du French Corner. Les publications restent consultables sur le forum officiel DarkOrbit grâce aux liens de chaque fiche.</p>
     <p><strong>Référencement :</strong> seuls les guides, études, astuces et notes à caractère documentaire sont recensés. Les messages de discussion et de communication ne sont pas inclus.</p>
-    <p><strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible par le bouton à droite des compteurs.</p>
+    <p><strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible dans le panneau « Numéros non référencés ».</p>
     <p>La catégorie « Divers » regroupe les publications qui ne relèvent d’aucun autre thème.</p>
   </div>
-  <div class="footer-bottom"><span class="copyright">© 2026 JohnLocke</span><span aria-hidden="true">·</span><a href="https://discord.gg/radpDE9UGR" target="_blank" rel="noopener noreferrer" title="Rejoindre DO-PLAY sur Discord">Discord</a><span aria-hidden="true">·</span><a href="mailto:John.Locke.70@outlook.fr" title="Contacter JohnLocke par e-mail">E-mail</a><span class="last-update">Dernière mise à jour : 22/11/2026</span></div>
+  <div class="footer-bottom"><span class="copyright">© 2026 JohnLocke</span><span aria-hidden="true">·</span><a href="https://discord.gg/radpDE9UGR" target="_blank" rel="noopener noreferrer" title="Rejoindre DO-PLAY sur Discord">Discord</a><span aria-hidden="true">·</span><a href="mailto:John.Locke.70@outlook.fr" title="Contacter JohnLocke par e-mail">E-mail</a><span class="last-update">Dernière mise à jour : 23/11/2026</span></div>
 </footer>
 </div>
 <script>
@@ -818,7 +829,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
   setText('#koda-toggle-label',tr('À ajouter chez Koda','To add to Koda’s index'));
   setText('.koda-panel-heading strong',tr('Publications absentes du sommaire','Publications missing from the index'));
   setHtml('.koda-link-note',tr('<strong>À signaler :</strong> le guide Écho (#39) figure dans le sommaire, mais son titre n’est pas cliquable.','<strong>Link to fix:</strong> the Echo guide (#39) appears in the index, but its title is not clickable.'));
-  setText('#koda-snapshot-note',tr('Comparaison vérifiée le 22/11/2026, jusqu’au message #88.','Comparison verified on 22 Nov 2026, through post #88.'));
+  setText('#koda-snapshot-note',tr('Comparaison vérifiée le 23/11/2026 : forum jusqu’au #89, sommaire de Koda jusqu’au #88.','Comparison verified on 23 Nov 2026: forum through #89, Koda’s index through #88.'));
   renderTracking();
   setText('#excluded-toggle > span:first-child',tr('Numéros non référencés','Unindexed numbers'));
   setText('.excluded-panel-heading strong',tr('Messages non référencés','Unindexed messages'));
@@ -895,7 +906,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
    const copy=entry.querySelector('.copy:not(.discord)');
    if(copy){if(copy.disabled){copy.textContent=tr('Lien direct en attente','Direct link pending');copy.setAttribute('aria-label',tr('Lien direct à confirmer pour ','Direct link pending for ')+title);}else{copy.textContent=tr('Copier lien','Copy link');copy.setAttribute('aria-label',tr('Copier le lien vers ','Copy link to ')+title);}}
    const discord=entry.querySelector('.copy.discord');
-   if(discord){discord.textContent=tr('Copier Discord','Copy for Discord');discord.setAttribute('aria-label',tr('Copier une référence prête pour Discord','Copy a Discord-ready reference'));}
+   if(discord){if(discord.disabled){discord.textContent=tr('Lien direct en attente','Direct link pending');}else{discord.textContent=tr('Copier Discord','Copy for Discord');}discord.setAttribute('aria-label',tr('Copier une référence prête pour Discord','Copy a Discord-ready reference'));}
   }
   setText('.footer-info-panel h3',tr('À propos de l’index','About this index'));
   setHtml('.footer-info-panel p:nth-of-type(1)',tr(
@@ -905,15 +916,15 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
    '<strong>Référencement :</strong> seuls les guides, études, astuces et notes à caractère documentaire sont recensés. Les messages de discussion et de communication ne sont pas inclus.',
    '<strong>Scope:</strong> only informational guides, studies, tips and notes are indexed. General discussions and announcements are excluded.'));
   setHtml('.footer-info-panel p:nth-of-type(3)',tr(
-   '<strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible par le bouton à droite des compteurs.',
-   '<strong>Numbering:</strong> publication numbers retain their original positions and are not renumbered. Some numbers may therefore be missing; see the button next to the counters for details.'));
+   '<strong>Numérotation :</strong> les numéros des publications reprennent leurs positions d’origine et ne sont pas renumérotés. Certains numéros peuvent donc manquer ; leur liste est accessible dans le panneau « Numéros non référencés ».',
+   '<strong>Numbering:</strong> publication numbers retain their original positions and are not renumbered. Some numbers may therefore be missing; see the “Unindexed numbers” panel for details.'));
   setText('.footer-info-panel p:nth-of-type(4)',tr(
    'La catégorie « Divers » regroupe les publications qui ne relèvent d’aucun autre thème.',
    'The “Miscellaneous” category groups publications that do not fit any other topic.'));
   setAttr('.footer-bottom a[href^="https://discord.gg/"]','title',tr('Rejoindre DO-PLAY sur Discord','Join DO-PLAY on Discord'));
   setAttr('.footer-bottom a[href^="mailto:"]','title',tr('Contacter JohnLocke par e-mail','Contact JohnLocke by email'));
   setText('.footer-bottom a[href^="mailto:"]',tr('E-mail','Email'));
-  setText('.footer-bottom .last-update',tr('Dernière mise à jour : 22/11/2026','Last updated: 22/11/2026'));
+  setText('.footer-bottom .last-update',tr('Dernière mise à jour : 23/11/2026','Last updated: 23/11/2026'));
  }
  const input=document.getElementById('filter');
  const sections=[...document.querySelectorAll('section.category:not(#chronological-view)')];
@@ -944,7 +955,7 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
  // Pour une future fiche documentaire repérée mais PAS ENCORE intégrée au site,
  // ajouter {number:89,title:'...',url:'...'} ; retirer l'entrée dès son référencement.
  const knownNotYetCatalogued=[];
- const libraryCheckedThrough=88;
+ const libraryCheckedThrough=89;
  const kodaCheckedThrough=88;
  function forumNumber(el){return Number(el.querySelector('.index').textContent.replace(/\D/g,''));}
  function renderTracking(){
