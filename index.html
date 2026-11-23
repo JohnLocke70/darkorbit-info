@@ -199,19 +199,45 @@ html[lang="en"] .pending-link[lang="en"]{display:inline}
  .section-top .section-count{text-align:left;white-space:normal}
 }
 @media print{.stats-row{display:none}}
+
+/* Bandeau plus compact : FR/EN partage la ligne des liens du forum. */
+.header{padding:18px 28px}
+.header-actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-top:8px}
+.header-actions .forum-links{display:flex;flex:1 1 auto;align-items:center;flex-wrap:wrap;gap:10px}
+.header-actions .language-area{position:relative;flex:0 0 auto;margin-left:auto}
+.header-actions .language-switch{position:static;display:inline-flex;vertical-align:middle}
+.header-actions .language-notice{position:absolute;top:calc(100% + 10px);right:0;max-width:min(385px,calc(100vw - 44px))}
+/* Espacement régulier entre les grands blocs, verticalement et horizontalement. */
+:root{--layout-gap:14px}
+.stats-row{gap:var(--layout-gap);margin:var(--layout-gap) 0}
+.layout{gap:var(--layout-gap)}
+.category{margin-bottom:var(--layout-gap)}
+@media(max-width:690px){
+  .header{padding:18px}
+  .header-actions .forum-links{flex-basis:100%}
+  .header-actions .language-area{margin-left:auto}
+}
+@media(max-width:540px){
+  .stats-row{gap:var(--layout-gap);margin:var(--layout-gap) 0}
+}
+@media print{.header{padding:0}}
 </style></head>
 <body><div class="container">
 <header class="header">
-<div class="language-switch" role="group" aria-label="Langue du site">
-  <button type="button" data-lang="fr" lang="fr" aria-pressed="true" class="is-active" title="Afficher en français">FR</button>
-  <button type="button" data-lang="en" lang="en" aria-pressed="false" title="Display in English">EN</button>
-</div>
-<div id="language-notice" class="language-notice" role="status" aria-live="polite" aria-atomic="true" hidden></div>
 <h1>Index des guides, études et astuces</h1>
 <div class="kicker">Bibliothèque DarkOrbit · French Corner</div>
 <p>Références classées dans <b>10 catégories thématiques</b>. Les numéros indiqués correspondent aux messages sur le forum. Lorsque le lien direct est encore à confirmer, le titre ouvre la page du fil concernée.</p>
 
-<div class="forum-links"><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/">Forum anglais</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/forums/french-corner.776/">French Corner</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/">[FR] Stratégie, Trucs &amp; Astuces</a></div>
+<div class="header-actions">
+  <div class="forum-links"><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/">Forum anglais</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/forums/french-corner.776/">French Corner</a><a target="_blank" rel="noopener noreferrer" href="https://board-en.darkorbit.com/threads/fr-strategie-trucs-astuces.130512/">[FR] Stratégie, Trucs &amp; Astuces</a></div>
+  <div class="language-area">
+    <div class="language-switch" role="group" aria-label="Langue du site">
+      <button type="button" data-lang="fr" lang="fr" aria-pressed="true" class="is-active" title="Afficher en français">FR</button>
+      <button type="button" data-lang="en" lang="en" aria-pressed="false" title="Display in English">EN</button>
+    </div>
+    <div id="language-notice" class="language-notice" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+  </div>
+</div>
 </header>
 <div class="stats-row">
 <div class="stats">
